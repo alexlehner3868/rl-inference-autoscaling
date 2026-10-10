@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "source_summary": "summary.json",
+  "batch_size": 1,
+  "service_time_mean_seconds": 0.07197132544888889,
+  "service_time_p95_seconds": 0.07435813925,
+  "startup_mean_seconds": 2.3057613082,
+  "startup_p95_seconds": 2.5415164578,
+  "worker_memory_peak_bytes": 550731776,
+  "worker_capacity_fps": 13.894422448981565,
+  "includes_video_decode": false,
+  "memory_caveat": "RSS and accelerator memory are separate accounting views. On MPS they share physical RAM."
+}
