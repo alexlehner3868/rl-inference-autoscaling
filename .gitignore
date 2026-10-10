@@ -3,13 +3,9 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 data/
+TrafficCamData/
 results/
 *.pt
 .DS_Store
 
-.venv/
-__pycache__/
-.DS_Store
-*.pt
-data/
 benchmark_results/
