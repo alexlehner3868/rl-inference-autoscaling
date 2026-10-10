@@ -1,0 +1,1 @@
+- Used AI to help get the TrafficCamData to upload to github - needed to use Git LFS
