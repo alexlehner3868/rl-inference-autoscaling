@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+results/
+*.pt
+.DS_Store
+
+.venv/
+__pycache__/
+.DS_Store
+*.pt
+data/
+benchmark_results/
