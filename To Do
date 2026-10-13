@@ -1,0 +1,97 @@
+Project Code Done: Dec 1st 
+Project Due: Dec 18th 
+
+
+
+Things to do 
+Collect video data 
+
+
+Order
+Task
+Owner
+Depends on
+Deadline
+1
+Agree on camera frame rates, latency deadline, worker limits, queue rules, and scaling interval
+All three
+Nothing
+
+
+2A
+Set up YOLO11n and measure processing time, memory, throughput, and startup delay
+Alex
+Step 1
+Oct 13
+2B
+Build the simulator with temporary processing times and startup delays
+Jas
+Step 1
+Oct 13
+2C
+Define observation/action formats, reward, and shared metrics; prepare DQN code
+Tanish
+Step 1
+Oct 13
+3
+Generate reproducible camera-demand schedules for training, validation, and testing
+Person 1
+Step 1; can run alongside Step 2
+
+
+4
+Insert measured performance parameters and run the simulator with fixed workers
+Person 2, supported by Person 1
+Steps 2A, 2B, and 3
+
+
+5
+Validate queue behavior, processing capacity, startup, shutdown, and frame accounting
+All three
+Step 4
+
+
+6A
+Implement queue-threshold and predictive baselines
+Person 2: queue; Person 1: predictive
+Step 5
+
+
+6B
+Connect DQN to the simulator and start training
+Person 3
+Steps 2C and 5
+
+
+7
+Tune baseline settings, DQN settings, and reward weights using validation workloads
+Each person tunes their controller
+Steps 6A and 6B
+
+
+8
+Freeze configurations and train DQN with several random seeds
+Person 3; others prepare evaluation
+Step 7
+
+
+9
+Run every controller on the same held-out test workloads
+All three
+Step 8
+
+
+10
+Analyze results and create comparison plots
+All three
+Step 9
+
+
+11
+Finish the demo, report, and presentation
+All three
+Step 10
+
+
+
+
