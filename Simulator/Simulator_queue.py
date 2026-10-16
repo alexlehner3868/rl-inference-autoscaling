@@ -5,8 +5,9 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class SimulatorConfig:
     camera_fps: float = 10.0
-    service_seconds: float = 0.07       # Temporary for Part 2B
-    startup_seconds: float = 2.0        # Temporary for Part 2B
+    
+    service_seconds: float = 0.07197132544888889 # Measured CPU means from profiling
+    startup_seconds: float = 2.3057613082 # Measured CPU means from profiling
     deadline_seconds: float = 1.0
     decision_seconds: float = 1.0
     tick_seconds: float = 0.001

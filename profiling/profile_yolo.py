@@ -20,8 +20,8 @@ SETTINGS = {
     "frames": 300, # look at the first n number of frames
     "warmup": 20, # run this many pred before starting benchmark testing
     "repeats": 3, # num of times to repeat the complete sweep (with new workers)
-    "startup_repeats": 5, # start up this many workers
-    "threads": 1, # use this many pytorch threads
+    "startup_repeats": 5, # start up this many workers 
+    "threads": 1, # use this many pytorch threads 
 }
 
 # Returned summarized stats
@@ -29,15 +29,15 @@ def statistics(values):
     import numpy as np
     values = np.asarray(values, dtype=float)
     return {
-            "count": len(values),
-            "mean": float(values.mean()),
-            "std": float(values.std(ddof=1)) if len(values) > 1 else 0.0,
-            "min": float(values.min()),
-            "p50": float(np.percentile(values, 50)),
-            "p95": float(np.percentile(values, 95)),
-            "p99": float(np.percentile(values, 99)),
+            "count": len(values), 
+            "mean": float(values.mean()), 
+            "std": float(values.std(ddof=1)) if len(values) > 1 else 0.0, 
+            "min": float(values.min()), 
+            "p50": float(np.percentile(values, 50)), 
+            "p95": float(np.percentile(values, 95)), 
+            "p99": float(np.percentile(values, 99)), 
             "max": float(values.max())
-        }
+        } 
 
 # Waits for word to finish to correctly measure time of operaiton
 def synchronize(torch, device):
@@ -55,8 +55,8 @@ def time_stages(model, torch):
 
         def timed(*args, _original=original, _name=name, **kwargs):
             synchronize(torch, model.predictor.device) # Wait for any other work to finish
-            start = time.perf_counter() # Start timer
-            result = _original(*args, **kwargs) # Run the YOLO stage
+            start = time.perf_counter() # Start timer 
+            result = _original(*args, **kwargs) # Run the YOLO stage 
             synchronize(torch, model.predictor.device) # Wait for work to finish
             timings[_name + "_ms"] = (time.perf_counter() - start) * 1000 # Calculate time [ms]
             return result
@@ -75,11 +75,11 @@ def worker(connection, videos, frame_file, device, settings, measure_frames, lau
         import torch
         from ultralytics import YOLO
 
-        # Set up device
+        # Set up device 
         if device == "mps" and not torch.backends.mps.is_available():
             raise ValueError("MPS inst avail on device")
 
-        # Keep settings fixed across trials
+        # Keep settings fixed across trials 
         cv2.setNumThreads(0)
         torch.set_num_threads(settings["threads"])
         torch.set_num_interop_threads(1)
@@ -91,7 +91,7 @@ def worker(connection, videos, frame_file, device, settings, measure_frames, lau
                 torch.set_num_threads(settings["threads"])
         model.add_callback("on_predict_start", fix_threads) # Run before prediction
 
-        # Define how to process frames
+        # Define how to process frames 
         def predict(frame):
             results = model.predict(frame, device=device, imgsz=settings["imgsz"],
                                     batch=1, rect=False, quantize=32, conf=0.25,
@@ -135,12 +135,12 @@ def worker(connection, videos, frame_file, device, settings, measure_frames, lau
                         start = time.perf_counter()
                         predict(frame)
                         service_ms = (time.perf_counter() - start) * 1000
-
-                        # Save results
+                        
+                        # Save results 
                         rows.append({"video": video, "decode_ms": decode_ms, **timings, "service_ms": service_ms, "decode_plus_service_ms": decode_ms + service_ms})
-
+                        
                         count += 1 # Incr count of processed framed
-                        peak_rss = max(peak_rss, process.memory_info().rss) # Record highest mem usage
+                        peak_rss = max(peak_rss, process.memory_info().rss) # Record highest mem usage 
                 finally:
                     # Close the video
                     capture.release()
@@ -152,7 +152,7 @@ def worker(connection, videos, frame_file, device, settings, measure_frames, lau
             import resource
             os_peak = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
             peak_rss = max(peak_rss, os_peak if sys.platform == "darwin" else os_peak * 1024)
-
+        
         # Get GPU memory usage (varies by device)
         actual_device = model.predictor.device
         gpu_memory = {}
@@ -190,16 +190,16 @@ def launch_worker(videos, frame_file, device, settings, measure_frames):
     # Prepare worker process
     process = context.Process(target=worker, args=(child, videos, frame_file, device, settings, measure_frames, time.perf_counter()))
 
-
+    
     try:
         process.start() # Start the process
         child.close() # close main program's version of process - only worker has its own copy now
 
-        # Wait for a response
+        # Wait for a response 
         if not parent.poll(1800):
             raise RuntimeError("Worker took too long (over 30min)")
 
-        # Get the result and worker exits
+        # Get the result and worker exits 
         result = parent.recv()
         process.join()
         if "error" in result:
@@ -213,7 +213,7 @@ def launch_worker(videos, frame_file, device, settings, measure_frames):
         parent.close()
         child.close()
 
-# Faciliate the benchmark of the videos
+# Faciliate the benchmark of the videos 
 def benchmark(data_dir, device, output, settings=SETTINGS):
     import cv2
     import numpy as np
@@ -228,9 +228,9 @@ def benchmark(data_dir, device, output, settings=SETTINGS):
         raise ValueError("Image size must be divisible by 32")
     if not data_dir.is_dir():
         raise ValueError(f"Video folder does not exist: {data_dir}")
-
+    
     videos = sorted(str(path) for path in data_dir.rglob("*") if path.is_file() and path.suffix.lower() in (".mp4", ".avi", ".mov", ".mkv"))
-
+    
     if not videos:
         raise ValueError(f"No videos found in {data_dir}")
     if not Path(settings["weights"]).is_file():
