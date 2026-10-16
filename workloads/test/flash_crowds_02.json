@@ -1,0 +1,400 @@
+{
+  "generator_version": 2,
+  "pattern": "flash_crowds",
+  "seed": 11003,
+  "load_level": "stress",
+  "camera_fps": 10.0,
+  "duration_seconds": 300,
+  "decision_seconds": 1.0,
+  "generation_settings": {
+    "min_cameras": 0,
+    "max_cameras": 12
+  },
+  "peak_demand_fps": 120.0,
+  "demand_changes": 27,
+  "camera_session_changes": 27,
+  "total_camera_sessions": 84,
+  "intervals": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 13.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 13.0,
+      "end_seconds": 27.0,
+      "camera_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "start_seconds": 27.0,
+      "end_seconds": 31.0,
+      "camera_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "start_seconds": 31.0,
+      "end_seconds": 48.0,
+      "camera_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11
+      ]
+    },
+    {
+      "start_seconds": 48.0,
+      "end_seconds": 57.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 57.0,
+      "end_seconds": 65.0,
+      "camera_ids": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "start_seconds": 65.0,
+      "end_seconds": 67.0,
+      "camera_ids": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "start_seconds": 67.0,
+      "end_seconds": 74.0,
+      "camera_ids": [
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "start_seconds": 74.0,
+      "end_seconds": 94.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 94.0,
+      "end_seconds": 113.0,
+      "camera_ids": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "start_seconds": 113.0,
+      "end_seconds": 115.0,
+      "camera_ids": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "start_seconds": 115.0,
+      "end_seconds": 129.0,
+      "camera_ids": [
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "start_seconds": 129.0,
+      "end_seconds": 137.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 137.0,
+      "end_seconds": 151.0,
+      "camera_ids": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "start_seconds": 151.0,
+      "end_seconds": 156.0,
+      "camera_ids": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "start_seconds": 156.0,
+      "end_seconds": 169.0,
+      "camera_ids": [
+        37,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "start_seconds": 169.0,
+      "end_seconds": 181.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 181.0,
+      "end_seconds": 199.0,
+      "camera_ids": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "start_seconds": 199.0,
+      "end_seconds": 203.0,
+      "camera_ids": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "start_seconds": 203.0,
+      "end_seconds": 216.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 216.0,
+      "end_seconds": 234.0,
+      "camera_ids": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "start_seconds": 234.0,
+      "end_seconds": 239.0,
+      "camera_ids": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "start_seconds": 239.0,
+      "end_seconds": 240.0,
+      "camera_ids": [
+        60,
+        61,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "start_seconds": 240.0,
+      "end_seconds": 260.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 260.0,
+      "end_seconds": 265.0,
+      "camera_ids": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ]
+    },
+    {
+      "start_seconds": 265.0,
+      "end_seconds": 266.0,
+      "camera_ids": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    {
+      "start_seconds": 266.0,
+      "end_seconds": 276.0,
+      "camera_ids": [
+        72,
+        73,
+        75,
+        76,
+        77,
+        79,
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    {
+      "start_seconds": 276.0,
+      "end_seconds": 300,
+      "camera_ids": []
+    }
+  ],
+  "name": "flash_crowds_02",
+  "split": "test"
+}

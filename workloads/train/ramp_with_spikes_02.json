@@ -1,0 +1,439 @@
+{
+  "generator_version": 2,
+  "pattern": "ramp_with_spikes",
+  "seed": 21001,
+  "load_level": "standard",
+  "camera_fps": 10.0,
+  "duration_seconds": 300,
+  "decision_seconds": 1.0,
+  "generation_settings": {
+    "min_cameras": 0,
+    "max_cameras": 5
+  },
+  "peak_demand_fps": 50.0,
+  "demand_changes": 47,
+  "camera_session_changes": 47,
+  "total_camera_sessions": 45,
+  "intervals": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 10.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 10.0,
+      "end_seconds": 17.0,
+      "camera_ids": [
+        0
+      ]
+    },
+    {
+      "start_seconds": 17.0,
+      "end_seconds": 29.0,
+      "camera_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "start_seconds": 29.0,
+      "end_seconds": 38.0,
+      "camera_ids": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "start_seconds": 38.0,
+      "end_seconds": 43.0,
+      "camera_ids": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "start_seconds": 43.0,
+      "end_seconds": 52.0,
+      "camera_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "start_seconds": 52.0,
+      "end_seconds": 60.0,
+      "camera_ids": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "start_seconds": 60.0,
+      "end_seconds": 66.0,
+      "camera_ids": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "start_seconds": 66.0,
+      "end_seconds": 76.0,
+      "camera_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "start_seconds": 76.0,
+      "end_seconds": 81.0,
+      "camera_ids": [
+        1
+      ]
+    },
+    {
+      "start_seconds": 81.0,
+      "end_seconds": 87.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 87.0,
+      "end_seconds": 89.0,
+      "camera_ids": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "start_seconds": 89.0,
+      "end_seconds": 95.0,
+      "camera_ids": [
+        7
+      ]
+    },
+    {
+      "start_seconds": 95.0,
+      "end_seconds": 99.0,
+      "camera_ids": [
+        7,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "start_seconds": 99.0,
+      "end_seconds": 108.0,
+      "camera_ids": [
+        7,
+        13
+      ]
+    },
+    {
+      "start_seconds": 108.0,
+      "end_seconds": 109.0,
+      "camera_ids": [
+        7,
+        13,
+        14
+      ]
+    },
+    {
+      "start_seconds": 109.0,
+      "end_seconds": 110.0,
+      "camera_ids": [
+        7,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "start_seconds": 110.0,
+      "end_seconds": 114.0,
+      "camera_ids": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "start_seconds": 114.0,
+      "end_seconds": 126.0,
+      "camera_ids": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "start_seconds": 126.0,
+      "end_seconds": 137.0,
+      "camera_ids": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "start_seconds": 137.0,
+      "end_seconds": 149.0,
+      "camera_ids": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "start_seconds": 149.0,
+      "end_seconds": 161.0,
+      "camera_ids": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "start_seconds": 161.0,
+      "end_seconds": 166.0,
+      "camera_ids": [
+        14,
+        16
+      ]
+    },
+    {
+      "start_seconds": 166.0,
+      "end_seconds": 173.0,
+      "camera_ids": [
+        14
+      ]
+    },
+    {
+      "start_seconds": 173.0,
+      "end_seconds": 179.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 179.0,
+      "end_seconds": 182.0,
+      "camera_ids": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "start_seconds": 182.0,
+      "end_seconds": 189.0,
+      "camera_ids": [
+        21
+      ]
+    },
+    {
+      "start_seconds": 189.0,
+      "end_seconds": 192.0,
+      "camera_ids": [
+        21,
+        24
+      ]
+    },
+    {
+      "start_seconds": 192.0,
+      "end_seconds": 196.0,
+      "camera_ids": [
+        21,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "start_seconds": 196.0,
+      "end_seconds": 199.0,
+      "camera_ids": [
+        21,
+        25
+      ]
+    },
+    {
+      "start_seconds": 199.0,
+      "end_seconds": 209.0,
+      "camera_ids": [
+        21,
+        25,
+        28
+      ]
+    },
+    {
+      "start_seconds": 209.0,
+      "end_seconds": 220.0,
+      "camera_ids": [
+        21,
+        25,
+        28,
+        29
+      ]
+    },
+    {
+      "start_seconds": 220.0,
+      "end_seconds": 232.0,
+      "camera_ids": [
+        21,
+        25,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "start_seconds": 232.0,
+      "end_seconds": 241.0,
+      "camera_ids": [
+        25,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "start_seconds": 241.0,
+      "end_seconds": 247.0,
+      "camera_ids": [
+        25,
+        28,
+        30
+      ]
+    },
+    {
+      "start_seconds": 247.0,
+      "end_seconds": 250.0,
+      "camera_ids": [
+        25,
+        28
+      ]
+    },
+    {
+      "start_seconds": 250.0,
+      "end_seconds": 251.0,
+      "camera_ids": [
+        25,
+        28,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "start_seconds": 251.0,
+      "end_seconds": 253.0,
+      "camera_ids": [
+        32,
+        33
+      ]
+    },
+    {
+      "start_seconds": 253.0,
+      "end_seconds": 263.0,
+      "camera_ids": [
+        32
+      ]
+    },
+    {
+      "start_seconds": 263.0,
+      "end_seconds": 264.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 264.0,
+      "end_seconds": 269.0,
+      "camera_ids": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "start_seconds": 269.0,
+      "end_seconds": 271.0,
+      "camera_ids": []
+    },
+    {
+      "start_seconds": 271.0,
+      "end_seconds": 282.0,
+      "camera_ids": [
+        39
+      ]
+    },
+    {
+      "start_seconds": 282.0,
+      "end_seconds": 288.0,
+      "camera_ids": [
+        39,
+        40
+      ]
+    },
+    {
+      "start_seconds": 288.0,
+      "end_seconds": 292.0,
+      "camera_ids": [
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "start_seconds": 292.0,
+      "end_seconds": 296.0,
+      "camera_ids": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "start_seconds": 296.0,
+      "end_seconds": 299.0,
+      "camera_ids": [
+        39,
+        41,
+        42
+      ]
+    },
+    {
+      "start_seconds": 299.0,
+      "end_seconds": 300,
+      "camera_ids": [
+        39,
+        41,
+        42,
+        44
+      ]
+    }
+  ],
+  "name": "ramp_with_spikes_02",
+  "split": "train"
+}

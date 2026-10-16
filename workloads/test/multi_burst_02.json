@@ -1,0 +1,457 @@
+{
+  "generator_version": 2,
+  "pattern": "multi_burst",
+  "seed": 1003,
+  "load_level": "stress",
+  "camera_fps": 10.0,
+  "duration_seconds": 300,
+  "decision_seconds": 1.0,
+  "generation_settings": {
+    "min_cameras": 0,
+    "max_cameras": 10
+  },
+  "peak_demand_fps": 100.0,
+  "demand_changes": 42,
+  "camera_session_changes": 42,
+  "total_camera_sessions": 136,
+  "intervals": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 8.0,
+      "camera_ids": [
+        0
+      ]
+    },
+    {
+      "start_seconds": 8.0,
+      "end_seconds": 16.0,
+      "camera_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "start_seconds": 16.0,
+      "end_seconds": 26.0,
+      "camera_ids": [
+        3
+      ]
+    },
+    {
+      "start_seconds": 26.0,
+      "end_seconds": 34.0,
+      "camera_ids": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "start_seconds": 34.0,
+      "end_seconds": 37.0,
+      "camera_ids": [
+        3
+      ]
+    },
+    {
+      "start_seconds": 37.0,
+      "end_seconds": 43.0,
+      "camera_ids": [
+        3,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "start_seconds": 43.0,
+      "end_seconds": 53.0,
+      "camera_ids": [
+        19
+      ]
+    },
+    {
+      "start_seconds": 53.0,
+      "end_seconds": 61.0,
+      "camera_ids": [
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "start_seconds": 61.0,
+      "end_seconds": 65.0,
+      "camera_ids": [
+        22
+      ]
+    },
+    {
+      "start_seconds": 65.0,
+      "end_seconds": 70.0,
+      "camera_ids": [
+        22,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "start_seconds": 70.0,
+      "end_seconds": 82.0,
+      "camera_ids": [
+        32
+      ]
+    },
+    {
+      "start_seconds": 82.0,
+      "end_seconds": 83.0,
+      "camera_ids": [
+        32,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "start_seconds": 83.0,
+      "end_seconds": 89.0,
+      "camera_ids": [
+        38
+      ]
+    },
+    {
+      "start_seconds": 89.0,
+      "end_seconds": 90.0,
+      "camera_ids": [
+        38,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "start_seconds": 90.0,
+      "end_seconds": 96.0,
+      "camera_ids": [
+        47
+      ]
+    },
+    {
+      "start_seconds": 96.0,
+      "end_seconds": 97.0,
+      "camera_ids": [
+        47,
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "start_seconds": 97.0,
+      "end_seconds": 106.0,
+      "camera_ids": [
+        50
+      ]
+    },
+    {
+      "start_seconds": 106.0,
+      "end_seconds": 112.0,
+      "camera_ids": [
+        50,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "start_seconds": 112.0,
+      "end_seconds": 123.0,
+      "camera_ids": [
+        50
+      ]
+    },
+    {
+      "start_seconds": 123.0,
+      "end_seconds": 127.0,
+      "camera_ids": [
+        50,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "start_seconds": 127.0,
+      "end_seconds": 142.0,
+      "camera_ids": [
+        65
+      ]
+    },
+    {
+      "start_seconds": 142.0,
+      "end_seconds": 149.0,
+      "camera_ids": [
+        65,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "start_seconds": 149.0,
+      "end_seconds": 156.0,
+      "camera_ids": [
+        70
+      ]
+    },
+    {
+      "start_seconds": 156.0,
+      "end_seconds": 163.0,
+      "camera_ids": [
+        70,
+        72,
+        73,
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "start_seconds": 163.0,
+      "end_seconds": 170.0,
+      "camera_ids": [
+        74
+      ]
+    },
+    {
+      "start_seconds": 170.0,
+      "end_seconds": 177.0,
+      "camera_ids": [
+        74,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    {
+      "start_seconds": 177.0,
+      "end_seconds": 183.0,
+      "camera_ids": [
+        81
+      ]
+    },
+    {
+      "start_seconds": 183.0,
+      "end_seconds": 187.0,
+      "camera_ids": [
+        81,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "start_seconds": 187.0,
+      "end_seconds": 197.0,
+      "camera_ids": [
+        88
+      ]
+    },
+    {
+      "start_seconds": 197.0,
+      "end_seconds": 201.0,
+      "camera_ids": [
+        88,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ]
+    },
+    {
+      "start_seconds": 201.0,
+      "end_seconds": 206.0,
+      "camera_ids": [
+        95
+      ]
+    },
+    {
+      "start_seconds": 206.0,
+      "end_seconds": 209.0,
+      "camera_ids": [
+        95,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "start_seconds": 209.0,
+      "end_seconds": 223.0,
+      "camera_ids": [
+        100
+      ]
+    },
+    {
+      "start_seconds": 223.0,
+      "end_seconds": 228.0,
+      "camera_ids": [
+        100,
+        107,
+        108,
+        109,
+        110,
+        111
+      ]
+    },
+    {
+      "start_seconds": 228.0,
+      "end_seconds": 231.0,
+      "camera_ids": [
+        110
+      ]
+    },
+    {
+      "start_seconds": 231.0,
+      "end_seconds": 238.0,
+      "camera_ids": [
+        110,
+        112,
+        113,
+        114,
+        115,
+        116
+      ]
+    },
+    {
+      "start_seconds": 238.0,
+      "end_seconds": 252.0,
+      "camera_ids": [
+        110
+      ]
+    },
+    {
+      "start_seconds": 252.0,
+      "end_seconds": 258.0,
+      "camera_ids": [
+        110,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123
+      ]
+    },
+    {
+      "start_seconds": 258.0,
+      "end_seconds": 271.0,
+      "camera_ids": [
+        123
+      ]
+    },
+    {
+      "start_seconds": 271.0,
+      "end_seconds": 277.0,
+      "camera_ids": [
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ]
+    },
+    {
+      "start_seconds": 277.0,
+      "end_seconds": 288.0,
+      "camera_ids": [
+        123
+      ]
+    },
+    {
+      "start_seconds": 288.0,
+      "end_seconds": 295.0,
+      "camera_ids": [
+        123,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "start_seconds": 295.0,
+      "end_seconds": 300,
+      "camera_ids": [
+        123
+      ]
+    }
+  ],
+  "name": "multi_burst_02",
+  "split": "test"
+}
