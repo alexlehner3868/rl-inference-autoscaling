@@ -1,0 +1,107 @@
+{
+  "controller": "manual_example",
+  "workload": "one_three_one_cameras",
+  "configuration": {
+    "camera_fps": 10.0,
+    "service_seconds": 0.07197132544888889,
+    "startup_seconds": 2.3057613082,
+    "deadline_seconds": 5.0,
+    "decision_seconds": 2.0,
+    "tick_seconds": 0.001,
+    "initial_workers": 1,
+    "min_serving_workers": 1,
+    "max_workers": 6,
+    "queue_capacity_frames": 100
+  },
+  "duration_seconds": 20.0,
+  "effective_service_seconds": 0.07200000000000001,
+  "effective_startup_seconds": 2.306,
+  "arrived": 360,
+  "on_time": 360,
+  "late": 0,
+  "on_time_percentage": 100.0,
+  "dropped_deadline": 0,
+  "dropped_full": 0,
+  "dropped_percentage": 0.0,
+  "waiting": 0,
+  "processing": 0,
+  "unfinished_frames": 0,
+  "worker_seconds": 36.0,
+  "max_queue_length": 44,
+  "completed_latency_seconds": {
+    "count": 360,
+    "mean": 0.6251166666666667,
+    "p50": 0.505,
+    "p95": 1.4362,
+    "p99": 1.4821000000000002,
+    "max": 1.52
+  },
+  "per_camera": {
+    "0": {
+      "arrived": 200,
+      "on_time": 200,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "1": {
+      "arrived": 80,
+      "on_time": 80,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "2": {
+      "arrived": 80,
+      "on_time": 80,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    }
+  },
+  "action_counts": {
+    "add": 2,
+    "remove": 2,
+    "hold": 6,
+    "blocked": 0
+  },
+  "scaling_changes": 4,
+  "scaling_changes_per_minute": 12.0,
+  "capacity_timeline": [
+    {
+      "time_seconds": 0.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 8.306000000000001,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 10.306000000000001,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 14.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 16.0,
+      "capacity_fps": 13.888888888888888
+    }
+  ],
+  "notes": [
+    "On-time percentage uses all arrived frames, including drops and unfinished work.",
+    "Latency statistics include completed frames only. No drain period is added.",
+    "Capacity uses ready, non-retiring workers and the tick-rounded service time.",
+    "Starting workers consume worker-seconds but provide no serving capacity."
+  ]
+}
