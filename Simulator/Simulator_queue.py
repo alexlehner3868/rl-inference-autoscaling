@@ -298,7 +298,7 @@ class Simulator:
         ax.step(demand_times, demand, where="post", label="Camera demand", color="#d65f35", linewidth=2)
         ax.step([*capacity_times, end], [*capacities, capacities[-1]], where="post",
                 label="Ready worker capacity", color="#277da1", linewidth=2)
-        ax.set(title=f"Demand vs capacity — {controller}", xlabel="Simulated time (seconds)",
+        ax.set(title=f"Demand vs capacity — {controller}\n{workload}", xlabel="Simulated time (seconds)",
                ylabel="Frames per second", xlim=(0, end), ylim=(0, None))
         ax.grid(alpha=0.25)
         ax.legend()
