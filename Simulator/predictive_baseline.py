@@ -134,7 +134,7 @@ def run_workload(file, output, calibration):
 
 
 # Save results to a CSV 
-def report_results(output, results, latencies, calibration):
+def report_results(output, results, latencies):
     write_csv(output / "comparison.csv", results)
     overall = []
     
@@ -164,47 +164,6 @@ def report_results(output, results, latencies, calibration):
         })
     
     write_csv(output / "overall.csv", overall)
-    tick = SimulatorConfig().tick_seconds
-    service = max(1, round(calibration["service_time_mean_seconds"] / tick)) * tick
-    startup = max(1, round(calibration["startup_mean_seconds"] / tick)) * tick
-    lines = [
-        "PREDICTIVE BASELINE - VALIDATION RESULTS",
-        f"Workloads: {len(results)}; window: {WINDOW} observations; scale-down: {SCALE_DOWN_STEPS} consecutive low-demand decisions.",
-        f"Workers: {INITIAL_WORKERS} initially, maximum {MAX_WORKERS}; deadline: {DEADLINE_SECONDS}s; queue: {QUEUE_SIZE} frames.",
-        f"Measured service: {calibration['service_time_mean_seconds']:.9f}s; startup: {calibration['startup_mean_seconds']:.9f}s.",
-        f"Effective service: {service:.6f}s; startup: {startup:.6f}s; maximum capacity: {MAX_WORKERS / service:.2f} FPS.",
-        "Method: fit a line to recent arrival rates and forecast one startup delay ahead.",
-        "Only completed-interval arrivals are observed. No future schedule information is provided to the controller.",
-        "Starting workers count toward future capacity. Scale-down requires an empty queue and no starting workers.",
-        "At most one worker is added or removed per decision. All workloads start with a fresh controller.",
-        "",
-    ]
-    for row in overall:
-        lines.append(f"{row['group']}: {row['workloads']} workloads; on-time {row['on_time_percentage']:.2f}%; "
-                     f"worker-seconds {row['worker_seconds']:.2f}; average workers {row['average_workers']:.2f}; "
-                     f"drops {row['dropped_deadline'] + row['dropped_full']}; late {row['late']}; "
-                     f"unfinished {row['unfinished_frames']}; scaling changes {row['scaling_changes']}.")
-    lines.extend([
-        "", "INTERPRETATION",
-        "On-time percentage is weighted by frame arrivals; the CSV also gives the mean workload percentage.",
-        "Latency p95 pools completed frames only; it excludes dropped and unfinished frames.",
-        "There is no drain period: frames waiting or processing at the workload end remain unfinished.",
-        f"Stress workloads can exceed the {MAX_WORKERS}-worker capacity ({MAX_WORKERS / service:.2f} FPS), so some demand cannot be served on time even at maximum capacity.",
-        "Unexpected spikes are observed after they begin; the observation interval and worker startup delay limit response speed.",
-        "This is one initial parameter configuration, evaluated on validation only; no test workloads were used.",
-        "A comparison with static, queue-threshold, and DQN controllers on matching settings is needed to establish relative performance.",
-    ])
-    standard = [row for row in results if row["load_level"] == "standard"]
-    if standard:
-        rates = {}
-        for pattern in sorted({row["pattern"] for row in standard}):
-            cases = [row for row in standard if row["pattern"] == pattern]
-            arrivals = sum(row["arrived"] for row in cases)
-            if arrivals:
-                rates[pattern] = 100 * sum(row["on_time"] for row in cases) / arrivals
-        lines.extend(["", "STANDARD WORKLOADS BY PATTERN (arrival-weighted on-time percentage)"])
-        lines.extend(f"{pattern}: {rate:.2f}%" for pattern, rate in rates.items())
-    (output / "findings.txt").write_text("\n".join(lines) + "\n")
 
 
 def main():
@@ -221,7 +180,7 @@ def main():
        
         print(f"{number}/{len(files)} {file.stem}: {result['on_time_percentage']:.2f}% on time, {result['worker_seconds']:.2f} worker-seconds", flush=True)
     
-    report_results(output, results, latencies, calibration)
+    report_results(output, results, latencies)
     print(f"Saved results to {output}")
 
 
