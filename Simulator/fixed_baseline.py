@@ -2,15 +2,15 @@ import json
 import csv
 from pathlib import Path
 from datetime import datetime
-from Simulator.Simulator_queue import Simulator, SimulatorConfig
+from Simulator_queue import Simulator, SimulatorConfig
 
 # Settings - change these if needed
-splits = ['train', 'validation', 'test']
-worker_counts = [1, 2, 4]
+splits = ['train', 'validation']
+worker_counts = [1, 2, 3, 4]
 deadline = 1.0
 queue_size = 50
 
-root = Path(__file__).resolve().parent
+root = Path(__file__).resolve().parent.parent
 calibration_file = root / 'results/calibration/simulator_parameters.json'
 output_folder = root / 'results/fixed_baseline' / datetime.now().strftime('%Y%m%d_%H%M%S')
 
