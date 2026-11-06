@@ -1,0 +1,15 @@
+{
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 156906,
+  "on_time_percentage": 89.32877882152007,
+  "late": 1136,
+  "dropped_deadline": 936,
+  "dropped_full": 16568,
+  "unfinished_frames": 104,
+  "worker_seconds": 22079.06400002943,
+  "average_workers": 3.679844000004905,
+  "p95_latency_seconds": 0.9500000000000001,
+  "scaling_changes": 368,
+  "blocked_actions": 4375
+}
