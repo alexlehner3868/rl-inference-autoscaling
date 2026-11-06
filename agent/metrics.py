@@ -1,23 +1,28 @@
 PRIMARY_METRICS = [
-    "sla_success_rate",
+    "on_time_percentage",
     "worker_seconds",
 ]
 
 
 SECONDARY_METRICS = [
-    "total_frames",
-    "on_time_frames",
-    "late_frames",
-    "dropped_frames",
-    "mean_latency",
-    "p95_latency",
-    "p99_latency",
-    "scale_up_actions",
-    "scale_down_actions",
-    "average_active_workers",
-    "peak_active_workers",
-    "per_camera_sla",
+    "arrived",
+    "on_time",
+    "late",
+    "dropped_deadline",
+    "dropped_full",
+    "unfinished_frames",
+    "mean_latency_seconds",
+    "p95_latency_seconds",
+    "p99_latency_seconds",
+    "max_queue_length",
+    "scaling_changes",
+    "blocked_actions",
+    "average_workers",
+    "per_camera",
 ]
 
 
-SHARED_METRICS = PRIMARY_METRICS + SECONDARY_METRICS
+SHARED_METRICS = (
+    PRIMARY_METRICS
+    + SECONDARY_METRICS
+)
