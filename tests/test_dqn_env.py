@@ -4,112 +4,128 @@ import pytest
 from agent.dqn_env import InferenceScalingEnv
 
 
-class MockSimulator:
-    def __init__(self):
-        self.reset()
-
-    def reset(self, seed=None):
-        self.queue_length = 5
-        self.oldest_wait_time = 0.2
-        self.recent_arrival_rate = 10.0
-        self.active_workers = 2
-        self.starting_workers = 0
-
-    def step(self, action):
-        old_workers = self.active_workers
-
-        if action == 0 and self.active_workers > 1:
-            self.active_workers -= 1
-        elif action == 2:
-            self.active_workers += 1
-
-        scaled = self.active_workers != old_workers
-
-        self.queue_length = max(
-            0,
-            self.queue_length - self.active_workers,
-        )
-
-        return {
-            "on_time_frames": 2,
-            "late_frames": 0,
-            "worker_seconds": float(self.active_workers),
-            "scaled": scaled,
-            "terminated": False,
-            "truncated": False,
-        }
+CALIBRATION = {
+    "service_time_mean_seconds": 0.05,
+    "startup_mean_seconds": 0.2,
+}
 
 
-def test_reset():
-    env = InferenceScalingEnv(MockSimulator())
+WORKLOAD = {
+    "name": "test_workload",
+    "camera_fps": 10.0,
+    "decision_seconds": 0.1,
+    "duration_seconds": 0.5,
+    "intervals": [
+        {
+            "start_seconds": 0.0,
+            "end_seconds": 0.2,
+            "camera_ids": [0],
+        },
+        {
+            "start_seconds": 0.2,
+            "end_seconds": 0.5,
+            "camera_ids": [0, 1],
+        },
+    ],
+}
 
-    observation, info = env.reset(seed=42)
+
+def make_env():
+    return InferenceScalingEnv(
+        workloads=[WORKLOAD],
+        calibration=CALIBRATION,
+    )
+
+
+def test_reset_returns_real_simulator_observation():
+    env = make_env()
+
+    observation, info = env.reset(seed=1)
 
     assert observation.shape == (5,)
     assert observation.dtype == np.float32
-    assert env.observation_space.contains(observation)
-    assert info == {}
+    assert env.observation_space.contains(
+        observation
+    )
+
+    assert observation[2] == pytest.approx(
+        10.0
+    )
+
+    assert observation[3] == pytest.approx(
+        1.0
+    )
+
+    assert info["workload"] == "test_workload"
 
 
-def test_keep_capacity():
-    env = InferenceScalingEnv(MockSimulator())
-    env.reset()
+def test_numeric_add_action_maps_to_simulator_add():
+    env = make_env()
 
-    observation, reward, terminated, truncated, info = env.step(1)
+    env.reset(seed=1)
 
-    assert observation.shape == (5,)
-    assert isinstance(reward, float)
+    _, _, _, _, info = env.step(
+        env.ADD_WORKER
+    )
+
+    assert info["action"] == "add"
+    assert info["action_applied"] is True
+    assert info["scaled"] is True
+    assert info["workers"] == 2
+
+
+def test_hold_action_does_not_count_as_scaling():
+    env = make_env()
+
+    env.reset(seed=1)
+
+    _, reward, _, _, info = env.step(
+        env.KEEP_CAPACITY
+    )
+
+    assert info["action"] == "hold"
     assert info["scaled"] is False
-    assert terminated is False
+    assert isinstance(reward, float)
+
+
+def test_observation_updates_when_workload_demand_changes():
+    env = make_env()
+
+    env.reset(seed=1)
+
+    env.step(
+        env.KEEP_CAPACITY
+    )
+
+    observation, _, _, _, _ = env.step(
+        env.KEEP_CAPACITY
+    )
+
+    assert observation[2] == pytest.approx(
+        20.0
+    )
+
+
+def test_episode_ends_at_workload_duration():
+    env = make_env()
+
+    env.reset(seed=1)
+
+    terminated = False
+
+    for _ in range(5):
+        _, _, terminated, truncated, _ = env.step(
+            env.KEEP_CAPACITY
+        )
+
+    assert terminated is True
     assert truncated is False
 
 
-def test_add_worker():
-    env = InferenceScalingEnv(MockSimulator())
-    env.reset()
+def test_invalid_action_raises_error():
+    env = make_env()
 
-    _, _, _, _, info = env.step(2)
-
-    assert env.simulator.active_workers == 3
-    assert info["scaled"] is True
-
-
-def test_remove_worker():
-    env = InferenceScalingEnv(MockSimulator())
-    env.reset()
-
-    _, _, _, _, info = env.step(0)
-
-    assert env.simulator.active_workers == 1
-    assert info["scaled"] is True
-
-
-def test_late_frames_reduce_reward():
-    env = InferenceScalingEnv(MockSimulator())
-
-    good = env._calculate_reward(
-        {
-            "on_time_frames": 2,
-            "late_frames": 0,
-            "worker_seconds": 2.0,
-            "scaled": False,
-        }
-    )
-
-    late = env._calculate_reward(
-        {
-            "on_time_frames": 1,
-            "late_frames": 1,
-            "worker_seconds": 2.0,
-            "scaled": False,
-        }
-    )
-
-    assert late < good
-
-
-def test_invalid_action():
-    env = InferenceScalingEnv(MockSimulator())
+    env.reset(seed=1)
 
     with pytest.raises(ValueError):
         env.step(3)
