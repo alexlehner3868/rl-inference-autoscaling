@@ -1,3 +1,4 @@
+import argparse
 import csv
 import json
 from datetime import datetime
@@ -76,7 +77,10 @@ def evaluate_workload(model, workload, calibration):
 
 
 def main():
-    model = DQN.load(MODEL_PATH)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model", type=Path, default=MODEL_PATH)
+    args = parser.parse_args()
+    model = DQN.load(args.model)
 
     workloads = load_workloads("validation")
     calibration = load_calibration()
@@ -123,6 +127,7 @@ def main():
     )
 
     overall = {
+        "model": args.model.name,
         "workloads": len(results),
         "arrived": total_arrived,
         "on_time": total_on_time,

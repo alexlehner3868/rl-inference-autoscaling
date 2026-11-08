@@ -1,0 +1,16 @@
+{
+  "model": "two_dqn_autoscaler_a.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 121926,
+  "on_time_percentage": 69.41417591801878,
+  "late": 16978,
+  "dropped_deadline": 18451,
+  "dropped_full": 18125,
+  "unfinished_frames": 170,
+  "worker_seconds": 18125.000000006337,
+  "average_workers": 3.0208333333343895,
+  "p95_latency_seconds": 1.04,
+  "scaling_changes": 405,
+  "blocked_actions": 3234
+}

@@ -1,0 +1,16 @@
+{
+  "model": "two_dqn_interleaved_a.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 122415,
+  "on_time_percentage": 69.69257045260461,
+  "late": 16676,
+  "dropped_deadline": 18284,
+  "dropped_full": 18125,
+  "unfinished_frames": 150,
+  "worker_seconds": 18191.000000005963,
+  "average_workers": 3.031833333334327,
+  "p95_latency_seconds": 1.04,
+  "scaling_changes": 410,
+  "blocked_actions": 4324
+}

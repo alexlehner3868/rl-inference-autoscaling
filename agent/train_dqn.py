@@ -53,15 +53,16 @@ def make_env(
 def create_dqn(
     env: InferenceScalingEnv,
     seed: int = 0,
+    *,
+    algorithm: type[DQN] = DQN,
 ) -> DQN:
-    return DQN(
-        "MlpPolicy",
-        env,
+    return algorithm(
+        "MlpPolicy", env,
         learning_starts=1000,
         buffer_size=50000,
         seed=seed,
         verbose=1,
-    )
+)
 
 
 def train_dqn(
