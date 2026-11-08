@@ -14,8 +14,8 @@ else:
 
 
 # Controller settings
-WINDOW = 5 # Number of observations to calculate demand based on
-SCALE_DOWN_STEPS = 3 # Require 3 demand decrease observations before removing a worker 
+WINDOW = 10 # Number of observations to calculate demand based on (Tuned Parameter)
+SCALE_DOWN_STEPS = 5 # Require 3 demand decrease observations before removing a worker (Tuned Paramter)
 MAX_WORKERS = 4 # Max workers allowed 
 INITIAL_WORKERS = 1 # Start with 1 worker 
 DEADLINE_SECONDS = 1.0
@@ -24,8 +24,9 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 class PredictiveController:
-    def __init__(self):
-        self.demand = deque(maxlen=WINDOW) # Store last 5 demand observations
+    def __init__(self, window=WINDOW, scale_down_steps=SCALE_DOWN_STEPS):
+        self.demand = deque(maxlen=window)
+        self.scale_down_steps = scale_down_steps
         self.previous_arrived = 0
         self.low_steps = 0
         self.forecast = 0.0
@@ -64,7 +65,7 @@ class PredictiveController:
         if self.target < ready + starting and not sim.queue and starting == 0:
             # Remove worker if demand is low, there is no queue and no workers are starting  
             self.low_steps += 1
-            if self.low_steps >= SCALE_DOWN_STEPS and ready > sim.min_serving_workers:
+            if self.low_steps >= self.scale_down_steps and ready > sim.min_serving_workers:
                 self.low_steps = 0
                 return "remove"
         else:
@@ -79,7 +80,7 @@ def write_csv(path, rows):
         writer.writerows(rows)
 
 
-def run_workload(file, output, calibration):
+def run_workload(file, output, calibration, *, window=WINDOW, scale_down_steps=SCALE_DOWN_STEPS):
     # Load workload and init configurations 
     workload = json.loads(file.read_text())
     config = SimulatorConfig(
@@ -92,7 +93,7 @@ def run_workload(file, output, calibration):
 
     # Init sim and controller
     sim = Simulator(config)
-    controller = PredictiveController()
+    controller = PredictiveController(window, scale_down_steps)
 
     decision = sim.decision_ticks * config.tick_seconds
     # Iterate through all the intervals in the workload
@@ -112,7 +113,8 @@ def run_workload(file, output, calibration):
     final = sim.history[-1]
 
     # Save results
-    sim.save_results(output / file.stem, controller="predictive", workload=file.stem)
+    if output is not None:
+        sim.save_results(output / file.stem, controller="predictive", workload=file.stem)
     max_capacity = MAX_WORKERS / (sim.service_ticks * config.tick_seconds)
     result = {
         "workload": file.stem, "pattern": workload["pattern"], "load_level": workload["load_level"],
@@ -128,8 +130,9 @@ def run_workload(file, output, calibration):
         "scaling_changes": sim.action_counts["add"] + sim.action_counts["remove"],
         "blocked_actions": sim.action_counts["blocked"],
         "overload_seconds": sum(row["demand_fps"] > max_capacity for row in sim.history) * decision,
-        "result_dir": file.stem,
     }
+    if output is not None:
+        result["result_dir"] = file.stem
     return result, sim.latencies_seconds
 
 
