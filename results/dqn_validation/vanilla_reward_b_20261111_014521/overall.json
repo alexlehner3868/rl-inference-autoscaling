@@ -1,0 +1,16 @@
+{
+  "model": "vanilla_reward_b.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 149078,
+  "on_time_percentage": 84.87218901224026,
+  "late": 3668,
+  "dropped_deadline": 5866,
+  "dropped_full": 16891,
+  "unfinished_frames": 147,
+  "worker_seconds": 19333.000000013864,
+  "average_workers": 3.2221666666689774,
+  "p95_latency_seconds": 0.97,
+  "scaling_changes": 638,
+  "blocked_actions": 3252
+}

@@ -9,6 +9,7 @@ from stable_baselines3 import DQN
 
 from agent.dqn_env import InferenceScalingEnv
 from agent.train_dqn import load_calibration, load_workloads
+from agent.dueling_dqn import DuelingDQNPolicy
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -175,7 +176,7 @@ def main():
         ROOT
         / "results"
         / "dqn_validation"
-        / datetime.now().strftime("%Y%m%d_%H%M%S")
+        / f"{args.model.stem}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
     )
 
     output.mkdir(
@@ -207,7 +208,7 @@ def main():
         )
 
     print()
-    print("DQN VALIDATION RESULTS")
+    print(f"DQN VALIDATION RESULTS - {args.model.stem}")
     print(
         f"On-time: "
         f"{overall['on_time_percentage']:.2f}%"
