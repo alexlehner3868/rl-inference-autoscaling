@@ -1,0 +1,16 @@
+{
+  "model": "vanilla_seed2_30k.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 149936,
+  "on_time_percentage": 85.36066040421292,
+  "late": 3927,
+  "dropped_deadline": 4824,
+  "dropped_full": 16822,
+  "unfinished_frames": 141,
+  "worker_seconds": 19303.000000014417,
+  "average_workers": 3.2171666666690695,
+  "p95_latency_seconds": 0.974,
+  "scaling_changes": 631,
+  "blocked_actions": 2625
+}

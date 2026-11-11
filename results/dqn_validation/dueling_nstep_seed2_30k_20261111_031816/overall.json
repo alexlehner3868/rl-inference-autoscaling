@@ -1,0 +1,16 @@
+{
+  "model": "dueling_nstep_seed2_30k.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 157652,
+  "on_time_percentage": 89.75348704810703,
+  "late": 805,
+  "dropped_deadline": 759,
+  "dropped_full": 16330,
+  "unfinished_frames": 104,
+  "worker_seconds": 23669.99999999322,
+  "average_workers": 3.9449999999988696,
+  "p95_latency_seconds": 0.9480000000000001,
+  "scaling_changes": 64,
+  "blocked_actions": 4670
+}
