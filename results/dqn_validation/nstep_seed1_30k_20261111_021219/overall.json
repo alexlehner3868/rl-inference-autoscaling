@@ -1,0 +1,16 @@
+{
+    "model":  "nstep_seed1_30k.zip",
+    "workloads":  20,
+    "arrived":  175650,
+    "on_time":  157613,
+    "on_time_percentage":  89.73128380301736,
+    "late":  809,
+    "dropped_deadline":  833,
+    "dropped_full":  16291,
+    "unfinished_frames":  104,
+    "worker_seconds":  23734.999999991705,
+    "average_workers":  3.955833333331951,
+    "p95_latency_seconds":  0.9480000000000001,
+    "scaling_changes":  60,
+    "blocked_actions":  1793
+}

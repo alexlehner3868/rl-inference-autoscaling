@@ -1,0 +1,16 @@
+{
+  "model": "dueling_seed2_30k.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 148326,
+  "on_time_percentage": 84.44406490179334,
+  "late": 3955,
+  "dropped_deadline": 6331,
+  "dropped_full": 16891,
+  "unfinished_frames": 147,
+  "worker_seconds": 19268.00000001382,
+  "average_workers": 3.2113333333356366,
+  "p95_latency_seconds": 0.972,
+  "scaling_changes": 628,
+  "blocked_actions": 3847
+}

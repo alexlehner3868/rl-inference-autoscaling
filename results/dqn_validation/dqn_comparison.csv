@@ -1,0 +1,7 @@
+model,on_time_percentage,late,dropped,worker_seconds,average_workers,p95_latency_seconds,scaling_changes,blocked_actions
+dueling_nstep_seed1_30k,89.67,839,17193,23647.0,3.94,0.948,74,4742
+dueling_seed1_30k,86.36,3150,20669,20246.0,3.37,0.966,686,4304
+dueling_seed2_30k,84.44,3955,23222,19268.0,3.21,0.972,628,3847
+nstep_seed1_30k,89.73,809,17124,23735.0,3.96,0.948,60,1793
+nstep_seed2_30k,89.81,731,17061,23700.0,3.95,0.948,60,4775
+vanilla_seed1_30k,84.91,3707,22653,20019.0,3.34,0.97,666,3067

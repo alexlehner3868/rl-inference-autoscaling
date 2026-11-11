@@ -43,10 +43,18 @@ def load_calibration() -> dict:
 
 def make_env(
     split: str = "train",
+    on_time_reward: float = 1.0,
+    failed_frame_penalty: float = 2.0,
+    worker_cost: float = 0.1,
+    scaling_penalty: float = 0.25,
 ) -> InferenceScalingEnv:
     return InferenceScalingEnv(
         workloads=load_workloads(split),
         calibration=load_calibration(),
+        on_time_reward=on_time_reward,
+        failed_frame_penalty=failed_frame_penalty,
+        worker_cost=worker_cost,
+        scaling_penalty=scaling_penalty,
     )
 
 
@@ -55,14 +63,23 @@ def create_dqn(
     seed: int = 0,
     *,
     algorithm: type[DQN] = DQN,
+    policy="MlpPolicy",
+    **kwargs,
 ) -> DQN:
+    parameters = {
+        "learning_starts": 1000,
+        "buffer_size": 50000,
+        "seed": seed,
+        "verbose": 1,
+    }
+
+    parameters.update(kwargs)
+
     return algorithm(
-        "MlpPolicy", env,
-        learning_starts=1000,
-        buffer_size=50000,
-        seed=seed,
-        verbose=1,
-)
+        policy,
+        env,
+        **parameters,
+    )
 
 
 def train_dqn(
@@ -96,6 +113,8 @@ def train_dqn(
     model.save(
         str(save_path),
     )
+
+    env.close()
 
     return model
 
