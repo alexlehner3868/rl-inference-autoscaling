@@ -1,0 +1,1229 @@
+{
+  "controller": "queue_threshold",
+  "workload": "mixed_churn_04",
+  "configuration": {
+    "camera_fps": 10.0,
+    "service_seconds": 0.07197132544888889,
+    "startup_seconds": 2.3057613082,
+    "deadline_seconds": 1.0,
+    "decision_seconds": 1.0,
+    "tick_seconds": 0.001,
+    "initial_workers": 1,
+    "min_serving_workers": 1,
+    "max_workers": 4,
+    "queue_capacity_frames": 50
+  },
+  "duration_seconds": 300.0,
+  "effective_service_seconds": 0.07200000000000001,
+  "effective_startup_seconds": 2.306,
+  "arrived": 8290,
+  "on_time": 4207,
+  "late": 291,
+  "on_time_percentage": 50.74788902291918,
+  "dropped_deadline": 552,
+  "dropped_full": 3190,
+  "dropped_percentage": 45.13872135102533,
+  "waiting": 46,
+  "processing": 4,
+  "unfinished_frames": 50,
+  "worker_seconds": 694.0,
+  "max_queue_length": 50,
+  "completed_latency_seconds": {
+    "count": 4498,
+    "mean": 0.6490289017341041,
+    "p50": 0.88,
+    "p95": 1.02,
+    "p99": 1.058,
+    "max": 1.07
+  },
+  "per_camera": {
+    "0": {
+      "arrived": 70,
+      "on_time": 55,
+      "late": 15,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 78.57142857142857,
+      "waiting": 0,
+      "processing": 0
+    },
+    "1": {
+      "arrived": 70,
+      "on_time": 43,
+      "late": 9,
+      "dropped_deadline": 8,
+      "dropped_full": 10,
+      "on_time_percentage": 61.42857142857143,
+      "waiting": 0,
+      "processing": 0
+    },
+    "2": {
+      "arrived": 70,
+      "on_time": 34,
+      "late": 5,
+      "dropped_deadline": 10,
+      "dropped_full": 21,
+      "on_time_percentage": 48.57142857142857,
+      "waiting": 0,
+      "processing": 0
+    },
+    "3": {
+      "arrived": 70,
+      "on_time": 26,
+      "late": 6,
+      "dropped_deadline": 11,
+      "dropped_full": 27,
+      "on_time_percentage": 37.142857142857146,
+      "waiting": 0,
+      "processing": 0
+    },
+    "4": {
+      "arrived": 70,
+      "on_time": 19,
+      "late": 3,
+      "dropped_deadline": 14,
+      "dropped_full": 34,
+      "on_time_percentage": 27.142857142857142,
+      "waiting": 0,
+      "processing": 0
+    },
+    "5": {
+      "arrived": 70,
+      "on_time": 13,
+      "late": 3,
+      "dropped_deadline": 14,
+      "dropped_full": 40,
+      "on_time_percentage": 18.571428571428573,
+      "waiting": 0,
+      "processing": 0
+    },
+    "6": {
+      "arrived": 70,
+      "on_time": 9,
+      "late": 1,
+      "dropped_deadline": 16,
+      "dropped_full": 44,
+      "on_time_percentage": 12.857142857142858,
+      "waiting": 0,
+      "processing": 0
+    },
+    "7": {
+      "arrived": 70,
+      "on_time": 6,
+      "late": 0,
+      "dropped_deadline": 17,
+      "dropped_full": 47,
+      "on_time_percentage": 8.571428571428571,
+      "waiting": 0,
+      "processing": 0
+    },
+    "8": {
+      "arrived": 70,
+      "on_time": 3,
+      "late": 1,
+      "dropped_deadline": 12,
+      "dropped_full": 54,
+      "on_time_percentage": 4.285714285714286,
+      "waiting": 0,
+      "processing": 0
+    },
+    "9": {
+      "arrived": 70,
+      "on_time": 2,
+      "late": 0,
+      "dropped_deadline": 11,
+      "dropped_full": 57,
+      "on_time_percentage": 2.857142857142857,
+      "waiting": 0,
+      "processing": 0
+    },
+    "10": {
+      "arrived": 70,
+      "on_time": 2,
+      "late": 0,
+      "dropped_deadline": 10,
+      "dropped_full": 58,
+      "on_time_percentage": 2.857142857142857,
+      "waiting": 0,
+      "processing": 0
+    },
+    "11": {
+      "arrived": 70,
+      "on_time": 1,
+      "late": 0,
+      "dropped_deadline": 10,
+      "dropped_full": 59,
+      "on_time_percentage": 1.4285714285714286,
+      "waiting": 0,
+      "processing": 0
+    },
+    "12": {
+      "arrived": 50,
+      "on_time": 35,
+      "late": 15,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 70.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "13": {
+      "arrived": 50,
+      "on_time": 23,
+      "late": 9,
+      "dropped_deadline": 8,
+      "dropped_full": 10,
+      "on_time_percentage": 46.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "14": {
+      "arrived": 50,
+      "on_time": 14,
+      "late": 5,
+      "dropped_deadline": 10,
+      "dropped_full": 21,
+      "on_time_percentage": 28.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "15": {
+      "arrived": 50,
+      "on_time": 7,
+      "late": 6,
+      "dropped_deadline": 11,
+      "dropped_full": 26,
+      "on_time_percentage": 14.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "16": {
+      "arrived": 50,
+      "on_time": 5,
+      "late": 3,
+      "dropped_deadline": 14,
+      "dropped_full": 28,
+      "on_time_percentage": 10.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "17": {
+      "arrived": 50,
+      "on_time": 4,
+      "late": 3,
+      "dropped_deadline": 14,
+      "dropped_full": 29,
+      "on_time_percentage": 8.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "18": {
+      "arrived": 50,
+      "on_time": 3,
+      "late": 1,
+      "dropped_deadline": 16,
+      "dropped_full": 30,
+      "on_time_percentage": 6.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "19": {
+      "arrived": 50,
+      "on_time": 3,
+      "late": 0,
+      "dropped_deadline": 17,
+      "dropped_full": 30,
+      "on_time_percentage": 6.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "20": {
+      "arrived": 50,
+      "on_time": 2,
+      "late": 1,
+      "dropped_deadline": 12,
+      "dropped_full": 35,
+      "on_time_percentage": 4.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "21": {
+      "arrived": 50,
+      "on_time": 2,
+      "late": 0,
+      "dropped_deadline": 11,
+      "dropped_full": 37,
+      "on_time_percentage": 4.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "22": {
+      "arrived": 50,
+      "on_time": 2,
+      "late": 0,
+      "dropped_deadline": 10,
+      "dropped_full": 38,
+      "on_time_percentage": 4.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "23": {
+      "arrived": 50,
+      "on_time": 1,
+      "late": 0,
+      "dropped_deadline": 10,
+      "dropped_full": 39,
+      "on_time_percentage": 2.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "24": {
+      "arrived": 20,
+      "on_time": 20,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "25": {
+      "arrived": 140,
+      "on_time": 129,
+      "late": 11,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 92.14285714285714,
+      "waiting": 0,
+      "processing": 0
+    },
+    "26": {
+      "arrived": 140,
+      "on_time": 117,
+      "late": 13,
+      "dropped_deadline": 10,
+      "dropped_full": 0,
+      "on_time_percentage": 83.57142857142857,
+      "waiting": 0,
+      "processing": 0
+    },
+    "27": {
+      "arrived": 50,
+      "on_time": 23,
+      "late": 9,
+      "dropped_deadline": 18,
+      "dropped_full": 0,
+      "on_time_percentage": 46.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "28": {
+      "arrived": 10,
+      "on_time": 10,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "29": {
+      "arrived": 80,
+      "on_time": 80,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "30": {
+      "arrived": 70,
+      "on_time": 70,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "31": {
+      "arrived": 70,
+      "on_time": 70,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "32": {
+      "arrived": 60,
+      "on_time": 53,
+      "late": 7,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 88.33333333333333,
+      "waiting": 0,
+      "processing": 0
+    },
+    "33": {
+      "arrived": 40,
+      "on_time": 26,
+      "late": 6,
+      "dropped_deadline": 8,
+      "dropped_full": 0,
+      "on_time_percentage": 65.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "34": {
+      "arrived": 80,
+      "on_time": 80,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "35": {
+      "arrived": 30,
+      "on_time": 30,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "36": {
+      "arrived": 80,
+      "on_time": 80,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "37": {
+      "arrived": 80,
+      "on_time": 80,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "38": {
+      "arrived": 70,
+      "on_time": 70,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "39": {
+      "arrived": 10,
+      "on_time": 10,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "40": {
+      "arrived": 30,
+      "on_time": 30,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "41": {
+      "arrived": 10,
+      "on_time": 10,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "42": {
+      "arrived": 10,
+      "on_time": 10,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "43": {
+      "arrived": 40,
+      "on_time": 25,
+      "late": 15,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 62.5,
+      "waiting": 0,
+      "processing": 0
+    },
+    "44": {
+      "arrived": 40,
+      "on_time": 14,
+      "late": 8,
+      "dropped_deadline": 8,
+      "dropped_full": 10,
+      "on_time_percentage": 35.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "45": {
+      "arrived": 40,
+      "on_time": 6,
+      "late": 4,
+      "dropped_deadline": 10,
+      "dropped_full": 20,
+      "on_time_percentage": 15.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "46": {
+      "arrived": 40,
+      "on_time": 3,
+      "late": 4,
+      "dropped_deadline": 11,
+      "dropped_full": 22,
+      "on_time_percentage": 7.5,
+      "waiting": 0,
+      "processing": 0
+    },
+    "47": {
+      "arrived": 40,
+      "on_time": 2,
+      "late": 1,
+      "dropped_deadline": 14,
+      "dropped_full": 23,
+      "on_time_percentage": 5.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "48": {
+      "arrived": 40,
+      "on_time": 2,
+      "late": 1,
+      "dropped_deadline": 14,
+      "dropped_full": 23,
+      "on_time_percentage": 5.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "49": {
+      "arrived": 40,
+      "on_time": 2,
+      "late": 0,
+      "dropped_deadline": 15,
+      "dropped_full": 23,
+      "on_time_percentage": 5.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "50": {
+      "arrived": 40,
+      "on_time": 2,
+      "late": 0,
+      "dropped_deadline": 15,
+      "dropped_full": 23,
+      "on_time_percentage": 5.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "51": {
+      "arrived": 40,
+      "on_time": 1,
+      "late": 1,
+      "dropped_deadline": 11,
+      "dropped_full": 27,
+      "on_time_percentage": 2.5,
+      "waiting": 0,
+      "processing": 0
+    },
+    "52": {
+      "arrived": 40,
+      "on_time": 1,
+      "late": 0,
+      "dropped_deadline": 10,
+      "dropped_full": 29,
+      "on_time_percentage": 2.5,
+      "waiting": 0,
+      "processing": 0
+    },
+    "53": {
+      "arrived": 40,
+      "on_time": 1,
+      "late": 0,
+      "dropped_deadline": 9,
+      "dropped_full": 30,
+      "on_time_percentage": 2.5,
+      "waiting": 0,
+      "processing": 0
+    },
+    "54": {
+      "arrived": 40,
+      "on_time": 1,
+      "late": 0,
+      "dropped_deadline": 9,
+      "dropped_full": 30,
+      "on_time_percentage": 2.5,
+      "waiting": 0,
+      "processing": 0
+    },
+    "55": {
+      "arrived": 360,
+      "on_time": 349,
+      "late": 11,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 96.94444444444444,
+      "waiting": 0,
+      "processing": 0
+    },
+    "56": {
+      "arrived": 360,
+      "on_time": 337,
+      "late": 13,
+      "dropped_deadline": 10,
+      "dropped_full": 0,
+      "on_time_percentage": 93.61111111111111,
+      "waiting": 0,
+      "processing": 0
+    },
+    "57": {
+      "arrived": 240,
+      "on_time": 213,
+      "late": 9,
+      "dropped_deadline": 18,
+      "dropped_full": 0,
+      "on_time_percentage": 88.75,
+      "waiting": 0,
+      "processing": 0
+    },
+    "58": {
+      "arrived": 130,
+      "on_time": 130,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "59": {
+      "arrived": 130,
+      "on_time": 118,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 12,
+      "on_time_percentage": 90.76923076923077,
+      "waiting": 0,
+      "processing": 0
+    },
+    "60": {
+      "arrived": 300,
+      "on_time": 288,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 12,
+      "on_time_percentage": 96.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "61": {
+      "arrived": 220,
+      "on_time": 151,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 69,
+      "on_time_percentage": 68.63636363636364,
+      "waiting": 0,
+      "processing": 0
+    },
+    "62": {
+      "arrived": 220,
+      "on_time": 126,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 94,
+      "on_time_percentage": 57.27272727272727,
+      "waiting": 0,
+      "processing": 0
+    },
+    "63": {
+      "arrived": 160,
+      "on_time": 41,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 119,
+      "on_time_percentage": 25.625,
+      "waiting": 0,
+      "processing": 0
+    },
+    "64": {
+      "arrived": 60,
+      "on_time": 2,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 58,
+      "on_time_percentage": 3.3333333333333335,
+      "waiting": 0,
+      "processing": 0
+    },
+    "65": {
+      "arrived": 60,
+      "on_time": 2,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 58,
+      "on_time_percentage": 3.3333333333333335,
+      "waiting": 0,
+      "processing": 0
+    },
+    "66": {
+      "arrived": 230,
+      "on_time": 58,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 172,
+      "on_time_percentage": 25.217391304347824,
+      "waiting": 0,
+      "processing": 0
+    },
+    "67": {
+      "arrived": 50,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 50,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "68": {
+      "arrived": 170,
+      "on_time": 8,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 162,
+      "on_time_percentage": 4.705882352941177,
+      "waiting": 0,
+      "processing": 0
+    },
+    "69": {
+      "arrived": 160,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 160,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "70": {
+      "arrived": 160,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 160,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "71": {
+      "arrived": 70,
+      "on_time": 8,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 62,
+      "on_time_percentage": 11.428571428571429,
+      "waiting": 0,
+      "processing": 0
+    },
+    "72": {
+      "arrived": 50,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 50,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "73": {
+      "arrived": 50,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 50,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "74": {
+      "arrived": 10,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 10,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "75": {
+      "arrived": 10,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 10,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "76": {
+      "arrived": 10,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 10,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "77": {
+      "arrived": 10,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 10,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "78": {
+      "arrived": 10,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 10,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "79": {
+      "arrived": 10,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 10,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "80": {
+      "arrived": 170,
+      "on_time": 159,
+      "late": 11,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 93.52941176470588,
+      "waiting": 0,
+      "processing": 0
+    },
+    "81": {
+      "arrived": 170,
+      "on_time": 147,
+      "late": 13,
+      "dropped_deadline": 10,
+      "dropped_full": 0,
+      "on_time_percentage": 86.47058823529412,
+      "waiting": 0,
+      "processing": 0
+    },
+    "82": {
+      "arrived": 90,
+      "on_time": 63,
+      "late": 9,
+      "dropped_deadline": 18,
+      "dropped_full": 0,
+      "on_time_percentage": 70.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "83": {
+      "arrived": 80,
+      "on_time": 80,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "84": {
+      "arrived": 130,
+      "on_time": 110,
+      "late": 12,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 84.61538461538461,
+      "waiting": 8,
+      "processing": 0
+    },
+    "85": {
+      "arrived": 100,
+      "on_time": 87,
+      "late": 13,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 87.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "86": {
+      "arrived": 100,
+      "on_time": 74,
+      "late": 10,
+      "dropped_deadline": 7,
+      "dropped_full": 9,
+      "on_time_percentage": 74.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "87": {
+      "arrived": 130,
+      "on_time": 91,
+      "late": 12,
+      "dropped_deadline": 8,
+      "dropped_full": 11,
+      "on_time_percentage": 70.0,
+      "waiting": 8,
+      "processing": 0
+    },
+    "88": {
+      "arrived": 130,
+      "on_time": 61,
+      "late": 3,
+      "dropped_deadline": 5,
+      "dropped_full": 52,
+      "on_time_percentage": 46.92307692307692,
+      "waiting": 8,
+      "processing": 1
+    },
+    "89": {
+      "arrived": 130,
+      "on_time": 54,
+      "late": 2,
+      "dropped_deadline": 5,
+      "dropped_full": 60,
+      "on_time_percentage": 41.53846153846154,
+      "waiting": 8,
+      "processing": 1
+    },
+    "90": {
+      "arrived": 120,
+      "on_time": 33,
+      "late": 1,
+      "dropped_deadline": 6,
+      "dropped_full": 80,
+      "on_time_percentage": 27.5,
+      "waiting": 0,
+      "processing": 0
+    },
+    "91": {
+      "arrived": 130,
+      "on_time": 24,
+      "late": 1,
+      "dropped_deadline": 6,
+      "dropped_full": 93,
+      "on_time_percentage": 18.46153846153846,
+      "waiting": 5,
+      "processing": 1
+    },
+    "92": {
+      "arrived": 130,
+      "on_time": 9,
+      "late": 2,
+      "dropped_deadline": 7,
+      "dropped_full": 107,
+      "on_time_percentage": 6.923076923076923,
+      "waiting": 4,
+      "processing": 1
+    },
+    "93": {
+      "arrived": 130,
+      "on_time": 6,
+      "late": 2,
+      "dropped_deadline": 7,
+      "dropped_full": 112,
+      "on_time_percentage": 4.615384615384615,
+      "waiting": 3,
+      "processing": 0
+    },
+    "94": {
+      "arrived": 130,
+      "on_time": 3,
+      "late": 1,
+      "dropped_deadline": 8,
+      "dropped_full": 116,
+      "on_time_percentage": 2.3076923076923075,
+      "waiting": 2,
+      "processing": 0
+    },
+    "95": {
+      "arrived": 130,
+      "on_time": 3,
+      "late": 0,
+      "dropped_deadline": 9,
+      "dropped_full": 118,
+      "on_time_percentage": 2.3076923076923075,
+      "waiting": 0,
+      "processing": 0
+    },
+    "96": {
+      "arrived": 20,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 20,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "97": {
+      "arrived": 30,
+      "on_time": 0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 30,
+      "on_time_percentage": 0.0,
+      "waiting": 0,
+      "processing": 0
+    }
+  },
+  "action_counts": {
+    "add": 25,
+    "remove": 22,
+    "hold": 253,
+    "blocked": 0
+  },
+  "scaling_changes": 47,
+  "scaling_changes_per_minute": 9.4,
+  "capacity_timeline": [
+    {
+      "time_seconds": 0.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 11.306000000000001,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 12.306000000000001,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 13.306000000000001,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 18.0,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 21.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 24.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 46.306000000000004,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 47.306000000000004,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 48.306000000000004,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 51.0,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 54.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 57.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 72.306,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 73.306,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 74.306,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 85.0,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 88.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 91.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 110.306,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 111.306,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 112.306,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 115.0,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 118.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 127.306,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 128.306,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 131.0,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 134.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 137.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 182.306,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 183.306,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 184.306,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 187.0,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 190.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 193.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 197.306,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 198.306,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 199.306,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 233.0,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 236.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 239.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 268.306,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 269.306,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 270.306,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 273.0,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 284.0,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 290.306,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 291.306,
+      "capacity_fps": 55.55555555555555
+    }
+  ],
+  "notes": [
+    "On-time percentage uses all arrived frames, including drops and unfinished work.",
+    "Latency statistics include completed frames only. No drain period is added.",
+    "Capacity uses ready, non-retiring workers and the tick-rounded service time.",
+    "Starting workers consume worker-seconds but provide no serving capacity."
+  ]
+}
