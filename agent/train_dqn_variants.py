@@ -158,7 +158,7 @@ def main():
     parser.add_argument(
         "--worker-cost",
         type=float,
-        default=0.1,
+        default=1.0,
     )
 
     parser.add_argument(

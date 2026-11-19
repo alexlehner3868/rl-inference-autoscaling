@@ -50,6 +50,7 @@ def validate_ppo(model):
         on_time_percentage = 100 * sim.on_time / sim.arrived if sim.arrived else 0
         average_workers = sim.worker_seconds / env.workload['duration_seconds']
         result = {
+            'total_reward': env.total_reward,
             'workload': file.stem,
             'arrived': sim.arrived,
             'on_time': sim.on_time,
@@ -82,6 +83,7 @@ def validate_ppo(model):
     print('Average workers:', round(average_workers, 2))
     print('Average scaling changes:', round(average_scaling, 2))
     print('Total frames:', total_arrived)
+    print('Total reward:', sum(row['total_reward'] for row in all_results))
     print('On-time frames:', total_on_time)
     # Save the results
     validation_folder.mkdir(parents=True, exist_ok=True)

@@ -1,4 +1,5 @@
 import argparse
+import json
 from contextlib import ExitStack
 from pathlib import Path
 
@@ -17,7 +18,7 @@ A is the DQN agent that we train to run the autoscaler
 During training, B helps A train by scoring the action that A pickts. 
 """
 
-DEFAULT_MODEL_PATH = ROOT / "results" / "models" / "two_dqn_interleaved_a.zip"
+DEFAULT_MODEL_PATH = ROOT / "results" / "models" / "two_dqn_uncapped_a.zip"
 
 # Subclass of DQN
 class SelectingDQN(DQN):
@@ -79,7 +80,7 @@ def train_rollout(model, callback):
     if model.num_timesteps > model.learning_starts:
         model.train(gradient_steps=model.gradient_steps, batch_size=model.batch_size)
 
-def train_two_dqn(total_timesteps=30000, seed=0, save_path=DEFAULT_MODEL_PATH):
+def train_two_dqn(total_timesteps=30000, seed=0, save_path=DEFAULT_MODEL_PATH, *, worker_cost=1.0):
     # Split the data into two distinct sets (one for each DQN)
     if total_timesteps <= 2000 or total_timesteps % 8:
         raise ValueError("Total timesteps must be a multiple of 8 greater than 2000")
@@ -87,9 +88,9 @@ def train_two_dqn(total_timesteps=30000, seed=0, save_path=DEFAULT_MODEL_PATH):
 
     with ExitStack() as cleanup:
         # Create two training enviornments, each drawing from same pool of data but maintainng their own states
-        env_a = make_env("train")
+        env_a = make_env("train", worker_cost=worker_cost)
         cleanup.callback(env_a.close)
-        env_b = make_env("train")
+        env_b = make_env("train", worker_cost=worker_cost)
         cleanup.callback(env_b.close)
 
         # Create selector with the custom SelectingDQN class
@@ -127,6 +128,15 @@ def train_two_dqn(total_timesteps=30000, seed=0, save_path=DEFAULT_MODEL_PATH):
         
         save_path.parent.mkdir(parents=True, exist_ok=True)
         selector.save(save_path)
+        save_path.with_suffix(".json").write_text(json.dumps({
+            "total_timesteps": total_timesteps,
+            "steps_per_network": steps_per_network,
+            "seed": seed, "worker_cost": worker_cost,
+            "on_time_reward": env_a.on_time_reward,
+            "failed_frame_penalty": env_a.failed_frame_penalty,
+            "scaling_penalty": env_a.scaling_penalty,
+            "max_workers": env_a.max_workers,
+        }, indent=2) + "\n")
        
         return save_path
 
@@ -135,9 +145,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--timesteps", type=int, default=30000, help="Total steps across A and B")
     parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--worker-cost", type=float, default=1.0)
     parser.add_argument("--output", type=Path, default=DEFAULT_MODEL_PATH)
     args = parser.parse_args()
-    print(f"Saved network A checkpoint to {train_two_dqn(args.timesteps, args.seed, args.output)}")
+    print(f"Saved network A checkpoint to {train_two_dqn(args.timesteps, args.seed, args.output, worker_cost=args.worker_cost)}")
 
 
 if __name__ == "__main__":

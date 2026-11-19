@@ -2,6 +2,8 @@ import csv
 import json
 from pathlib import Path
 
+from Simulator.Simulator_queue import calculate_reward
+
 
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS_DIR = ROOT / "results" / "dqn_validation"
@@ -34,6 +36,10 @@ def main():
         rows.append(
             {
                 "model": model,
+                "total_reward": round(calculate_reward(
+                    data["on_time"], data["late"] + dropped,
+                    data["worker_seconds"], data["scaling_changes"],
+                ), 2),
                 "on_time_percentage": round(
                     data["on_time_percentage"],
                     2,
@@ -72,6 +78,7 @@ def main():
     print(
         f"{'MODEL':34}"
         f"{'ON-TIME':>10}"
+        f"{'REWARD':>12}"
         f"{'AVG W':>9}"
         f"{'P95':>9}"
         f"{'DROPPED':>11}"
@@ -82,6 +89,7 @@ def main():
         print(
             f"{row['model'][:34]:34}"
             f"{row['on_time_percentage']:>9.2f}%"
+            f"{row['total_reward']:>12.2f}"
             f"{row['average_workers']:>9.2f}"
             f"{row['p95_latency_seconds']:>9.3f}"
             f"{row['dropped']:>11}"

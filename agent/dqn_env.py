@@ -6,7 +6,7 @@ import gymnasium as gym
 import numpy as np
 from gymnasium import spaces
 
-from Simulator.Simulator_queue import Simulator, SimulatorConfig
+from Simulator.Simulator_queue import Simulator, SimulatorConfig, calculate_reward
 
 
 class InferenceScalingEnv(gym.Env):
@@ -27,12 +27,12 @@ class InferenceScalingEnv(gym.Env):
         workloads: list[dict[str, Any]],
         calibration: dict[str, Any],
         initial_workers: int = 1,
-        max_workers: int = 4,
+        max_workers: int | None = None,
         deadline_seconds: float = 1.0,
         queue_capacity_frames: int = 50,
         on_time_reward: float = 1.0,
         failed_frame_penalty: float = 2.0,
-        worker_cost: float = 0.1,
+        worker_cost: float = 1.0,
         scaling_penalty: float = 0.25,
     ):
         super().__init__()
@@ -62,6 +62,7 @@ class InferenceScalingEnv(gym.Env):
 
         self.workload = None
         self.simulator = None
+        self.total_reward = 0.0
         self.interval_index = 0
 
     def reset(
@@ -83,6 +84,7 @@ class InferenceScalingEnv(gym.Env):
             raise ValueError("Invalid workload index")
 
         self.workload = self.workloads[workload_index]
+        self.total_reward = 0.0
         self.interval_index = 0
 
         config = SimulatorConfig(
@@ -151,13 +153,14 @@ class InferenceScalingEnv(gym.Env):
             and bool(result["action_applied"])
         )
 
-        reward = (
-            self.on_time_reward * on_time_frames
-            - self.failed_frame_penalty
-            * (late_frames + dropped_frames)
-            - self.worker_cost * interval_worker_seconds
-            - self.scaling_penalty * float(scaled)
+        reward = calculate_reward(
+            on_time_frames, late_frames + dropped_frames, interval_worker_seconds, float(scaled),
+            on_time_reward=self.on_time_reward, failed_frame_penalty=self.failed_frame_penalty,
+            worker_cost=self.worker_cost, scaling_penalty=self.scaling_penalty,
         )
+
+        self.total_reward += float(reward)
+        self.simulator.history[-1].update(reward=float(reward), total_reward=self.total_reward)
 
         terminated = (
             result["time_seconds"]
@@ -173,6 +176,8 @@ class InferenceScalingEnv(gym.Env):
             dropped_frames=dropped_frames,
             interval_worker_seconds=interval_worker_seconds,
             scaled=scaled,
+            reward=float(reward),
+            total_reward=self.total_reward,
         )
 
         return (

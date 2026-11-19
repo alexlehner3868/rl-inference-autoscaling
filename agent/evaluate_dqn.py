@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MODEL_PATH = ROOT / "results" / "models" / "dqn_autoscaler_30k.zip"
 
 
-def evaluate_workload(model, workload, calibration):
+def evaluate_workload(model, workload, calibration, output=None, controller="dqn"):
     env = InferenceScalingEnv(
         workloads=[workload],
         calibration=calibration,
@@ -37,10 +37,19 @@ def evaluate_workload(model, workload, calibration):
 
     sim = env.simulator
     final = sim.history[-1]
+    if output is not None:
+        sim.save_results(output / workload["name"], controller=controller, workload=workload["name"])
+    total_reward = env.total_reward
+    env.close()
 
     latencies = sim.latencies_seconds
 
     return {
+        "total_reward": total_reward,
+        "peak_workers": max(row["workers"] for row in sim.history),
+        "zero_demand_additions": sum(
+            row["action"] == "add" and row["action_applied"] and row["demand_fps"] == 0
+            for row in sim.history),
         "workload": workload["name"],
         "pattern": workload["pattern"],
         "load_level": workload["load_level"],
@@ -85,6 +94,8 @@ def main():
 
     workloads = load_workloads("validation")
     calibration = load_calibration()
+    output = ROOT / "results" / "dqn_validation" / f"{args.model.stem}_{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}"
+    output.mkdir(parents=True)
 
     results = []
     all_latencies = []
@@ -94,6 +105,8 @@ def main():
             model,
             workload,
             calibration,
+            output=output,
+            controller=args.model.stem,
         )
 
         all_latencies.extend(result.pop("latencies"))
@@ -104,7 +117,7 @@ def main():
             f"{result['on_time_percentage']:.2f}% on time, "
             f"{result['late']} late, "
             f"{result['dropped_deadline'] + result['dropped_full']} dropped, "
-            f"{result['worker_seconds']:.1f} worker-seconds"
+            f"{result['worker_seconds']:.1f} worker-seconds, reward {result['total_reward']:.2f}"
         )
 
     total_arrived = sum(
@@ -129,6 +142,10 @@ def main():
 
     overall = {
         "model": args.model.name,
+        "max_workers": None,
+        "reward_settings": {"on_time_reward": 1.0, "failed_frame_penalty": 2.0,
+                            "worker_cost": 1.0, "scaling_penalty": 0.25},
+        "total_reward": sum(result["total_reward"] for result in results),
         "workloads": len(results),
         "arrived": total_arrived,
         "on_time": total_on_time,
@@ -172,18 +189,6 @@ def main():
         ),
     }
 
-    output = (
-        ROOT
-        / "results"
-        / "dqn_validation"
-        / f"{args.model.stem}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-    )
-
-    output.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
     with open(
         output / "comparison.csv",
         "w",
@@ -209,6 +214,7 @@ def main():
 
     print()
     print(f"DQN VALIDATION RESULTS - {args.model.stem}")
+    print(f"Total reward: {overall['total_reward']:.2f}")
     print(
         f"On-time: "
         f"{overall['on_time_percentage']:.2f}%"

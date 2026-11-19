@@ -45,7 +45,7 @@ def make_env(
     split: str = "train",
     on_time_reward: float = 1.0,
     failed_frame_penalty: float = 2.0,
-    worker_cost: float = 0.1,
+    worker_cost: float = 1.0,
     scaling_penalty: float = 0.25,
 ) -> InferenceScalingEnv:
     return InferenceScalingEnv(
