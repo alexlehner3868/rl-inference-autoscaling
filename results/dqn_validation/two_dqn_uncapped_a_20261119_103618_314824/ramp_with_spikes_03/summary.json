@@ -1,0 +1,902 @@
+{
+  "controller": "two_dqn_uncapped_a",
+  "workload": "ramp_with_spikes_03",
+  "total_reward": 6274.7000000016305,
+  "configuration": {
+    "camera_fps": 10.0,
+    "service_seconds": 0.07197132544888889,
+    "startup_seconds": 2.3057613082,
+    "deadline_seconds": 1.0,
+    "decision_seconds": 1.0,
+    "tick_seconds": 0.001,
+    "initial_workers": 1,
+    "min_serving_workers": 1,
+    "max_workers": null,
+    "queue_capacity_frames": 50
+  },
+  "duration_seconds": 300.0,
+  "effective_service_seconds": 0.07200000000000001,
+  "effective_startup_seconds": 2.306,
+  "arrived": 7910,
+  "on_time": 7910,
+  "late": 0,
+  "on_time_percentage": 100.0,
+  "dropped_deadline": 0,
+  "dropped_full": 0,
+  "dropped_percentage": 0.0,
+  "waiting": 0,
+  "processing": 0,
+  "unfinished_frames": 0,
+  "worker_seconds": 16052.999999984,
+  "max_queue_length": 0,
+  "completed_latency_seconds": {
+    "count": 7910,
+    "mean": 0.07200000000000002,
+    "p50": 0.07200000000000001,
+    "p95": 0.07200000000000001,
+    "p99": 0.07200000000000001,
+    "max": 0.07200000000000001
+  },
+  "per_camera": {
+    "0": {
+      "arrived": 280,
+      "on_time": 280,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "1": {
+      "arrived": 570,
+      "on_time": 570,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "2": {
+      "arrived": 10,
+      "on_time": 10,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "3": {
+      "arrived": 90,
+      "on_time": 90,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "4": {
+      "arrived": 10,
+      "on_time": 10,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "5": {
+      "arrived": 340,
+      "on_time": 340,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "6": {
+      "arrived": 290,
+      "on_time": 290,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "7": {
+      "arrived": 190,
+      "on_time": 190,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "8": {
+      "arrived": 410,
+      "on_time": 410,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "9": {
+      "arrived": 490,
+      "on_time": 490,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "10": {
+      "arrived": 20,
+      "on_time": 20,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "11": {
+      "arrived": 20,
+      "on_time": 20,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "12": {
+      "arrived": 20,
+      "on_time": 20,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "13": {
+      "arrived": 20,
+      "on_time": 20,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "14": {
+      "arrived": 640,
+      "on_time": 640,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "15": {
+      "arrived": 410,
+      "on_time": 410,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "16": {
+      "arrived": 410,
+      "on_time": 410,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "17": {
+      "arrived": 400,
+      "on_time": 400,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "18": {
+      "arrived": 30,
+      "on_time": 30,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "19": {
+      "arrived": 30,
+      "on_time": 30,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "20": {
+      "arrived": 30,
+      "on_time": 30,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "21": {
+      "arrived": 30,
+      "on_time": 30,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "22": {
+      "arrived": 70,
+      "on_time": 70,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "23": {
+      "arrived": 630,
+      "on_time": 630,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "24": {
+      "arrived": 40,
+      "on_time": 40,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "25": {
+      "arrived": 40,
+      "on_time": 40,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "26": {
+      "arrived": 40,
+      "on_time": 40,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "27": {
+      "arrived": 590,
+      "on_time": 590,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "28": {
+      "arrived": 350,
+      "on_time": 350,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "29": {
+      "arrived": 530,
+      "on_time": 530,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "30": {
+      "arrived": 70,
+      "on_time": 70,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "31": {
+      "arrived": 330,
+      "on_time": 330,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "32": {
+      "arrived": 220,
+      "on_time": 220,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "33": {
+      "arrived": 160,
+      "on_time": 160,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "34": {
+      "arrived": 90,
+      "on_time": 90,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    },
+    "35": {
+      "arrived": 10,
+      "on_time": 10,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "on_time_percentage": 100.0,
+      "waiting": 0,
+      "processing": 0
+    }
+  },
+  "action_counts": {
+    "add": 97,
+    "remove": 23,
+    "hold": 180,
+    "blocked": 0
+  },
+  "scaling_changes": 120,
+  "scaling_changes_per_minute": 24.0,
+  "capacity_timeline": [
+    {
+      "time_seconds": 0.0,
+      "capacity_fps": 13.888888888888888
+    },
+    {
+      "time_seconds": 8.306000000000001,
+      "capacity_fps": 27.777777777777775
+    },
+    {
+      "time_seconds": 9.306000000000001,
+      "capacity_fps": 41.666666666666664
+    },
+    {
+      "time_seconds": 10.306000000000001,
+      "capacity_fps": 55.55555555555555
+    },
+    {
+      "time_seconds": 11.306000000000001,
+      "capacity_fps": 69.44444444444444
+    },
+    {
+      "time_seconds": 12.306000000000001,
+      "capacity_fps": 83.33333333333333
+    },
+    {
+      "time_seconds": 13.306000000000001,
+      "capacity_fps": 97.22222222222221
+    },
+    {
+      "time_seconds": 14.306000000000001,
+      "capacity_fps": 111.1111111111111
+    },
+    {
+      "time_seconds": 15.306000000000001,
+      "capacity_fps": 124.99999999999999
+    },
+    {
+      "time_seconds": 16.306,
+      "capacity_fps": 138.88888888888889
+    },
+    {
+      "time_seconds": 17.306,
+      "capacity_fps": 152.77777777777777
+    },
+    {
+      "time_seconds": 18.306,
+      "capacity_fps": 166.66666666666666
+    },
+    {
+      "time_seconds": 19.306,
+      "capacity_fps": 180.55555555555554
+    },
+    {
+      "time_seconds": 20.306,
+      "capacity_fps": 194.44444444444443
+    },
+    {
+      "time_seconds": 21.306,
+      "capacity_fps": 208.33333333333331
+    },
+    {
+      "time_seconds": 22.306,
+      "capacity_fps": 222.2222222222222
+    },
+    {
+      "time_seconds": 23.306,
+      "capacity_fps": 236.1111111111111
+    },
+    {
+      "time_seconds": 24.306,
+      "capacity_fps": 249.99999999999997
+    },
+    {
+      "time_seconds": 25.306,
+      "capacity_fps": 263.88888888888886
+    },
+    {
+      "time_seconds": 26.306,
+      "capacity_fps": 277.77777777777777
+    },
+    {
+      "time_seconds": 27.306,
+      "capacity_fps": 291.66666666666663
+    },
+    {
+      "time_seconds": 28.306,
+      "capacity_fps": 305.55555555555554
+    },
+    {
+      "time_seconds": 29.306,
+      "capacity_fps": 319.4444444444444
+    },
+    {
+      "time_seconds": 30.306,
+      "capacity_fps": 333.3333333333333
+    },
+    {
+      "time_seconds": 31.306,
+      "capacity_fps": 347.2222222222222
+    },
+    {
+      "time_seconds": 32.306,
+      "capacity_fps": 361.1111111111111
+    },
+    {
+      "time_seconds": 33.306,
+      "capacity_fps": 374.99999999999994
+    },
+    {
+      "time_seconds": 34.306,
+      "capacity_fps": 388.88888888888886
+    },
+    {
+      "time_seconds": 35.306,
+      "capacity_fps": 402.7777777777777
+    },
+    {
+      "time_seconds": 36.306,
+      "capacity_fps": 416.66666666666663
+    },
+    {
+      "time_seconds": 37.306,
+      "capacity_fps": 430.5555555555555
+    },
+    {
+      "time_seconds": 38.306,
+      "capacity_fps": 444.4444444444444
+    },
+    {
+      "time_seconds": 39.306,
+      "capacity_fps": 458.33333333333326
+    },
+    {
+      "time_seconds": 40.306,
+      "capacity_fps": 472.2222222222222
+    },
+    {
+      "time_seconds": 41.306,
+      "capacity_fps": 486.11111111111103
+    },
+    {
+      "time_seconds": 42.306,
+      "capacity_fps": 499.99999999999994
+    },
+    {
+      "time_seconds": 43.306,
+      "capacity_fps": 513.8888888888888
+    },
+    {
+      "time_seconds": 44.306,
+      "capacity_fps": 527.7777777777777
+    },
+    {
+      "time_seconds": 45.306000000000004,
+      "capacity_fps": 541.6666666666666
+    },
+    {
+      "time_seconds": 46.306000000000004,
+      "capacity_fps": 555.5555555555555
+    },
+    {
+      "time_seconds": 47.306000000000004,
+      "capacity_fps": 569.4444444444443
+    },
+    {
+      "time_seconds": 48.306000000000004,
+      "capacity_fps": 583.3333333333333
+    },
+    {
+      "time_seconds": 49.306000000000004,
+      "capacity_fps": 597.2222222222222
+    },
+    {
+      "time_seconds": 50.306000000000004,
+      "capacity_fps": 611.1111111111111
+    },
+    {
+      "time_seconds": 51.306000000000004,
+      "capacity_fps": 624.9999999999999
+    },
+    {
+      "time_seconds": 52.306000000000004,
+      "capacity_fps": 638.8888888888888
+    },
+    {
+      "time_seconds": 53.306000000000004,
+      "capacity_fps": 652.7777777777777
+    },
+    {
+      "time_seconds": 54.306000000000004,
+      "capacity_fps": 666.6666666666666
+    },
+    {
+      "time_seconds": 55.306000000000004,
+      "capacity_fps": 680.5555555555554
+    },
+    {
+      "time_seconds": 56.0,
+      "capacity_fps": 666.6666666666666
+    },
+    {
+      "time_seconds": 56.306000000000004,
+      "capacity_fps": 680.5555555555554
+    },
+    {
+      "time_seconds": 57.306000000000004,
+      "capacity_fps": 694.4444444444443
+    },
+    {
+      "time_seconds": 83.306,
+      "capacity_fps": 708.3333333333333
+    },
+    {
+      "time_seconds": 84.306,
+      "capacity_fps": 722.2222222222222
+    },
+    {
+      "time_seconds": 85.306,
+      "capacity_fps": 736.111111111111
+    },
+    {
+      "time_seconds": 86.306,
+      "capacity_fps": 749.9999999999999
+    },
+    {
+      "time_seconds": 87.306,
+      "capacity_fps": 763.8888888888888
+    },
+    {
+      "time_seconds": 92.306,
+      "capacity_fps": 777.7777777777777
+    },
+    {
+      "time_seconds": 93.306,
+      "capacity_fps": 791.6666666666666
+    },
+    {
+      "time_seconds": 114.0,
+      "capacity_fps": 777.7777777777777
+    },
+    {
+      "time_seconds": 115.0,
+      "capacity_fps": 763.8888888888888
+    },
+    {
+      "time_seconds": 116.0,
+      "capacity_fps": 749.9999999999999
+    },
+    {
+      "time_seconds": 117.0,
+      "capacity_fps": 736.111111111111
+    },
+    {
+      "time_seconds": 118.0,
+      "capacity_fps": 722.2222222222222
+    },
+    {
+      "time_seconds": 119.0,
+      "capacity_fps": 708.3333333333333
+    },
+    {
+      "time_seconds": 120.0,
+      "capacity_fps": 694.4444444444443
+    },
+    {
+      "time_seconds": 121.0,
+      "capacity_fps": 680.5555555555554
+    },
+    {
+      "time_seconds": 122.0,
+      "capacity_fps": 666.6666666666666
+    },
+    {
+      "time_seconds": 123.0,
+      "capacity_fps": 652.7777777777777
+    },
+    {
+      "time_seconds": 126.306,
+      "capacity_fps": 666.6666666666666
+    },
+    {
+      "time_seconds": 127.306,
+      "capacity_fps": 680.5555555555554
+    },
+    {
+      "time_seconds": 128.306,
+      "capacity_fps": 694.4444444444443
+    },
+    {
+      "time_seconds": 129.306,
+      "capacity_fps": 708.3333333333333
+    },
+    {
+      "time_seconds": 130.306,
+      "capacity_fps": 722.2222222222222
+    },
+    {
+      "time_seconds": 131.306,
+      "capacity_fps": 736.111111111111
+    },
+    {
+      "time_seconds": 132.306,
+      "capacity_fps": 749.9999999999999
+    },
+    {
+      "time_seconds": 133.306,
+      "capacity_fps": 763.8888888888888
+    },
+    {
+      "time_seconds": 134.306,
+      "capacity_fps": 777.7777777777777
+    },
+    {
+      "time_seconds": 135.306,
+      "capacity_fps": 791.6666666666666
+    },
+    {
+      "time_seconds": 136.0,
+      "capacity_fps": 777.7777777777777
+    },
+    {
+      "time_seconds": 136.306,
+      "capacity_fps": 791.6666666666666
+    },
+    {
+      "time_seconds": 137.0,
+      "capacity_fps": 777.7777777777777
+    },
+    {
+      "time_seconds": 138.0,
+      "capacity_fps": 763.8888888888888
+    },
+    {
+      "time_seconds": 139.0,
+      "capacity_fps": 749.9999999999999
+    },
+    {
+      "time_seconds": 140.0,
+      "capacity_fps": 736.111111111111
+    },
+    {
+      "time_seconds": 141.0,
+      "capacity_fps": 722.2222222222222
+    },
+    {
+      "time_seconds": 142.0,
+      "capacity_fps": 708.3333333333333
+    },
+    {
+      "time_seconds": 143.0,
+      "capacity_fps": 694.4444444444443
+    },
+    {
+      "time_seconds": 165.306,
+      "capacity_fps": 708.3333333333333
+    },
+    {
+      "time_seconds": 166.306,
+      "capacity_fps": 722.2222222222222
+    },
+    {
+      "time_seconds": 167.306,
+      "capacity_fps": 736.111111111111
+    },
+    {
+      "time_seconds": 168.306,
+      "capacity_fps": 749.9999999999999
+    },
+    {
+      "time_seconds": 169.306,
+      "capacity_fps": 763.8888888888888
+    },
+    {
+      "time_seconds": 170.306,
+      "capacity_fps": 777.7777777777777
+    },
+    {
+      "time_seconds": 171.306,
+      "capacity_fps": 791.6666666666666
+    },
+    {
+      "time_seconds": 172.306,
+      "capacity_fps": 805.5555555555554
+    },
+    {
+      "time_seconds": 173.306,
+      "capacity_fps": 819.4444444444443
+    },
+    {
+      "time_seconds": 177.306,
+      "capacity_fps": 833.3333333333333
+    },
+    {
+      "time_seconds": 178.306,
+      "capacity_fps": 847.2222222222222
+    },
+    {
+      "time_seconds": 179.306,
+      "capacity_fps": 861.111111111111
+    },
+    {
+      "time_seconds": 180.306,
+      "capacity_fps": 874.9999999999999
+    },
+    {
+      "time_seconds": 213.0,
+      "capacity_fps": 861.111111111111
+    },
+    {
+      "time_seconds": 214.0,
+      "capacity_fps": 847.2222222222222
+    },
+    {
+      "time_seconds": 215.0,
+      "capacity_fps": 833.3333333333333
+    },
+    {
+      "time_seconds": 218.306,
+      "capacity_fps": 847.2222222222222
+    },
+    {
+      "time_seconds": 219.306,
+      "capacity_fps": 861.111111111111
+    },
+    {
+      "time_seconds": 220.306,
+      "capacity_fps": 874.9999999999999
+    },
+    {
+      "time_seconds": 221.306,
+      "capacity_fps": 888.8888888888888
+    },
+    {
+      "time_seconds": 257.306,
+      "capacity_fps": 902.7777777777777
+    },
+    {
+      "time_seconds": 258.306,
+      "capacity_fps": 916.6666666666665
+    },
+    {
+      "time_seconds": 259.306,
+      "capacity_fps": 930.5555555555554
+    },
+    {
+      "time_seconds": 260.306,
+      "capacity_fps": 944.4444444444443
+    },
+    {
+      "time_seconds": 261.306,
+      "capacity_fps": 958.3333333333333
+    },
+    {
+      "time_seconds": 262.306,
+      "capacity_fps": 972.2222222222221
+    },
+    {
+      "time_seconds": 263.306,
+      "capacity_fps": 986.111111111111
+    },
+    {
+      "time_seconds": 264.306,
+      "capacity_fps": 999.9999999999999
+    },
+    {
+      "time_seconds": 265.306,
+      "capacity_fps": 1013.8888888888888
+    },
+    {
+      "time_seconds": 266.306,
+      "capacity_fps": 1027.7777777777776
+    },
+    {
+      "time_seconds": 267.306,
+      "capacity_fps": 1041.6666666666665
+    },
+    {
+      "time_seconds": 268.306,
+      "capacity_fps": 1055.5555555555554
+    },
+    {
+      "time_seconds": 299.0,
+      "capacity_fps": 1041.6666666666665
+    }
+  ],
+  "notes": [
+    "On-time percentage uses all arrived frames, including drops and unfinished work.",
+    "Latency statistics include completed frames only. No drain period is added.",
+    "Capacity uses ready, non-retiring workers and the tick-rounded service time.",
+    "Starting workers consume worker-seconds but provide no serving capacity."
+  ]
+}

@@ -8,15 +8,14 @@ from pathlib import Path
 import numpy as np
 
 if __package__:
-    from .Simulator_queue import Simulator, SimulatorConfig
+    from .Simulator_queue import Simulator, SimulatorConfig, calculate_reward
 else:
-    from Simulator_queue import Simulator, SimulatorConfig
+    from Simulator_queue import Simulator, SimulatorConfig, calculate_reward
 
 
 # Controller settings
 WINDOW = 10 # Number of observations to calculate demand based on (Tuned Parameter)
 SCALE_DOWN_STEPS = 5 # Require 3 demand decrease observations before removing a worker (Tuned Paramter)
-MAX_WORKERS = 4 # Max workers allowed 
 INITIAL_WORKERS = 1 # Start with 1 worker 
 DEADLINE_SECONDS = 1.0
 QUEUE_SIZE = 50 # Matches fixed baseline 
@@ -51,14 +50,14 @@ class PredictiveController:
         capacity = 1 / (sim.service_ticks * sim.config.tick_seconds)
 
         # Get target number of workers
-        self.target = max(sim.min_serving_workers, min(sim.max_workers, math.ceil(self.forecast / capacity - 1e-9)))
+        self.target = max(sim.min_serving_workers, math.ceil(self.forecast / capacity - 1e-9))
 
         # Look at the num workers available or soon to be available 
         ready = sum(w["ready_at"] <= sim.tick and not w["retiring"] for w in sim.workers)
         starting = sum(w["ready_at"] > sim.tick and not w["retiring"] for w in sim.workers)
 
         # Determine action to take 
-        if self.target > ready + starting and len(sim.workers) < sim.max_workers: 
+        if self.target > ready + starting:
             # Add if target exceeds capacity and we have available worker 
             self.low_steps = 0
             return "add"
@@ -88,7 +87,7 @@ def run_workload(file, output, calibration, *, window=WINDOW, scale_down_steps=S
         service_seconds=calibration["service_time_mean_seconds"],
         startup_seconds=calibration["startup_mean_seconds"],
         deadline_seconds=DEADLINE_SECONDS, queue_capacity_frames=QUEUE_SIZE,
-        initial_workers=INITIAL_WORKERS, max_workers=MAX_WORKERS,
+        initial_workers=INITIAL_WORKERS,
     )
 
     # Init sim and controller
@@ -115,7 +114,6 @@ def run_workload(file, output, calibration, *, window=WINDOW, scale_down_steps=S
     # Save results
     if output is not None:
         sim.save_results(output / file.stem, controller="predictive", workload=file.stem)
-    max_capacity = MAX_WORKERS / (sim.service_ticks * config.tick_seconds)
     result = {
         "workload": file.stem, "pattern": workload["pattern"], "load_level": workload["load_level"],
         "duration_seconds": final["time_seconds"], "arrived": sim.arrived,
@@ -129,7 +127,10 @@ def run_workload(file, output, calibration, *, window=WINDOW, scale_down_steps=S
         "max_queue_length": sim.max_queue_length,
         "scaling_changes": sim.action_counts["add"] + sim.action_counts["remove"],
         "blocked_actions": sim.action_counts["blocked"],
-        "overload_seconds": sum(row["demand_fps"] > max_capacity for row in sim.history) * decision,
+        "overload_seconds": 0.0,
+        "total_reward": calculate_reward(
+            sim.on_time, sim.late + sim.dropped_deadline + sim.dropped_full,
+            sim.worker_seconds, sim.action_counts["add"] + sim.action_counts["remove"]),
     }
     if output is not None:
         result["result_dir"] = file.stem
@@ -154,6 +155,7 @@ def report_results(output, results, latencies):
         duration = sum(row["duration_seconds"] for row in rows)
         overall.append({
             "group": group, "workloads": len(rows), "arrived": arrived,
+            "total_reward": sum(row["total_reward"] for row in rows),
             "on_time_percentage": 100 * sum(row["on_time"] for row in rows) / arrived if arrived else None,
             "mean_workload_on_time_percentage": float(np.mean([row["on_time_percentage"] for row in rows if row["on_time_percentage"] is not None])),
             "worker_seconds": worker_seconds, "average_workers": worker_seconds / duration,

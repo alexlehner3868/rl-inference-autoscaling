@@ -10,7 +10,6 @@ splits = ['train', 'validation']
 add_thresholds = [3, 5]
 remove_thresholds = [0]
 scale_down_patiences = 1
-max_workers = 4
 queue_size = 50
 deadline = 1.0
   # Wait for 3 consecutive low-queue decisions
@@ -45,7 +44,6 @@ for add_threshold in add_thresholds:
                     deadline_seconds=deadline,
                     decision_seconds=workload['decision_seconds'],
                     initial_workers=1,
-                    max_workers=max_workers,
                     queue_capacity_frames=queue_size)
                 sim = Simulator(config)
                 time = 0
@@ -62,7 +60,7 @@ for add_threshold in add_thresholds:
                         action = 'hold'
 
                         # Add a worker if the queue is too large.
-                        if waiting >= add_threshold and workers < max_workers:
+                        if waiting >= add_threshold:
                             action = 'add'
                             low_queue_steps = 0
 

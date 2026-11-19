@@ -10,7 +10,6 @@ splits = ['train', 'validation']
 add_thresholds = [3, 5, 10]
 remove_thresholds = [0, 2]
 scale_down_patiences = [5, 10, 15, 20]
-max_workers = 4
 queue_size = 50
 deadline = 1.0
 
@@ -160,7 +159,6 @@ else:
                             deadline_seconds=deadline,
                             decision_seconds=workload['decision_seconds'],
                             initial_workers=1,
-                            max_workers=max_workers,
                             queue_capacity_frames=queue_size)
                         sim = Simulator(config)
                         time = 0
@@ -176,7 +174,7 @@ else:
                                 workers = len(sim.workers)
                                 action = 'hold'
 
-                                if waiting >= add_threshold and workers < max_workers:
+                                if waiting >= add_threshold:
                                     action = 'add'
                                     low_queue_steps = 0
 

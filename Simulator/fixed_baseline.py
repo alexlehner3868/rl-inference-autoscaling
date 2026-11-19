@@ -40,7 +40,6 @@ for split in splits:
                 deadline_seconds=deadline,
                 decision_seconds=workload['decision_seconds'],
                 initial_workers=workers,
-                max_workers=workers,
                 queue_capacity_frames=queue_size
             )
             sim = Simulator(config)
@@ -92,6 +91,7 @@ for split in splits:
                 'unfinished_frames': summary['unfinished_frames'],
                 'on_time_percentage': summary['on_time_percentage'],
                 'worker_seconds': summary['worker_seconds'],
+                'total_reward': summary['total_reward'],
                 'p95_latency_seconds': summary['completed_latency_seconds']['p95'],
                 'max_queue_length': summary['max_queue_length'],
                 'scaling_changes': summary['scaling_changes'],

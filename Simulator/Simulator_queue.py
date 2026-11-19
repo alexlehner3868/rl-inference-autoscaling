@@ -1,9 +1,19 @@
+from __future__ import annotations
+
 from collections import deque
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from pathlib import Path
 import csv
 import json
+
+
+def calculate_reward(on_time, failed, worker_seconds, scaling_changes, *,
+                     on_time_reward=1.0, failed_frame_penalty=2.0,
+                     worker_cost=1.0, scaling_penalty=0.25):
+    """Score a decision interval or a whole run using the same reward weights."""
+    return (on_time_reward * on_time - failed_frame_penalty * failed
+            - worker_cost * worker_seconds - scaling_penalty * scaling_changes)
 
 
 @dataclass(frozen=True)
@@ -18,7 +28,7 @@ class SimulatorConfig:
 
     initial_workers: int = 1
     min_serving_workers: int = 1
-    max_workers: int = 4                # Temporary
+    max_workers: int | None = None     # None allows unlimited workers
     queue_capacity_frames: int = 50    # Temporary
 
 
@@ -28,8 +38,11 @@ class Simulator:
         self.config = config or SimulatorConfig()
 
 
-        if not (1 <= self.config.min_serving_workers <= self.config.initial_workers <= self.config.max_workers):
+        if not (1 <= self.config.min_serving_workers <= self.config.initial_workers):
             raise ValueError("Invalid worker limits")
+
+        if self.config.max_workers is not None and self.config.initial_workers > self.config.max_workers:
+            raise ValueError("Initial workers exceed worker limit")
 
         if min(
             self.config.camera_fps,
@@ -85,7 +98,7 @@ class Simulator:
 
         if action == "add":
             # Starting and retiring workers still occupy allocations.
-            if len(self.workers) >= self.max_workers:
+            if self.max_workers is not None and len(self.workers) >= self.max_workers:
                 return False
             self.workers.append(self._new_worker(self.tick + self.startup_ticks))
             return True
@@ -262,6 +275,9 @@ class Simulator:
         scaling_changes = self.action_counts["add"] + self.action_counts["remove"]
         summary = {
             "controller": controller, "workload": workload,
+            "total_reward": sum(row["reward"] for row in self.history) if "reward" in final else calculate_reward(
+                self.on_time, self.late + self.dropped_deadline + self.dropped_full,
+                self.worker_seconds, scaling_changes),
             "configuration": asdict(self.config), "duration_seconds": final["time_seconds"],
             "effective_service_seconds": self.service_ticks * self.config.tick_seconds,
             "effective_startup_seconds": self.startup_ticks * self.config.tick_seconds,
@@ -313,7 +329,6 @@ if __name__ == "__main__":
     config = SimulatorConfig(
         deadline_seconds=5.0,
         decision_seconds=2.0,
-        max_workers=6,
         queue_capacity_frames=100,
     )
     sim = Simulator(config)

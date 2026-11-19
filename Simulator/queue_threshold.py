@@ -8,7 +8,6 @@ from Simulator_queue import Simulator, SimulatorConfig
 splits = ['train', 'validation']
 add_threshold = 5       # Add a worker if 5 or more frames are waiting
 remove_threshold = 1    # Consider removing a worker if 1 or fewer are waiting
-max_workers = 4
 queue_size = 50
 deadline = 1.0
 
@@ -38,7 +37,6 @@ for split in splits:
             deadline_seconds=deadline,
             decision_seconds=workload['decision_seconds'],
             initial_workers=1,
-            max_workers=max_workers,
             queue_capacity_frames=queue_size)
         sim = Simulator(config)
         time = 0
@@ -53,7 +51,7 @@ for split in splits:
                 workers = len(sim.workers)
                 action = 'hold'
                 # When the queue builds up, start an extra worker.
-                if waiting >= add_threshold and workers < max_workers:
+                if waiting >= add_threshold:
                     action = 'add'
                 # Remove a worker only if the remaining workers can handle the currently active cameras without building a new queue.
                 elif waiting <= remove_threshold and workers > 1:
@@ -103,6 +101,7 @@ for split in splits:
             'unfinished_frames': summary['unfinished_frames'],
             'on_time_percentage': summary['on_time_percentage'],
             'worker_seconds': summary['worker_seconds'],
+            'total_reward': summary['total_reward'],
             'p95_latency_seconds': summary['completed_latency_seconds']['p95'],
             'max_queue_length': summary['max_queue_length'],
             'scaling_changes': summary['scaling_changes'],
