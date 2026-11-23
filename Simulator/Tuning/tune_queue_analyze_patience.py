@@ -174,7 +174,7 @@ else:
                                 workers = len(sim.workers)
                                 action = 'hold'
 
-                                if waiting >= add_threshold:
+                                if waiting >= add_threshold and workers < sim.max_workers:
                                     action = 'add'
                                     low_queue_steps = 0
 

@@ -27,7 +27,7 @@ class InferenceScalingEnv(gym.Env):
         workloads: list[dict[str, Any]],
         calibration: dict[str, Any],
         initial_workers: int = 1,
-        max_workers: int | None = None,
+        max_workers: int | None = SimulatorConfig.max_workers,
         deadline_seconds: float = 1.0,
         queue_capacity_frames: int = 50,
         on_time_reward: float = 1.0,

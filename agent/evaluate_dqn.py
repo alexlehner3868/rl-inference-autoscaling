@@ -6,6 +6,7 @@ from pathlib import Path
 
 import numpy as np
 from stable_baselines3 import DQN
+from Simulator.Simulator_queue import SimulatorConfig
 
 from agent.dqn_env import InferenceScalingEnv
 from agent.train_dqn import load_calibration, load_workloads
@@ -142,7 +143,7 @@ def main():
 
     overall = {
         "model": args.model.name,
-        "max_workers": None,
+        "max_workers": SimulatorConfig.max_workers,
         "reward_settings": {"on_time_reward": 1.0, "failed_frame_penalty": 2.0,
                             "worker_cost": 1.0, "scaling_penalty": 0.25},
         "total_reward": sum(result["total_reward"] for result in results),

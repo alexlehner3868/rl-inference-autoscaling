@@ -28,7 +28,7 @@ class SimulatorConfig:
 
     initial_workers: int = 1
     min_serving_workers: int = 1
-    max_workers: int | None = None     # None allows unlimited workers
+    max_workers: int | None = 10
     queue_capacity_frames: int = 50    # Temporary
 
 

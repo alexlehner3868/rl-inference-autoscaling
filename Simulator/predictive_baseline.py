@@ -50,14 +50,14 @@ class PredictiveController:
         capacity = 1 / (sim.service_ticks * sim.config.tick_seconds)
 
         # Get target number of workers
-        self.target = max(sim.min_serving_workers, math.ceil(self.forecast / capacity - 1e-9))
+        self.target = max(sim.min_serving_workers, min(sim.max_workers, math.ceil(self.forecast / capacity - 1e-9)))
 
         # Look at the num workers available or soon to be available 
         ready = sum(w["ready_at"] <= sim.tick and not w["retiring"] for w in sim.workers)
         starting = sum(w["ready_at"] > sim.tick and not w["retiring"] for w in sim.workers)
 
         # Determine action to take 
-        if self.target > ready + starting:
+        if self.target > ready + starting and len(sim.workers) < sim.max_workers:
             # Add if target exceeds capacity and we have available worker 
             self.low_steps = 0
             return "add"
@@ -127,7 +127,9 @@ def run_workload(file, output, calibration, *, window=WINDOW, scale_down_steps=S
         "max_queue_length": sim.max_queue_length,
         "scaling_changes": sim.action_counts["add"] + sim.action_counts["remove"],
         "blocked_actions": sim.action_counts["blocked"],
-        "overload_seconds": 0.0,
+        "overload_seconds": sum(
+            row["demand_fps"] > sim.max_workers / (sim.service_ticks * config.tick_seconds)
+            for row in sim.history) * decision,
         "total_reward": calculate_reward(
             sim.on_time, sim.late + sim.dropped_deadline + sim.dropped_full,
             sim.worker_seconds, sim.action_counts["add"] + sim.action_counts["remove"]),

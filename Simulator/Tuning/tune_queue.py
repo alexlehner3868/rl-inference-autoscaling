@@ -60,7 +60,7 @@ for add_threshold in add_thresholds:
                         action = 'hold'
 
                         # Add a worker if the queue is too large.
-                        if waiting >= add_threshold:
+                        if waiting >= add_threshold and workers < sim.max_workers:
                             action = 'add'
                             low_queue_steps = 0
 

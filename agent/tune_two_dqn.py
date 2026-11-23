@@ -13,7 +13,7 @@ import torch
 from stable_baselines3 import DQN
 
 from Simulator.predictive_baseline import write_csv
-from Simulator.Simulator_queue import calculate_reward
+from Simulator.Simulator_queue import SimulatorConfig, calculate_reward
 from agent.evaluate_dqn import evaluate_workload
 from agent.train_dqn import ROOT, load_calibration, load_workloads
 from agent.train_two_dqn import train_two_dqn
@@ -120,7 +120,7 @@ def main():
         "worker_costs": WORKER_COSTS, "steps_per_network": STEPS_PER_NETWORK, "seeds": SEEDS,
         "evaluation_reward": {"on_time_reward": 1.0, "failed_frame_penalty": 2.0,
                               "worker_cost": 1.0, "scaling_penalty": 0.25},
-        "training_split": "train", "evaluation_split": "validation", "max_workers": None,
+        "training_split": "train", "evaluation_split": "validation", "max_workers": SimulatorConfig.max_workers,
     }, indent=2) + "\n")
     tasks = [(output, steps, cost, seed) for steps, cost, seed in product(STEPS_PER_NETWORK, WORKER_COSTS, SEEDS)]
     summary, per_workload = [], []

@@ -51,7 +51,7 @@ for split in splits:
                 workers = len(sim.workers)
                 action = 'hold'
                 # When the queue builds up, start an extra worker.
-                if waiting >= add_threshold:
+                if waiting >= add_threshold and workers < sim.max_workers:
                     action = 'add'
                 # Remove a worker only if the remaining workers can handle the currently active cameras without building a new queue.
                 elif waiting <= remove_threshold and workers > 1:
