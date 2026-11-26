@@ -15,7 +15,7 @@ root = Path(__file__).resolve().parent.parent
 model_file = root / 'yolo11n.pt'
 
 
-@serve.deployment(name='YOLOWorker', num_replicas=1, ray_actor_options={'num_cpus': 1}, max_ongoing_requests=1, max_queued_requests=50)
+@serve.deployment(name='YOLOWorker', num_replicas=1, ray_actor_options={'num_cpus': 0.5}, max_ongoing_requests=1, max_queued_requests=50)
 class YOLOWorker:
     def __init__(self):
         if not model_file.exists():
