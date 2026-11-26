@@ -1,0 +1,8 @@
+applications:
+  - name: camera-app
+    import_path: Rayserve.serve_yolo:app
+    route_prefix: /
+    external_scaler_enabled: true
+    deployments:
+      - name: YOLOWorker
+        num_replicas: 1

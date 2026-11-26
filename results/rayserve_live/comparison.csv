@@ -1,0 +1,3 @@
+controller,workload,duration_seconds,on_time_percentage,average_workers,p95_latency_seconds,scaling_changes,drops
+fixed,flash_crowds_01,30.0,100.0,4.0,0.6345209999999999,0,0
+queue,flash_crowds_01,30.0,75.41666666666667,2.7494793202010137,1.053367,3,68

@@ -1,0 +1,7 @@
+-r requirements-simulator.txt
+-r requirements-rl.txt
+-r requirements-profiling.txt
+
+ray[serve]
+requests
+starlette
