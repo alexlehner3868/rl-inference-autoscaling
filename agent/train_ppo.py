@@ -32,7 +32,8 @@ def train_ppo(timesteps=30000, seed=0, output=default_output):
     output.parent.mkdir(parents=True, exist_ok=True)
     model.save(str(output))
     env.close()
-    print('Model saved:', str(output) + '.zip')
+    saved_path = str(output) if str(output).endswith('.zip') else str(output) + '.zip'
+    print('Model saved:', saved_path)
     return model
 # Test the trained PPO model on every validation workload
 def validate_ppo(model):

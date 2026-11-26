@@ -1,0 +1,18 @@
+{
+  "method": "vanilla",
+  "seed": 4,
+  "model_path": "results/shared_objective/run_20261126_112432_666216/models/vanilla_seed4.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 155266,
+  "on_time_percentage": 88.39510389980074,
+  "total_reward": 93065.71400002592,
+  "worker_seconds": 20891.28599997409,
+  "average_workers": 3.4818809999956817,
+  "peak_workers": 10,
+  "late": 6424,
+  "dropped_frames": 13901,
+  "unfinished_frames": 59,
+  "scaling_changes": 2636,
+  "p95_latency_seconds": 0.988
+}

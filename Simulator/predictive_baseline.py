@@ -14,8 +14,8 @@ else:
 
 
 # Controller settings
-WINDOW = 10 # Number of observations to calculate demand based on (Tuned Parameter)
-SCALE_DOWN_STEPS = 5 # Require 3 demand decrease observations before removing a worker (Tuned Paramter)
+WINDOW = 5 # Selected by validation reward with a 10-worker limit.
+SCALE_DOWN_STEPS = 5 # Consecutive qualifying decisions before removing a worker.
 INITIAL_WORKERS = 1 # Start with 1 worker 
 DEADLINE_SECONDS = 1.0
 QUEUE_SIZE = 50 # Matches fixed baseline 

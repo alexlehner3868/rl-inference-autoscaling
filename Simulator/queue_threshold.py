@@ -2,12 +2,18 @@ import json
 import csv
 from pathlib import Path
 from datetime import datetime
-from Simulator_queue import Simulator, SimulatorConfig
+if __package__:
+    from .Simulator_queue import Simulator, SimulatorConfig
+    from .baseline_controllers import QueueThresholdController
+else:
+    from Simulator_queue import Simulator, SimulatorConfig
+    from baseline_controllers import QueueThresholdController
 
 # Settings (change these when experimenting)
 splits = ['train', 'validation']
-add_threshold = 5       # Add a worker if 5 or more frames are waiting
+add_threshold = 3       # Selected by shared validation reward
 remove_threshold = 1    # Consider removing a worker if 1 or fewer are waiting
+scale_down_steps = 10   # Consecutive low-queue decisions before removing a worker
 queue_size = 50
 deadline = 1.0
 
@@ -39,6 +45,7 @@ for split in splits:
             initial_workers=1,
             queue_capacity_frames=queue_size)
         sim = Simulator(config)
+        controller = QueueThresholdController(add_threshold, remove_threshold, scale_down_steps)
         time = 0
 
         for interval in workload['intervals']:
@@ -47,23 +54,7 @@ for split in splits:
 
             while time < interval['end_seconds'] - 0.000001:
                 cameras = interval['camera_ids']
-                waiting = len(sim.queue)
-                workers = len(sim.workers)
-                action = 'hold'
-                # When the queue builds up, start an extra worker.
-                if waiting >= add_threshold and workers < sim.max_workers:
-                    action = 'add'
-                # Remove a worker only if the remaining workers can handle the currently active cameras without building a new queue.
-                elif waiting <= remove_threshold and workers > 1:
-                    all_ready = True
-                    for worker in sim.workers:
-                        if worker['ready_at'] > sim.tick or worker['retiring']:
-                            all_ready = False
-
-                    demand_fps = len(cameras) * config.camera_fps
-                    capacity_after_remove = (workers - 1) / config.service_seconds
-                    if all_ready and demand_fps <= capacity_after_remove:
-                        action = 'remove'
+                action = controller.choose_action(sim, cameras)
 
                 sim.step(action,cameras)
                 time = round(time + config.decision_seconds, 9)

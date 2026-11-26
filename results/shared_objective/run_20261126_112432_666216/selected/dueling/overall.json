@@ -1,0 +1,15 @@
+{
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 160259,
+  "on_time_percentage": 91.23768858525477,
+  "total_reward": 107218.93600002886,
+  "worker_seconds": 21730.56399997112,
+  "average_workers": 3.6217606666618534,
+  "peak_workers": 10,
+  "late": 5301,
+  "dropped_frames": 10072,
+  "unfinished_frames": 18,
+  "scaling_changes": 2254,
+  "p95_latency_seconds": 0.974
+}

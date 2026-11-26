@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import math
+import sys
 import time
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor
@@ -18,12 +19,15 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 root = Path(__file__).resolve().parent.parent
+if str(root) not in sys.path:
+    sys.path.insert(0, str(root))
+from Simulator.Simulator_queue import SimulatorConfig, calculate_reward
 
 # Settings 
 add_threshold = 3
-remove_threshold = 0
-scale_down_patience = 20
-max_workers = 4
+remove_threshold = 1
+scale_down_patience = 10
+max_workers = SimulatorConfig.max_workers
 queue_size = 50
 deadline = 1.0
 
@@ -369,6 +373,9 @@ def run_experiment(args, workload, images, model=None):
         'frame_deadline_seconds': args.deadline, 'queue_capacity_frames': args.queue_size,
         'max_workers': args.max_workers, 'initial_replicas': initial_workers,
         'video': str(args.video), 'cached_video_frames': len(images)}
+    summary['total_reward'] = calculate_reward(
+        counts['on_time'], counts['late'] + counts['dropped_full'] + counts['dropped_deadline'] + counts['failed'],
+        worker_seconds, summary['scaling_changes'])
     return summary, records, history, scaling
 
 
@@ -378,7 +385,7 @@ def main():
     parser.add_argument('--workload', type=Path, default=workload_file)
     parser.add_argument('--video', type=Path, default=video_file)
     parser.add_argument('--duration', type=float, default=30)
-    parser.add_argument('--workers', type=int, default=4)
+    parser.add_argument('--workers', type=int, default=7)
     parser.add_argument('--max-workers', type=int, default=max_workers)
     parser.add_argument('--add-threshold', type=int, default=add_threshold)
     parser.add_argument('--remove-threshold', type=int, default=remove_threshold)
@@ -429,6 +436,7 @@ def main():
     print('On-time:', round(summary['on_time_percentage'], 2), '%')
     print('On-time frames:', summary['on_time'], '/', summary['arrived'])
     print('Average workers:', round(summary['average_workers'], 2))
+    print('Total reward:', round(summary['total_reward'], 2))
     print('Dropped (full/deadline):', summary['dropped_full'], '/', summary['dropped_deadline'])
     print('Scaling changes:', summary['scaling_changes'])
     print('Results saved in:', folder)

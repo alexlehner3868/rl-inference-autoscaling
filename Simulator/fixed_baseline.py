@@ -2,11 +2,14 @@ import json
 import csv
 from pathlib import Path
 from datetime import datetime
-from Simulator_queue import Simulator, SimulatorConfig
+if __package__:
+    from .Simulator_queue import Simulator, SimulatorConfig
+else:
+    from Simulator_queue import Simulator, SimulatorConfig
 
 # Settings - change these if needed
 splits = ['train', 'validation']
-worker_counts = [1, 2, 3, 4]
+worker_counts = [7]  # Selected by validation reward; retrain_all.py sweeps 1–10.
 deadline = 1.0
 queue_size = 50
 

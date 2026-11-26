@@ -1,0 +1,18 @@
+{
+  "method": "dueling_nstep",
+  "seed": 4,
+  "model_path": "results/shared_objective/run_20261126_112432_666216/models/dueling_nstep_seed4.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 166958,
+  "on_time_percentage": 95.05152291488756,
+  "total_reward": 119934.6179999944,
+  "worker_seconds": 28782.38200000557,
+  "average_workers": 4.797063666667595,
+  "peak_workers": 10,
+  "late": 3011,
+  "dropped_frames": 5652,
+  "unfinished_frames": 29,
+  "scaling_changes": 3660,
+  "p95_latency_seconds": 0.8200000000000001
+}

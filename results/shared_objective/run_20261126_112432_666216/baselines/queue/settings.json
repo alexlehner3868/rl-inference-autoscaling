@@ -1,0 +1,6 @@
+{
+  "method": "queue",
+  "add_threshold": 3,
+  "remove_threshold": 1,
+  "scale_down_steps": 10
+}

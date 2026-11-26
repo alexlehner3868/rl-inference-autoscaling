@@ -1,0 +1,18 @@
+{
+  "method": "ppo",
+  "seed": 2,
+  "model_path": "results/shared_objective/run_20261126_112432_666216/models/ppo_seed2.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 174671,
+  "on_time_percentage": 99.44264161685169,
+  "total_reward": 113387.99999963444,
+  "worker_seconds": 59280.00000036558,
+  "average_workers": 9.88000000006093,
+  "peak_workers": 10,
+  "late": 315,
+  "dropped_frames": 664,
+  "unfinished_frames": 0,
+  "scaling_changes": 180,
+  "p95_latency_seconds": 0.07200000000000001
+}

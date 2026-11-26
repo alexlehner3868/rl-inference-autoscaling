@@ -1,0 +1,18 @@
+{
+  "method": "two_dqn",
+  "seed": 4,
+  "model_path": "results/shared_objective/run_20261126_112432_666216/models/two_dqn_seed4.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 156366,
+  "on_time_percentage": 89.02134927412467,
+  "total_reward": 94448.492000027,
+  "worker_seconds": 22971.25799997302,
+  "average_workers": 3.828542999995503,
+  "peak_workers": 10,
+  "late": 6254,
+  "dropped_frames": 12983,
+  "unfinished_frames": 47,
+  "scaling_changes": 1889,
+  "p95_latency_seconds": 0.984
+}

@@ -114,7 +114,7 @@ def train_variant(
     )
 
     print(
-        f"Model: {output}.zip"
+        f"Model: {output if output.suffix == '.zip' else str(output) + '.zip'}"
     )
 
     print(

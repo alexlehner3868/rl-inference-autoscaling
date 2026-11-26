@@ -1,0 +1,18 @@
+{
+  "method": "dueling",
+  "seed": 4,
+  "model_path": "results/shared_objective/run_20261126_112432_666216/models/dueling_seed4.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 155677,
+  "on_time_percentage": 88.62909194420723,
+  "total_reward": 94651.15400003776,
+  "worker_seconds": 20664.095999962206,
+  "average_workers": 3.444015999993701,
+  "peak_workers": 10,
+  "late": 6238,
+  "dropped_frames": 13665,
+  "unfinished_frames": 70,
+  "scaling_changes": 2223,
+  "p95_latency_seconds": 0.984
+}

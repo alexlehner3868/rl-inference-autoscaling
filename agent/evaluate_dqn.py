@@ -17,20 +17,23 @@ ROOT = Path(__file__).resolve().parent.parent
 MODEL_PATH = ROOT / "results" / "models" / "dqn_autoscaler_30k.zip"
 
 
-def evaluate_workload(model, workload, calibration, output=None, controller="dqn"):
+def evaluate_workload(model, workload, calibration, output=None, controller="dqn", *,
+                      action_selector=None, initial_workers=1):
     env = InferenceScalingEnv(
         workloads=[workload],
         calibration=calibration,
+        initial_workers=initial_workers,
     )
 
     observation, _ = env.reset(seed=0)
     terminated = False
 
     while not terminated:
-        action, _ = model.predict(
-            observation,
-            deterministic=True,
-        )
+        if action_selector is None:
+            action, _ = model.predict(observation, deterministic=True)
+        else:
+            name = action_selector(env.simulator, env._current_camera_ids())
+            action = next(index for index, value in env.ACTIONS.items() if value == name)
 
         observation, _, terminated, _, _ = env.step(
             int(action)

@@ -1,0 +1,29 @@
+{
+  "total_timesteps": 61440,
+  "steps_per_network": 30720,
+  "seed": 3,
+  "worker_cost": 1.0,
+  "on_time_reward": 1.0,
+  "failed_frame_penalty": 2.0,
+  "scaling_penalty": 0.25,
+  "max_workers": 10,
+  "method": "two_dqn",
+  "reward": {
+    "on_time_reward": 1.0,
+    "failed_frame_penalty": 2.0,
+    "worker_cost": 1.0,
+    "scaling_penalty": 0.25
+  },
+  "simulator_configuration": {
+    "camera_fps": 10.0,
+    "service_seconds": 0.07197132544888889,
+    "startup_seconds": 2.3057613082,
+    "deadline_seconds": 1.0,
+    "decision_seconds": 1.0,
+    "tick_seconds": 0.001,
+    "initial_workers": 1,
+    "min_serving_workers": 1,
+    "max_workers": 10,
+    "queue_capacity_frames": 50
+  }
+}

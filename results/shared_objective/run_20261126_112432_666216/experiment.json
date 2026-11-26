@@ -1,0 +1,33 @@
+{
+  "reward": {
+    "on_time_reward": 1.0,
+    "failed_frame_penalty": 2.0,
+    "worker_cost": 1.0,
+    "scaling_penalty": 0.25
+  },
+  "max_workers": 10,
+  "total_steps_per_run": 61440,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "training_split": "train",
+  "selection_split": "validation",
+  "selection_metric": "total_reward",
+  "test_workloads_used": false,
+  "observation_order": [
+    "queue_length",
+    "oldest_wait_seconds",
+    "demand_fps",
+    "serving_workers",
+    "starting_workers"
+  ],
+  "actions": {
+    "0": "remove",
+    "1": "hold",
+    "2": "add"
+  }
+}

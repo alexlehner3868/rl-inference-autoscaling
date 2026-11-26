@@ -1,0 +1,18 @@
+{
+  "method": "nstep",
+  "seed": 4,
+  "model_path": "results/shared_objective/run_20261126_112432_666216/models/nstep_seed4.zip",
+  "workloads": 20,
+  "arrived": 175650,
+  "on_time": 156376,
+  "on_time_percentage": 89.02704241389127,
+  "total_reward": 91495.40400002484,
+  "worker_seconds": 25771.0959999752,
+  "average_workers": 4.295182666662534,
+  "peak_workers": 10,
+  "late": 6002,
+  "dropped_frames": 13225,
+  "unfinished_frames": 47,
+  "scaling_changes": 2622,
+  "p95_latency_seconds": 0.982
+}

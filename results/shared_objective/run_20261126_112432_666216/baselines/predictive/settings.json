@@ -1,0 +1,5 @@
+{
+  "method": "predictive",
+  "window": 5,
+  "scale_down_steps": 5
+}
