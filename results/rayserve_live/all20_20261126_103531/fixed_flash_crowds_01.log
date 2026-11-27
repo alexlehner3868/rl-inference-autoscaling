@@ -1,0 +1,12 @@
+Controller: fixed Duration: 300 Frames: 7590
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/jasba/ECERL/rl-inference-autoscaling/Rayserve/live_autoscale.py", line 463, in <module>
+    main()
+  File "/home/jasba/ECERL/rl-inference-autoscaling/Rayserve/live_autoscale.py", line 445, in main
+    summary, records, history, scaling = run_experiment(args, workload, images, model)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jasba/ECERL/rl-inference-autoscaling/Rayserve/live_autoscale.py", line 363, in run_experiment
+    time.sleep(0.01)
+KeyboardInterrupt

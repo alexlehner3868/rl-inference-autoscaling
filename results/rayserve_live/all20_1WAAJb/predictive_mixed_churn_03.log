@@ -1,0 +1,9 @@
+Controller: predictive Duration: 300 Frames: 10770
+
+Validation Summary
+On-time: 9.29 %
+On-time frames: 1000 / 10770
+Average workers: 5.85
+Dropped (full/deadline): 0 / 6998
+Scaling changes: 19
+Results saved in: results/rayserve_live/all20_1WAAJb/predictive_mixed_churn_03

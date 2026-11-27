@@ -1,0 +1,9 @@
+Controller: fixed Duration: 300 Frames: 9700
+
+Validation Summary
+On-time: 6.65 %
+On-time frames: 645 / 9700
+Average workers: 9.0
+Dropped (full/deadline): 0 / 8505
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_1WAAJb/fixed_mass_dropoff_03

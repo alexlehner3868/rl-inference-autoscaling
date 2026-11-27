@@ -1,0 +1,13 @@
+Controller: predictive Duration: 300 Frames: 4460
+
+Validation Summary
+On-time: 58.14 %
+On-time frames: 2593 / 4460
+Completed late: 1189
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 5.38
+Average ready workers: 4.92
+Dropped (full/deadline): 0 / 678
+Scaling changes: 43
+Results saved in: results/rayserve_live/all20_pFUPMW/predictive_multi_burst_03

@@ -1,0 +1,9 @@
+Controller: predictive Duration: 300 Frames: 7920
+
+Validation Summary
+On-time: 54.57 %
+On-time frames: 4322 / 7920
+Average workers: 4.85
+Dropped (full/deadline): 0 / 1782
+Scaling changes: 8
+Results saved in: results/rayserve_live/all20_1WAAJb/predictive_ramp_with_spikes_02

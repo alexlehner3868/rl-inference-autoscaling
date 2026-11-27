@@ -1,0 +1,13 @@
+Controller: predictive Duration: 300 Frames: 5010
+
+Validation Summary
+On-time: 27.56 %
+On-time frames: 1381 / 5010
+Completed late: 2167
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 4.33
+Average ready workers: 3.82
+Dropped (full/deadline): 0 / 1462
+Scaling changes: 50
+Results saved in: results/rayserve_live/all20_pFUPMW/predictive_mixed_churn_02

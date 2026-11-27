@@ -1,0 +1,13 @@
+Controller: predictive Duration: 300 Frames: 7860
+
+Validation Summary
+On-time: 45.45 %
+On-time frames: 3572 / 7860
+Completed late: 3282
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 4.76
+Average ready workers: 4.7
+Dropped (full/deadline): 0 / 1006
+Scaling changes: 4
+Results saved in: results/rayserve_live/all20_pFUPMW/predictive_flash_crowds_02

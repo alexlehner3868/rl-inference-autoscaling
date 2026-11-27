@@ -1,0 +1,9 @@
+Controller: queue Duration: 300 Frames: 4460
+
+Validation Summary
+On-time: 18.43 %
+On-time frames: 822 / 4460
+Average workers: 9.44
+Dropped (full/deadline): 0 / 3255
+Scaling changes: 9
+Results saved in: results/rayserve_live/all20_1WAAJb/queue_multi_burst_03

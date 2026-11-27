@@ -1,0 +1,13 @@
+Controller: fixed Duration: 300 Frames: 7680
+
+Validation Summary
+On-time: 68.74 %
+On-time frames: 5279 / 7680
+Completed late: 1721
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 9.0
+Average ready workers: 9.0
+Dropped (full/deadline): 625 / 55
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_pFUPMW/fixed_multi_burst_04

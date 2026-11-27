@@ -1,0 +1,1104 @@
+frame_id,camera_id,status,latency_ms,model_ms,replica_pid,error
+0,0,on_time,101.67,64.67,1029828,
+1,0,on_time,76.22,56.65,1029832,
+2,0,on_time,83.92,62.93,1029834,
+3,0,on_time,83.45,62.43,1029832,
+4,0,on_time,61.55,39.6,1029831,
+5,0,on_time,90.26,59.31,1029833,
+6,0,on_time,72.08,47.7,1029835,
+7,0,on_time,105.2,79.81,1029830,
+8,0,on_time,73.93,54.36,1029831,
+9,0,on_time,69.72,49.37,1029830,
+10,0,on_time,80.1,50.26,1029835,
+11,0,on_time,97.56,75.56,1029828,
+12,0,on_time,77.74,54.87,1029835,
+13,0,on_time,64.48,41.74,1029830,
+14,0,on_time,66.45,43.03,1029828,
+15,0,on_time,101.86,70.41,1029832,
+16,0,on_time,97.3,71.08,1029835,
+17,0,on_time,78.69,48.99,1029832,
+18,0,on_time,78.71,62.22,1029830,
+19,0,on_time,78.76,59.83,1029831,
+20,0,on_time,95.35,60.95,1029828,
+21,0,on_time,91.98,68.68,1029831,
+22,0,on_time,107.25,77.84,1029834,
+23,0,on_time,99.47,73.97,1029828,
+24,0,on_time,102.09,68.2,795715,
+25,0,on_time,73.73,46.55,1029830,
+26,0,on_time,80.54,63.4,795715,
+27,0,on_time,71.45,53.23,1029834,
+28,0,on_time,89.44,68.83,1029829,
+29,0,on_time,82.15,60.08,1029835,
+30,0,on_time,84.69,53.09,1029831,
+31,0,on_time,62.23,38.6,1029833,
+32,0,on_time,72.62,46.7,1029835,
+33,0,on_time,96.14,71.62,795715,
+34,0,on_time,78.59,59.47,1029829,
+35,0,on_time,72.38,43.27,1029831,
+36,0,on_time,58.19,38.86,1029835,
+37,0,on_time,84.79,64.94,1029829,
+38,0,on_time,77.61,56.57,1029835,
+39,0,on_time,81.57,55.74,1029830,
+40,0,on_time,93.38,60.69,1029831,
+41,0,on_time,87.9,62.71,795715,
+42,0,on_time,75.65,52.84,1029831,
+43,0,on_time,87.76,68.94,1029834,
+44,0,on_time,80.22,60.37,1029828,
+45,0,on_time,117.06,82.59,1029828,
+46,0,on_time,86.05,65.63,1029834,
+47,0,on_time,78.93,59.8,1029830,
+48,0,on_time,70.03,50.35,1029829,
+49,0,on_time,75.05,54.48,1029828,
+50,0,on_time,96.15,63.76,1029830,
+51,0,on_time,74.73,57.05,1029832,
+52,0,on_time,72.69,56.02,1029833,
+53,0,on_time,80.97,61.55,1029834,
+54,0,on_time,69.55,50.63,795715,
+55,0,on_time,88.88,55.18,1029829,
+56,0,on_time,75.96,53.99,1029829,
+57,0,on_time,70.1,48.0,1029832,
+58,0,on_time,71.15,48.19,795715,
+59,0,on_time,63.32,48.87,1029831,
+60,0,on_time,82.53,57.04,1029835,
+61,0,on_time,72.53,52.93,1029835,
+62,0,on_time,58.5,40.63,1029830,
+63,0,on_time,62.57,44.23,1029831,
+64,0,on_time,104.45,84.08,1029829,
+65,0,on_time,88.02,49.24,1029830,
+66,0,on_time,72.7,48.32,1029835,
+67,0,on_time,80.0,62.57,1029834,
+68,0,on_time,76.3,56.87,1029835,
+69,0,on_time,74.5,56.17,1029831,
+70,0,on_time,75.8,48.25,1029832,
+71,0,on_time,82.27,62.83,1029832,
+72,0,on_time,83.27,61.96,1029834,
+73,0,on_time,84.59,62.67,1029831,
+74,0,on_time,93.24,66.64,1029832,
+75,0,on_time,82.71,54.18,795715,
+76,0,on_time,82.03,62.91,1029830,
+77,0,on_time,68.73,47.08,1029831,
+78,0,on_time,67.3,46.75,1029829,
+79,0,on_time,77.63,55.03,1029834,
+80,0,on_time,95.42,59.34,795715,
+81,0,on_time,78.51,61.0,1029831,
+82,0,on_time,75.72,58.12,1029831,
+83,0,on_time,83.83,61.32,795715,
+84,0,on_time,82.55,61.1,1029828,
+85,0,on_time,85.12,54.82,1029828,
+86,0,on_time,71.7,50.88,1029831,
+87,0,on_time,80.98,59.62,1029828,
+88,0,on_time,66.38,43.93,1029829,
+89,0,on_time,71.82,47.56,1029834,
+90,0,on_time,70.31,46.31,795715,
+91,0,on_time,55.43,38.41,1029832,
+92,0,on_time,73.58,56.87,1029829,
+93,0,on_time,66.6,47.26,1029832,
+94,0,on_time,77.3,54.9,1029833,
+95,0,on_time,86.07,54.28,1029832,
+96,0,on_time,83.6,60.34,1029830,
+97,0,on_time,79.84,53.31,1029830,
+98,0,on_time,79.4,62.41,1029828,
+99,0,on_time,77.85,61.25,1029831,
+100,0,on_time,75.03,47.74,1029829,
+101,0,on_time,75.01,58.59,1029830,
+102,0,on_time,55.49,36.14,1029832,
+103,0,on_time,74.4,53.06,1029834,
+104,0,on_time,82.5,58.51,1029834,
+105,0,on_time,88.56,53.33,1029835,
+106,0,on_time,61.83,44.84,1029831,
+107,0,on_time,69.57,51.86,1029835,
+108,0,on_time,74.29,55.65,1029835,
+109,0,on_time,59.12,40.1,1029834,
+111,1,on_time,117.4,81.74,1029834,
+110,0,on_time,132.25,87.95,1029828,
+112,2,on_time,129.84,83.1,1029833,
+114,1,on_time,90.72,55.89,1029831,
+113,0,on_time,107.83,65.55,1029835,
+115,2,on_time,102.55,57.79,1029833,
+117,1,on_time,86.46,56.06,1029834,
+116,0,on_time,91.97,64.79,1029830,
+118,2,on_time,101.76,69.32,1029828,
+120,1,on_time,97.05,64.13,1029834,
+121,2,on_time,99.06,64.7,1029830,
+119,0,on_time,107.0,70.72,1029832,
+123,1,on_time,84.27,58.27,1029829,
+122,0,on_time,100.32,72.58,1029834,
+124,2,on_time,96.37,64.66,1029832,
+125,0,on_time,96.03,63.61,1029831,
+126,1,on_time,98.32,64.01,1029830,
+127,2,on_time,97.56,60.32,1029832,
+128,0,on_time,71.96,51.09,1029829,
+129,1,on_time,80.33,57.2,1029834,
+130,2,on_time,85.62,57.05,1029830,
+131,0,on_time,80.58,56.84,1029832,
+133,2,on_time,90.18,64.26,1029835,
+132,1,on_time,109.98,83.79,1029831,
+134,0,on_time,100.43,65.62,1029829,
+135,1,on_time,124.7,88.89,1029831,
+136,2,on_time,122.26,88.14,1029830,
+137,0,on_time,99.43,60.8,1029829,
+138,1,on_time,106.86,64.11,1029834,
+139,2,on_time,114.28,74.7,1029833,
+142,2,on_time,104.12,58.18,795715,
+140,0,on_time,122.57,70.12,1029835,
+141,1,on_time,115.02,65.23,1029832,
+144,1,on_time,96.57,59.87,1029829,
+143,0,on_time,102.48,70.24,1029830,
+145,2,on_time,99.22,61.6,1029834,
+146,0,on_time,86.69,55.36,1029828,
+147,1,on_time,99.28,67.32,1029830,
+148,2,on_time,102.82,68.12,1029835,
+149,0,on_time,83.51,50.58,795715,
+150,1,on_time,84.71,53.98,1029831,
+151,2,on_time,89.06,55.32,1029828,
+153,1,on_time,75.64,53.88,1029830,
+152,0,on_time,83.37,57.34,1029831,
+154,2,on_time,82.84,55.47,1029834,
+156,1,on_time,88.92,58.3,1029828,
+155,0,on_time,94.82,65.09,1029832,
+157,2,on_time,92.31,59.8,1029829,
+158,0,on_time,70.22,52.51,1029828,
+159,1,on_time,79.44,58.31,1029833,
+160,2,on_time,86.77,65.52,1029835,
+161,0,on_time,79.82,57.49,1029830,
+163,2,on_time,92.48,64.44,1029833,
+162,1,on_time,113.54,83.57,1029832,
+166,2,on_time,83.87,51.52,1029833,
+164,0,on_time,87.37,57.89,1029830,
+165,1,on_time,97.62,69.83,1029828,
+167,0,on_time,85.13,56.96,795715,
+168,1,on_time,86.86,60.96,1029830,
+169,2,on_time,91.33,61.35,1029833,
+170,0,on_time,96.21,59.35,1029831,
+172,2,on_time,89.37,53.37,795715,
+171,1,on_time,110.82,72.18,1029832,
+175,2,on_time,92.37,62.03,1029828,
+173,0,on_time,101.04,63.04,1029831,
+174,1,on_time,114.42,74.23,1029835,
+178,2,on_time,86.9,55.24,1029835,
+176,0,on_time,119.56,78.33,1029834,
+177,1,on_time,125.28,88.06,1029833,
+180,1,on_time,101.95,66.22,1029828,
+181,2,on_time,104.91,70.06,1029829,
+179,0,on_time,114.92,71.98,1029830,
+184,2,on_time,89.65,56.83,795715,
+182,0,on_time,99.33,65.03,1029834,
+183,1,on_time,102.37,67.32,1029830,
+186,1,on_time,90.97,52.4,1029829,
+187,2,on_time,93.93,53.32,1029832,
+185,0,on_time,98.24,59.7,1029835,
+189,1,on_time,88.09,58.19,795715,
+188,0,on_time,91.98,62.15,1029835,
+190,2,on_time,95.4,64.89,1029834,
+193,2,on_time,88.45,56.64,1029834,
+191,0,on_time,93.0,63.82,1029830,
+192,1,on_time,95.44,63.09,1029835,
+196,2,on_time,80.66,57.01,1029829,
+194,0,on_time,86.47,58.8,1029833,
+195,1,on_time,98.61,73.35,1029835,
+199,2,on_time,83.0,54.06,795715,
+197,0,on_time,86.67,61.93,1029828,
+198,1,on_time,94.74,63.07,1029834,
+200,0,on_time,104.73,66.97,1029833,
+201,1,on_time,116.31,75.99,1029828,
+202,2,on_time,108.39,67.52,1029831,
+204,1,on_time,88.72,55.3,1029831,
+203,0,on_time,96.32,61.06,1029835,
+205,2,on_time,93.97,59.55,1029832,
+208,2,on_time,80.66,50.7,1029832,
+206,0,on_time,88.13,60.59,1029829,
+207,1,on_time,91.03,59.74,1029828,
+209,0,on_time,81.53,59.41,1029828,
+210,1,on_time,87.05,57.53,1029834,
+211,2,on_time,82.56,56.94,1029832,
+212,0,on_time,82.68,57.83,1029831,
+213,1,on_time,79.49,54.44,1029832,
+214,2,on_time,77.1,54.29,1029833,
+216,1,on_time,102.94,69.53,1029833,
+217,2,on_time,100.21,66.21,795715,
+215,0,on_time,106.27,74.89,1029835,
+218,0,on_time,83.08,53.28,1029833,
+219,1,on_time,93.28,64.09,795715,
+220,2,on_time,95.93,63.04,1029831,
+223,2,on_time,97.9,60.68,1029830,
+221,0,on_time,103.6,66.03,795715,
+222,1,on_time,100.57,67.37,1029832,
+224,0,on_time,99.72,68.07,1029835,
+225,1,on_time,104.51,69.77,1029834,
+226,2,on_time,97.23,63.92,1029831,
+227,0,on_time,79.95,54.8,1029829,
+228,1,on_time,86.64,57.1,1029831,
+229,2,on_time,90.33,57.84,795715,
+230,0,on_time,89.06,54.15,1029830,
+231,1,on_time,91.6,52.62,1029833,
+232,2,on_time,101.96,62.19,1029834,
+235,2,on_time,87.35,56.13,1029832,
+233,0,on_time,94.93,64.17,1029831,
+234,1,on_time,99.95,70.11,1029828,
+237,1,on_time,86.63,56.71,1029829,
+236,0,on_time,94.02,66.24,1029830,
+238,2,on_time,110.56,71.96,1029834,
+239,0,on_time,92.8,63.63,1029828,
+240,1,on_time,102.31,76.84,1029833,
+241,2,on_time,106.8,76.99,1029834,
+243,1,on_time,85.96,59.82,1029829,
+244,2,on_time,89.19,60.7,795715,
+242,0,on_time,95.12,69.78,1029835,
+245,0,on_time,125.1,79.46,795715,
+247,2,on_time,118.34,69.78,1029833,
+246,1,on_time,132.19,90.6,1029832,
+248,0,on_time,118.75,65.33,1029833,
+249,1,on_time,124.47,70.53,1029835,
+250,2,on_time,123.08,74.91,1029834,
+251,0,on_time,241.77,193.77,1029832,
+252,1,on_time,289.21,248.43,1029829,
+255,1,on_time,233.75,191.54,1029830,
+259,2,on_time,550.97,365.52,1029830,
+253,2,failed,818.38,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+254,0,failed,806.12,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+256,2,failed,805.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+257,0,failed,806.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+258,1,failed,806.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+260,0,failed,838.41,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+261,1,failed,839.74,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+262,2,failed,838.3,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+263,0,failed,1160.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+264,1,failed,1229.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+274,2,dropped_deadline,,,,
+265,2,failed,1312.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+266,0,failed,1216.33,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+267,1,failed,1314.38,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+277,2,dropped_deadline,,,,
+268,2,failed,1322.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+280,2,dropped_deadline,,,,
+269,0,failed,1351.74,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+271,2,failed,1351.83,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+270,1,failed,1354.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+284,0,dropped_deadline,,,,
+285,1,dropped_deadline,,,,
+286,2,dropped_deadline,,,,
+287,0,dropped_deadline,,,,
+288,1,dropped_deadline,,,,
+289,2,dropped_deadline,,,,
+290,0,dropped_deadline,,,,
+291,1,dropped_deadline,,,,
+292,2,dropped_deadline,,,,
+272,0,failed,1668.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+294,1,dropped_deadline,,,,
+295,2,dropped_deadline,,,,
+273,1,failed,1741.14,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+297,1,dropped_deadline,,,,
+298,2,dropped_deadline,,,,
+275,0,failed,1721.84,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+276,1,failed,1723.18,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+301,2,dropped_deadline,,,,
+278,0,failed,1721.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+279,1,failed,1732.21,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+304,2,dropped_deadline,,,,
+281,0,failed,1757.04,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+282,1,failed,1756.96,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+283,2,failed,1768.07,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+308,0,dropped_deadline,,,,
+309,1,dropped_deadline,,,,
+310,2,dropped_deadline,,,,
+311,0,dropped_deadline,,,,
+312,1,dropped_deadline,,,,
+313,2,dropped_deadline,,,,
+314,0,dropped_deadline,,,,
+315,1,dropped_deadline,,,,
+316,2,dropped_deadline,,,,
+293,0,failed,1776.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+318,1,dropped_deadline,,,,
+319,2,dropped_deadline,,,,
+296,0,failed,1748.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+299,0,failed,1730.44,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+300,1,failed,1730.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+321,1,dropped_deadline,,,,
+322,2,dropped_deadline,,,,
+325,2,dropped_deadline,,,,
+302,0,failed,1730.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+303,1,failed,1743.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+328,2,dropped_deadline,,,,
+305,0,failed,1766.77,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+306,1,failed,1767.87,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+307,2,failed,1776.99,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+332,0,dropped_deadline,,,,
+333,1,dropped_deadline,,,,
+334,2,dropped_deadline,,,,
+335,0,dropped_deadline,,,,
+336,1,dropped_deadline,,,,
+337,2,dropped_deadline,,,,
+338,0,dropped_deadline,,,,
+339,1,dropped_deadline,,,,
+340,2,dropped_deadline,,,,
+317,0,failed,1784.93,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+342,1,dropped_deadline,,,,
+343,2,dropped_deadline,,,,
+320,0,failed,1755.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+345,1,dropped_deadline,,,,
+346,2,dropped_deadline,,,,
+323,0,failed,1740.3,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+324,1,failed,1739.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+349,2,dropped_deadline,,,,
+326,0,failed,1739.16,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+327,1,failed,1749.97,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+352,2,dropped_deadline,,,,
+329,0,failed,1772.24,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+330,1,failed,1772.15,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+331,2,failed,1781.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+356,0,dropped_deadline,,,,
+357,1,dropped_deadline,,,,
+358,2,dropped_deadline,,,,
+359,0,dropped_deadline,,,,
+360,1,dropped_deadline,,,,
+361,2,dropped_deadline,,,,
+362,0,dropped_deadline,,,,
+363,1,dropped_deadline,,,,
+364,2,dropped_deadline,,,,
+341,0,failed,1788.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+366,1,dropped_deadline,,,,
+367,2,dropped_deadline,,,,
+344,0,failed,1764.68,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+369,1,dropped_deadline,,,,
+370,2,dropped_deadline,,,,
+347,0,failed,1745.69,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+348,1,failed,1748.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+373,2,dropped_deadline,,,,
+350,0,failed,1747.98,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+351,1,failed,1757.28,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+376,2,dropped_deadline,,,,
+353,0,failed,1786.44,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+354,1,failed,1786.33,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+355,2,failed,1795.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+379,2,dropped_deadline,,,,
+381,1,dropped_deadline,,,,
+382,2,dropped_deadline,,,,
+383,0,dropped_deadline,,,,
+384,1,dropped_deadline,,,,
+385,2,dropped_deadline,,,,
+386,0,dropped_deadline,,,,
+387,1,dropped_deadline,,,,
+388,2,dropped_deadline,,,,
+365,0,failed,1793.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+390,1,dropped_deadline,,,,
+391,2,dropped_deadline,,,,
+368,0,failed,1774.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+393,1,dropped_deadline,,,,
+394,2,dropped_deadline,,,,
+371,0,failed,1759.46,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+372,1,failed,1758.4,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+397,2,dropped_deadline,,,,
+374,0,failed,1755.97,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+375,1,failed,1765.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+400,2,dropped_deadline,,,,
+377,0,failed,1798.17,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+378,1,failed,1792.92,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+380,0,failed,1706.99,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+403,2,dropped_deadline,,,,
+405,1,dropped_deadline,,,,
+406,2,dropped_deadline,,,,
+407,0,dropped_deadline,,,,
+408,1,dropped_deadline,,,,
+409,2,dropped_deadline,,,,
+410,0,dropped_deadline,,,,
+411,1,dropped_deadline,,,,
+412,2,dropped_deadline,,,,
+413,0,dropped_deadline,,,,
+414,1,dropped_deadline,,,,
+415,2,dropped_deadline,,,,
+389,0,failed,1804.1,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+392,0,failed,1776.45,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+418,2,dropped_deadline,,,,
+395,0,failed,1767.4,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+396,1,failed,1768.88,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+421,2,dropped_deadline,,,,
+398,0,failed,1765.98,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+399,1,failed,1776.67,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+424,2,dropped_deadline,,,,
+401,0,failed,1808.24,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+402,1,failed,1808.14,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+404,0,failed,1711.08,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+425,0,dropped_deadline,,,,
+426,1,dropped_deadline,,,,
+427,2,dropped_deadline,,,,
+431,0,dropped_deadline,,,,
+432,1,dropped_deadline,,,,
+433,2,dropped_deadline,,,,
+434,0,dropped_deadline,,,,
+435,1,dropped_deadline,,,,
+436,2,dropped_deadline,,,,
+437,0,dropped_deadline,,,,
+438,1,dropped_deadline,,,,
+439,2,dropped_deadline,,,,
+416,0,failed,1713.13,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+417,1,failed,1788.05,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+442,2,dropped_deadline,,,,
+419,0,failed,1775.93,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+420,1,failed,1782.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+445,2,dropped_deadline,,,,
+422,0,failed,1777.02,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+423,1,failed,1787.44,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+448,2,dropped_deadline,,,,
+449,0,dropped_deadline,,,,
+450,1,dropped_deadline,,,,
+451,2,dropped_deadline,,,,
+428,0,failed,1728.12,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+429,1,failed,1726.28,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+430,2,failed,1728.23,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+455,0,dropped_deadline,,,,
+456,1,dropped_deadline,,,,
+457,2,dropped_deadline,,,,
+458,0,dropped_deadline,,,,
+459,1,dropped_deadline,,,,
+460,2,dropped_deadline,,,,
+461,0,dropped_deadline,,,,
+462,1,dropped_deadline,,,,
+463,2,dropped_deadline,,,,
+440,0,failed,1722.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+441,1,failed,1797.24,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+466,2,dropped_deadline,,,,
+443,0,failed,1782.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+444,1,failed,1790.2,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+469,2,dropped_deadline,,,,
+446,0,failed,1790.39,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+447,1,failed,1798.28,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+472,2,dropped_deadline,,,,
+473,0,dropped_deadline,,,,
+474,1,dropped_deadline,,,,
+475,2,dropped_deadline,,,,
+452,0,failed,1739.25,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+453,1,failed,1734.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+454,2,failed,1739.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+479,0,dropped_deadline,,,,
+480,1,dropped_deadline,,,,
+481,2,dropped_deadline,,,,
+482,0,dropped_deadline,,,,
+483,1,dropped_deadline,,,,
+484,2,dropped_deadline,,,,
+485,0,dropped_deadline,,,,
+486,1,dropped_deadline,,,,
+487,2,dropped_deadline,,,,
+464,0,failed,1728.47,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+465,1,failed,1799.83,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+489,1,dropped_deadline,,,,
+490,2,dropped_deadline,,,,
+467,0,failed,1790.35,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+468,1,failed,1804.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+493,2,dropped_deadline,,,,
+470,0,failed,1802.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+471,1,failed,1802.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+495,1,dropped_deadline,,,,
+496,2,dropped_deadline,,,,
+499,2,dropped_deadline,,,,
+476,0,failed,1753.13,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+477,1,failed,1752.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+478,2,failed,1753.25,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+503,3,dropped_deadline,,,,
+504,4,dropped_deadline,,,,
+505,0,dropped_deadline,,,,
+506,1,dropped_deadline,,,,
+507,2,dropped_deadline,,,,
+508,3,dropped_deadline,,,,
+509,4,dropped_deadline,,,,
+510,0,dropped_deadline,,,,
+511,1,dropped_deadline,,,,
+512,2,dropped_deadline,,,,
+513,3,dropped_deadline,,,,
+514,4,dropped_deadline,,,,
+515,0,dropped_deadline,,,,
+516,1,dropped_deadline,,,,
+517,2,dropped_deadline,,,,
+518,3,dropped_deadline,,,,
+519,4,dropped_deadline,,,,
+488,0,failed,1736.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+521,1,dropped_deadline,,,,
+522,2,dropped_deadline,,,,
+523,3,dropped_deadline,,,,
+524,4,dropped_deadline,,,,
+491,0,failed,1709.05,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+492,1,failed,1800.89,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+494,0,failed,1710.92,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+526,1,dropped_deadline,,,,
+527,2,dropped_deadline,,,,
+528,3,dropped_deadline,,,,
+529,4,dropped_deadline,,,,
+532,2,dropped_deadline,,,,
+533,3,dropped_deadline,,,,
+534,4,dropped_deadline,,,,
+497,0,failed,1714.41,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+498,1,failed,1714.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+537,2,dropped_deadline,,,,
+538,3,dropped_deadline,,,,
+539,4,dropped_deadline,,,,
+500,0,failed,1763.99,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+501,1,failed,1764.96,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+502,2,failed,1769.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+543,3,dropped_deadline,,,,
+544,4,dropped_deadline,,,,
+545,0,dropped_deadline,,,,
+546,1,dropped_deadline,,,,
+547,2,dropped_deadline,,,,
+548,3,dropped_deadline,,,,
+549,4,dropped_deadline,,,,
+550,0,dropped_deadline,,,,
+551,1,dropped_deadline,,,,
+552,2,dropped_deadline,,,,
+553,3,dropped_deadline,,,,
+554,4,dropped_deadline,,,,
+555,0,dropped_deadline,,,,
+556,1,dropped_deadline,,,,
+557,2,dropped_deadline,,,,
+558,3,dropped_deadline,,,,
+559,4,dropped_deadline,,,,
+520,0,failed,1747.23,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+561,1,dropped_deadline,,,,
+562,2,dropped_deadline,,,,
+563,3,dropped_deadline,,,,
+564,4,dropped_deadline,,,,
+525,0,failed,1714.3,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+566,1,dropped_deadline,,,,
+567,2,dropped_deadline,,,,
+568,3,dropped_deadline,,,,
+569,4,dropped_deadline,,,,
+530,0,failed,1726.01,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+531,1,failed,1725.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+572,2,dropped_deadline,,,,
+573,3,dropped_deadline,,,,
+574,4,dropped_deadline,,,,
+535,0,failed,1726.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+536,1,failed,1727.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+577,2,dropped_deadline,,,,
+578,3,dropped_deadline,,,,
+579,4,dropped_deadline,,,,
+540,0,failed,1771.99,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+541,1,failed,1772.07,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+542,2,failed,1779.97,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+583,3,dropped_deadline,,,,
+584,4,dropped_deadline,,,,
+585,0,dropped_deadline,,,,
+586,1,dropped_deadline,,,,
+587,2,dropped_deadline,,,,
+588,3,dropped_deadline,,,,
+589,4,dropped_deadline,,,,
+590,0,dropped_deadline,,,,
+591,1,dropped_deadline,,,,
+592,2,dropped_deadline,,,,
+593,3,dropped_deadline,,,,
+594,4,dropped_deadline,,,,
+595,0,dropped_deadline,,,,
+596,1,dropped_deadline,,,,
+597,2,dropped_deadline,,,,
+598,3,dropped_deadline,,,,
+599,4,dropped_deadline,,,,
+560,0,failed,1759.63,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+565,0,failed,1719.76,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+601,1,dropped_deadline,,,,
+602,2,dropped_deadline,,,,
+603,3,dropped_deadline,,,,
+604,4,dropped_deadline,,,,
+606,1,dropped_deadline,,,,
+607,2,dropped_deadline,,,,
+608,3,dropped_deadline,,,,
+609,4,dropped_deadline,,,,
+570,0,failed,1731.4,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+571,1,failed,1731.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+612,2,dropped_deadline,,,,
+613,3,dropped_deadline,,,,
+614,4,dropped_deadline,,,,
+575,0,failed,1733.67,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+576,1,failed,1733.76,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+617,2,dropped_deadline,,,,
+618,3,dropped_deadline,,,,
+619,4,dropped_deadline,,,,
+580,0,failed,1781.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+581,1,failed,1780.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+582,2,failed,1788.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+623,3,dropped_deadline,,,,
+624,4,dropped_deadline,,,,
+625,0,dropped_deadline,,,,
+626,1,dropped_deadline,,,,
+627,2,dropped_deadline,,,,
+628,3,dropped_deadline,,,,
+629,4,dropped_deadline,,,,
+630,0,dropped_deadline,,,,
+631,1,dropped_deadline,,,,
+632,2,dropped_deadline,,,,
+633,3,dropped_deadline,,,,
+634,4,dropped_deadline,,,,
+635,0,dropped_deadline,,,,
+636,1,dropped_deadline,,,,
+637,2,dropped_deadline,,,,
+638,3,dropped_deadline,,,,
+639,4,dropped_deadline,,,,
+600,0,failed,1765.26,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+641,1,dropped_deadline,,,,
+642,2,dropped_deadline,,,,
+643,3,dropped_deadline,,,,
+644,4,dropped_deadline,,,,
+605,0,failed,1750.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+646,1,dropped_deadline,,,,
+647,2,dropped_deadline,,,,
+648,3,dropped_deadline,,,,
+649,4,dropped_deadline,,,,
+610,0,failed,1743.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+611,1,failed,1741.29,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+652,4,dropped_deadline,,,,
+615,0,failed,1741.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+616,1,failed,1741.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+655,4,dropped_deadline,,,,
+620,0,failed,1784.2,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+621,1,failed,1784.8,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+622,2,failed,1794.19,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+659,1,dropped_deadline,,,,
+660,3,dropped_deadline,,,,
+661,4,dropped_deadline,,,,
+662,1,dropped_deadline,,,,
+663,3,dropped_deadline,,,,
+664,4,dropped_deadline,,,,
+665,1,dropped_deadline,,,,
+666,3,dropped_deadline,,,,
+667,4,dropped_deadline,,,,
+640,0,failed,1769.83,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+669,3,dropped_deadline,,,,
+670,4,dropped_deadline,,,,
+645,0,failed,1757.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+672,3,dropped_deadline,,,,
+673,4,dropped_deadline,,,,
+650,1,failed,1747.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+651,3,failed,1754.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+676,4,dropped_deadline,,,,
+653,1,failed,1751.07,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+654,3,failed,1750.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+679,4,dropped_deadline,,,,
+656,1,failed,1788.43,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+657,3,failed,1789.94,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+658,4,failed,1798.3,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+682,4,dropped_deadline,,,,
+684,3,dropped_deadline,,,,
+685,4,dropped_deadline,,,,
+686,1,dropped_deadline,,,,
+687,3,dropped_deadline,,,,
+688,4,dropped_deadline,,,,
+689,1,dropped_deadline,,,,
+690,3,dropped_deadline,,,,
+691,4,dropped_deadline,,,,
+668,1,failed,1780.25,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+693,3,dropped_deadline,,,,
+694,4,dropped_deadline,,,,
+671,1,failed,1763.63,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+696,3,dropped_deadline,,,,
+697,4,dropped_deadline,,,,
+674,1,failed,1754.3,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+675,3,failed,1764.29,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+700,4,dropped_deadline,,,,
+677,1,failed,1758.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+678,3,failed,1765.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+703,4,dropped_deadline,,,,
+680,1,failed,1800.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+681,3,failed,1804.03,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+704,1,dropped_deadline,,,,
+705,3,dropped_deadline,,,,
+706,4,dropped_deadline,,,,
+683,1,failed,1721.82,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+710,4,dropped_deadline,,,,
+711,4,dropped_deadline,,,,
+692,1,failed,1788.7,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+695,1,failed,1770.0,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+698,1,failed,1762.0,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+699,3,failed,1772.13,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+701,1,failed,1763.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+702,3,failed,1773.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+707,1,failed,1710.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+708,3,failed,1710.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+709,4,failed,1730.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+712,4,failed,1792.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+713,4,failed,1774.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+714,4,failed,1768.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+715,4,failed,1682.07,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+716,4,failed,1673.64,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+717,4,failed,1582.91,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+718,4,failed,1617.45,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+719,4,failed,1520.26,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+720,4,failed,1437.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+721,4,failed,1723.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+722,4,failed,1688.16,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+723,4,failed,1681.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+724,4,failed,1591.11,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+725,4,failed,1587.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+726,4,failed,1494.02,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+727,4,failed,1521.41,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+728,4,failed,1430.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+729,4,failed,1344.26,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+730,4,failed,1632.68,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+731,4,failed,1594.39,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+732,4,failed,1589.24,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+733,4,failed,1499.7,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+734,4,failed,1492.35,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+735,4,failed,1402.33,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+736,4,failed,1426.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+737,4,failed,1337.44,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+738,4,failed,1252.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+739,4,failed,1537.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+740,4,failed,1506.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+741,4,failed,1500.43,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+742,4,failed,1412.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+743,4,failed,1398.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+744,4,failed,1304.88,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+745,4,failed,1334.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+746,4,failed,1244.43,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+747,4,failed,1155.22,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+748,4,failed,1449.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+749,4,failed,1438.33,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+750,4,failed,1402.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+751,4,failed,1314.25,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+752,4,failed,1301.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+753,4,failed,1212.05,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+754,4,failed,1238.91,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+755,4,failed,1148.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+756,4,failed,1062.38,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+757,4,failed,1356.76,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+758,4,failed,1349.77,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+759,4,failed,1311.82,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+760,4,failed,1223.38,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+761,4,failed,1216.26,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+762,4,failed,1126.89,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+763,4,failed,1143.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+764,4,failed,1053.1,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+765,4,failed,973.73,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+766,4,failed,1265.17,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+767,4,failed,1256.38,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+768,4,failed,1218.29,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+769,4,failed,1127.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+770,4,failed,1128.0,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+771,4,failed,1034.31,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+772,4,failed,1050.19,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+773,4,failed,958.97,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+774,4,failed,882.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+775,4,failed,1176.46,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+776,4,failed,1168.13,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+777,4,failed,1126.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+778,4,failed,1040.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+779,4,failed,1031.44,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+780,4,failed,941.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+781,4,failed,956.15,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+782,4,failed,866.21,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+783,4,failed,806.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+784,4,failed,1086.02,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+785,4,failed,1078.43,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+786,4,failed,1028.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+787,4,failed,951.19,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+788,4,failed,946.35,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+789,4,failed,853.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+790,4,failed,864.17,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+791,5,failed,874.94,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+792,6,failed,918.41,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+793,7,failed,1297.01,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+802,4,dropped_deadline,,,,
+803,5,dropped_deadline,,,,
+804,6,dropped_deadline,,,,
+805,7,dropped_deadline,,,,
+794,4,failed,1289.08,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+808,6,dropped_deadline,,,,
+809,7,dropped_deadline,,,,
+795,5,failed,1340.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+796,6,failed,1359.96,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+812,6,dropped_deadline,,,,
+813,7,dropped_deadline,,,,
+797,7,failed,1451.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+798,4,failed,1361.47,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+816,6,dropped_deadline,,,,
+817,7,dropped_deadline,,,,
+799,5,failed,1475.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+800,6,failed,1484.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+820,6,dropped_deadline,,,,
+821,7,dropped_deadline,,,,
+801,7,failed,1525.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+823,5,dropped_deadline,,,,
+824,6,dropped_deadline,,,,
+825,7,dropped_deadline,,,,
+826,4,dropped_deadline,,,,
+827,5,dropped_deadline,,,,
+828,6,dropped_deadline,,,,
+829,7,dropped_deadline,,,,
+830,4,dropped_deadline,,,,
+831,5,dropped_deadline,,,,
+832,6,dropped_deadline,,,,
+833,7,dropped_deadline,,,,
+834,4,dropped_deadline,,,,
+835,5,dropped_deadline,,,,
+836,6,dropped_deadline,,,,
+837,7,dropped_deadline,,,,
+806,4,failed,1708.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+807,5,failed,1800.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+839,5,dropped_deadline,,,,
+840,6,dropped_deadline,,,,
+841,7,dropped_deadline,,,,
+810,4,failed,1754.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+811,5,failed,1770.27,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+845,7,dropped_deadline,,,,
+814,4,failed,1757.66,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+815,5,failed,1765.07,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+848,6,dropped_deadline,,,,
+849,7,dropped_deadline,,,,
+818,4,failed,1786.48,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+819,5,failed,1796.78,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+852,6,dropped_deadline,,,,
+853,7,dropped_deadline,,,,
+822,4,failed,1732.67,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+855,5,dropped_deadline,,,,
+856,6,dropped_deadline,,,,
+857,7,dropped_deadline,,,,
+858,4,dropped_deadline,,,,
+859,5,dropped_deadline,,,,
+860,6,dropped_deadline,,,,
+861,7,dropped_deadline,,,,
+862,4,dropped_deadline,,,,
+863,5,dropped_deadline,,,,
+864,6,dropped_deadline,,,,
+865,7,dropped_deadline,,,,
+866,4,dropped_deadline,,,,
+867,5,dropped_deadline,,,,
+868,6,dropped_deadline,,,,
+869,7,dropped_deadline,,,,
+838,4,failed,1714.05,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+842,4,failed,1706.4,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+871,5,dropped_deadline,,,,
+872,6,dropped_deadline,,,,
+873,7,dropped_deadline,,,,
+843,5,failed,1768.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+844,6,failed,1779.48,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+877,7,dropped_deadline,,,,
+846,4,failed,1775.22,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+847,5,failed,1775.02,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+880,6,dropped_deadline,,,,
+881,7,dropped_deadline,,,,
+850,4,failed,1790.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+851,5,failed,1802.33,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+883,5,dropped_deadline,,,,
+884,6,dropped_deadline,,,,
+885,7,dropped_deadline,,,,
+854,4,failed,1744.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+888,6,dropped_deadline,,,,
+889,7,dropped_deadline,,,,
+890,4,dropped_deadline,,,,
+891,5,dropped_deadline,,,,
+892,6,dropped_deadline,,,,
+893,7,dropped_deadline,,,,
+894,4,dropped_deadline,,,,
+895,5,dropped_deadline,,,,
+896,6,dropped_deadline,,,,
+897,7,dropped_deadline,,,,
+898,4,dropped_deadline,,,,
+899,5,dropped_deadline,,,,
+900,6,dropped_deadline,,,,
+901,7,dropped_deadline,,,,
+870,4,failed,1726.13,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+903,5,dropped_deadline,,,,
+904,6,dropped_deadline,,,,
+905,7,dropped_deadline,,,,
+874,4,failed,1725.7,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+875,5,failed,1777.84,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+876,6,failed,1784.91,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+909,7,dropped_deadline,,,,
+878,4,failed,1793.63,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+879,5,failed,1793.87,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+910,4,dropped_deadline,,,,
+911,5,dropped_deadline,,,,
+912,6,dropped_deadline,,,,
+913,7,dropped_deadline,,,,
+882,4,failed,1801.15,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+916,6,dropped_deadline,,,,
+917,7,dropped_deadline,,,,
+886,4,failed,1711.62,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+887,5,failed,1753.15,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+921,7,dropped_deadline,,,,
+922,4,dropped_deadline,,,,
+923,5,dropped_deadline,,,,
+924,6,dropped_deadline,,,,
+925,7,dropped_deadline,,,,
+926,4,dropped_deadline,,,,
+927,5,dropped_deadline,,,,
+928,6,dropped_deadline,,,,
+929,7,dropped_deadline,,,,
+902,4,failed,1732.68,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+930,4,dropped_deadline,,,,
+931,5,dropped_deadline,,,,
+932,6,dropped_deadline,,,,
+933,7,dropped_deadline,,,,
+935,5,dropped_deadline,,,,
+936,6,dropped_deadline,,,,
+937,7,dropped_deadline,,,,
+906,4,failed,1731.83,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+907,5,failed,1782.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+908,6,failed,1796.1,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+940,6,dropped_deadline,,,,
+941,7,dropped_deadline,,,,
+943,5,dropped_deadline,,,,
+944,6,dropped_deadline,,,,
+945,7,dropped_deadline,,,,
+914,4,failed,1731.2,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+915,5,failed,1730.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+918,4,failed,1705.27,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+948,6,dropped_deadline,,,,
+949,7,dropped_deadline,,,,
+919,5,failed,1723.87,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+920,6,failed,1770.44,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+953,7,dropped_deadline,,,,
+954,4,dropped_deadline,,,,
+955,5,dropped_deadline,,,,
+956,6,dropped_deadline,,,,
+957,7,dropped_deadline,,,,
+958,4,dropped_deadline,,,,
+959,5,dropped_deadline,,,,
+960,6,dropped_deadline,,,,
+961,7,dropped_deadline,,,,
+962,4,dropped_deadline,,,,
+963,5,dropped_deadline,,,,
+964,6,dropped_deadline,,,,
+965,7,dropped_deadline,,,,
+934,4,failed,1734.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+967,5,dropped_deadline,,,,
+968,6,dropped_deadline,,,,
+969,7,dropped_deadline,,,,
+938,4,failed,1741.48,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+939,5,failed,1793.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+971,5,dropped_deadline,,,,
+972,6,dropped_deadline,,,,
+973,7,dropped_deadline,,,,
+942,4,failed,1704.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+976,6,dropped_deadline,,,,
+977,7,dropped_deadline,,,,
+946,4,failed,1741.24,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+947,5,failed,1740.96,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+980,6,dropped_deadline,,,,
+981,7,dropped_deadline,,,,
+950,4,failed,1709.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+951,5,failed,1732.96,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+952,6,failed,1782.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+985,7,dropped_deadline,,,,
+986,4,dropped_deadline,,,,
+987,5,dropped_deadline,,,,
+988,6,dropped_deadline,,,,
+989,7,dropped_deadline,,,,
+990,4,dropped_deadline,,,,
+991,5,dropped_deadline,,,,
+992,6,dropped_deadline,,,,
+993,7,dropped_deadline,,,,
+994,4,dropped_deadline,,,,
+995,5,dropped_deadline,,,,
+996,6,dropped_deadline,,,,
+997,7,dropped_deadline,,,,
+966,4,failed,1739.01,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+999,5,dropped_deadline,,,,
+1000,6,dropped_deadline,,,,
+1001,7,dropped_deadline,,,,
+970,4,failed,1750.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+974,4,failed,1701.91,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1003,5,dropped_deadline,,,,
+1004,6,dropped_deadline,,,,
+1005,7,dropped_deadline,,,,
+975,5,failed,1727.88,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1008,6,dropped_deadline,,,,
+1009,7,dropped_deadline,,,,
+978,4,failed,1750.27,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+979,5,failed,1749.7,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+982,4,failed,1719.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1012,6,dropped_deadline,,,,
+1013,7,dropped_deadline,,,,
+983,5,failed,1741.29,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+984,6,failed,1791.41,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1017,7,dropped_deadline,,,,
+1018,4,dropped_deadline,,,,
+1019,5,dropped_deadline,,,,
+1020,6,dropped_deadline,,,,
+1021,7,dropped_deadline,,,,
+1022,4,dropped_deadline,,,,
+1023,5,dropped_deadline,,,,
+1024,6,dropped_deadline,,,,
+1025,7,dropped_deadline,,,,
+1026,4,dropped_deadline,,,,
+1027,5,dropped_deadline,,,,
+1028,6,dropped_deadline,,,,
+1029,7,dropped_deadline,,,,
+998,4,failed,1750.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1031,5,dropped_deadline,,,,
+1032,6,dropped_deadline,,,,
+1033,7,dropped_deadline,,,,
+1002,4,failed,1758.29,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1035,5,dropped_deadline,,,,
+1036,6,dropped_deadline,,,,
+1037,7,dropped_deadline,,,,
+1006,4,failed,1710.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1007,5,failed,1730.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1040,6,dropped_deadline,,,,
+1041,7,dropped_deadline,,,,
+1010,4,failed,1757.62,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1011,5,failed,1759.43,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1044,6,dropped_deadline,,,,
+1045,7,dropped_deadline,,,,
+1014,4,failed,1743.12,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1015,5,failed,1753.48,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1016,6,failed,1793.03,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1049,7,dropped_deadline,,,,
+1050,4,dropped_deadline,,,,
+1051,5,dropped_deadline,,,,
+1052,6,dropped_deadline,,,,
+1053,7,dropped_deadline,,,,
+1054,4,dropped_deadline,,,,
+1055,5,dropped_deadline,,,,
+1056,6,dropped_deadline,,,,
+1057,7,dropped_deadline,,,,
+1058,4,dropped_deadline,,,,
+1059,5,dropped_deadline,,,,
+1060,6,dropped_deadline,,,,
+1061,7,dropped_deadline,,,,
+1030,4,failed,1756.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1063,5,dropped_deadline,,,,
+1064,6,dropped_deadline,,,,
+1065,7,dropped_deadline,,,,
+1034,4,failed,1767.76,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1067,5,dropped_deadline,,,,
+1068,6,dropped_deadline,,,,
+1069,7,dropped_deadline,,,,
+1038,4,failed,1720.95,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1039,5,failed,1741.92,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1072,6,dropped_deadline,,,,
+1073,7,dropped_deadline,,,,
+1042,4,failed,1768.7,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1043,5,failed,1768.78,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1076,6,dropped_deadline,,,,
+1077,7,dropped_deadline,,,,
+1046,4,failed,1754.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1047,5,failed,1764.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1048,6,failed,1800.76,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1080,6,dropped_deadline,,,,
+1081,7,dropped_deadline,,,,
+1083,5,dropped_deadline,,,,
+1084,6,dropped_deadline,,,,
+1085,7,dropped_deadline,,,,
+1086,4,dropped_deadline,,,,
+1087,5,dropped_deadline,,,,
+1088,6,dropped_deadline,,,,
+1089,7,dropped_deadline,,,,
+1090,4,dropped_deadline,,,,
+1091,5,dropped_deadline,,,,
+1092,6,dropped_deadline,,,,
+1093,7,dropped_deadline,,,,
+1062,4,failed,1760.41,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1095,5,dropped_deadline,,,,
+1096,6,dropped_deadline,,,,
+1097,7,dropped_deadline,,,,
+1066,4,failed,1775.3,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1099,5,dropped_deadline,,,,
+1100,6,dropped_deadline,,,,
+1101,7,dropped_deadline,,,,
+1070,4,failed,1726.08,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1071,5,failed,1754.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1104,6,dropped_deadline,,,,
+1105,7,dropped_deadline,,,,
+1074,4,failed,1780.26,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1075,5,failed,1780.19,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1108,6,dropped_deadline,,,,
+1109,7,dropped_deadline,,,,
+1078,4,failed,1759.99,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"
+1079,5,failed,1772.83,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=0.8)"

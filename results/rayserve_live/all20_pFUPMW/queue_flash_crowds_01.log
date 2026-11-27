@@ -1,0 +1,13 @@
+Controller: queue Duration: 300 Frames: 7590
+
+Validation Summary
+On-time: 99.62 %
+On-time frames: 7561 / 7590
+Completed late: 21
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 9.79
+Average ready workers: 9.66
+Dropped (full/deadline): 0 / 8
+Scaling changes: 9
+Results saved in: results/rayserve_live/all20_pFUPMW/queue_flash_crowds_01

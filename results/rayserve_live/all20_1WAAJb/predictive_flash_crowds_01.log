@@ -1,0 +1,9 @@
+Controller: predictive Duration: 300 Frames: 7590
+
+Validation Summary
+On-time: 77.59 %
+On-time frames: 5889 / 7590
+Average workers: 4.78
+Dropped (full/deadline): 0 / 366
+Scaling changes: 4
+Results saved in: results/rayserve_live/all20_1WAAJb/predictive_flash_crowds_01

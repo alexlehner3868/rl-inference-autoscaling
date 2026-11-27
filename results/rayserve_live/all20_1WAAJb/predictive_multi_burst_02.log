@@ -1,0 +1,9 @@
+Controller: predictive Duration: 300 Frames: 5800
+
+Validation Summary
+On-time: 12.24 %
+On-time frames: 710 / 5800
+Average workers: 6.45
+Dropped (full/deadline): 0 / 4154
+Scaling changes: 6
+Results saved in: results/rayserve_live/all20_1WAAJb/predictive_multi_burst_02

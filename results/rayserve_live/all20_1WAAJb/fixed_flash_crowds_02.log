@@ -1,0 +1,9 @@
+Controller: fixed Duration: 300 Frames: 7860
+
+Validation Summary
+On-time: 1.95 %
+On-time frames: 153 / 7860
+Average workers: 9.0
+Dropped (full/deadline): 0 / 7058
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_1WAAJb/fixed_flash_crowds_02

@@ -8,8 +8,8 @@ else:
     from Simulator_queue import Simulator, SimulatorConfig
 
 # Settings - change these if needed
-splits = ['train', 'validation']
-worker_counts = [7]  # Selected by validation reward; retrain_all.py sweeps 1–10.
+splits = ['validation']
+worker_counts = list(range(1, 11))
 deadline = 1.0
 queue_size = 50
 

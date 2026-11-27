@@ -1,0 +1,6 @@
+{
+  "worker_cost": 5.0,
+  "timesteps": 30000,
+  "seed": 0,
+  "max_workers": 10
+}

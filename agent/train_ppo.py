@@ -2,18 +2,28 @@
 import argparse
 import csv
 from pathlib import Path
+from random import seed
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_checker import check_env
+import json
+from agent.ppo_observation import NormalizedPPOEnv, TargetPPOEnv
+from agent.train_dqn import make_env, load_workloads, load_calibration
 
 from agent.train_dqn import make_env
 
 root = Path(__file__).resolve().parent.parent
 default_output = root / 'results/models/ppo_autoscaler'
 validation_folder = root / 'results/ppo_validation'
-
+def make_ppo_env(split, worker_cost, normalized, target_actions=False):
+    if target_actions:
+        return TargetPPOEnv(workloads=load_workloads(split),calibration=load_calibration(),worker_cost=worker_cost)
+    if normalized:
+        return NormalizedPPOEnv(workloads=load_workloads(split),calibration=load_calibration(),worker_cost=worker_cost)
+    return make_env(split, worker_cost=worker_cost)
 # Train PPO
-def train_ppo(timesteps=30000, seed=0, output=default_output):
-    env = make_env('train')
+def train_ppo(timesteps=30000, seed=0, output=default_output, worker_cost=1, normalize_observation=False, target_actions=False):
+    
+    env = make_ppo_env('train', worker_cost, normalize_observation, target_actions)
     check_env(env, warn=True)
 
     model = PPO('MlpPolicy', env,
@@ -31,13 +41,18 @@ def train_ppo(timesteps=30000, seed=0, output=default_output):
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
     model.save(str(output))
+    settings = {'worker_cost': worker_cost, 'timesteps': timesteps, 'seed': seed, 'max_workers': env.max_workers}
+    settings['normalized_observation'] = normalize_observation or target_actions
+    settings['action_mode'] = ('target_1_to_10' if target_actions else 'delta_3')
+    with open(output.with_suffix('.json'), 'w') as f:
+        json.dump(settings, f, indent=2)
     env.close()
     saved_path = str(output) if str(output).endswith('.zip') else str(output) + '.zip'
     print('Model saved:', saved_path)
     return model
 # Test the trained PPO model on every validation workload
-def validate_ppo(model):
-    env = make_env('validation')
+def validate_ppo(model, output, worker_cost=1, normalize_observation=False, target_actions=False):
+    env = make_ppo_env('validation', worker_cost, normalize_observation, target_actions)
     workload_files = sorted((root / 'workloads/validation').glob('*.json'))
     all_results = []
     for i, file in enumerate(workload_files):
@@ -87,6 +102,7 @@ def validate_ppo(model):
     print('Total reward:', sum(row['total_reward'] for row in all_results))
     print('On-time frames:', total_on_time)
     # Save the results
+    validation_folder = root/'results/ppo_validation'/Path(output).stem
     validation_folder.mkdir(parents=True, exist_ok=True)
     with open(validation_folder / 'comparison.csv', 'w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=all_results[0].keys())
@@ -101,9 +117,13 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--output', type=Path, default=default_output)
     parser.add_argument('--eval-only', action='store_true')
+    parser.add_argument('--worker-cost', type=float, default=1.0)
+    parser.add_argument('--normalize-observation', action='store_true')
+    parser.add_argument('--target-actions', action='store_true')
     args = parser.parse_args()
     if args.eval_only:
         model = PPO.load(str(args.output))
     else:
-        model = train_ppo(args.timesteps, args.seed, args.output)
-    validate_ppo(model)
+        model = train_ppo(args.timesteps, args.seed, args.output, args.worker_cost, args.normalize_observation, target_actions=args.target_actions)
+
+    validate_ppo(model, args.output, args.worker_cost, args.normalize_observation, target_actions=args.target_actions)

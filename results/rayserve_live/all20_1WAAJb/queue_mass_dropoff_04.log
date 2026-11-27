@@ -1,0 +1,9 @@
+Controller: queue Duration: 300 Frames: 18100
+
+Validation Summary
+On-time: 4.69 %
+On-time frames: 849 / 18100
+Average workers: 9.86
+Dropped (full/deadline): 6832 / 9749
+Scaling changes: 9
+Results saved in: results/rayserve_live/all20_1WAAJb/queue_mass_dropoff_04

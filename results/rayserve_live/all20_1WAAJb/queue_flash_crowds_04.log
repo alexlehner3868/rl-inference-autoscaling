@@ -1,0 +1,9 @@
+Controller: queue Duration: 300 Frames: 17210
+
+Validation Summary
+On-time: 0.4 %
+On-time frames: 69 / 17210
+Average workers: 9.41
+Dropped (full/deadline): 7267 / 9277
+Scaling changes: 9
+Results saved in: results/rayserve_live/all20_1WAAJb/queue_flash_crowds_04

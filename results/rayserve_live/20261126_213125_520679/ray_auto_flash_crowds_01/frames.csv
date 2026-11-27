@@ -1,0 +1,1080 @@
+frame_id,camera_id,status,latency_ms,model_ms,replica_pid,error
+0,0,on_time,109.87,72.32,1094363,
+1,0,on_time,79.47,52.19,1094363,
+2,0,on_time,75.45,55.99,1094363,
+3,0,on_time,75.69,54.99,1094363,
+4,0,on_time,70.18,50.02,1094363,
+5,0,on_time,87.77,57.87,1094363,
+6,0,on_time,74.53,52.45,1094363,
+7,0,on_time,69.68,48.91,1094363,
+8,0,on_time,83.2,61.37,1094363,
+9,0,on_time,75.16,51.33,1094363,
+10,0,on_time,78.95,46.23,1094363,
+11,0,on_time,75.96,52.19,1094363,
+12,0,on_time,77.81,53.32,1094363,
+13,0,on_time,71.07,55.05,1094363,
+14,0,on_time,69.11,50.37,1094363,
+15,0,on_time,77.06,49.88,1094363,
+16,0,on_time,67.85,49.96,1094363,
+17,0,on_time,71.02,51.37,1094363,
+18,0,on_time,67.47,47.52,1094363,
+19,0,on_time,75.01,53.58,1094363,
+20,0,on_time,80.46,48.2,1094363,
+21,0,on_time,69.96,45.23,1094363,
+22,0,on_time,69.22,53.43,1094363,
+23,0,on_time,72.29,54.55,1094363,
+24,0,on_time,73.02,53.98,1094363,
+25,0,on_time,72.28,40.49,1094363,
+26,0,on_time,78.3,55.6,1094363,
+27,0,on_time,66.37,42.34,1094363,
+28,0,on_time,64.2,49.59,1094363,
+29,0,on_time,72.41,54.93,1094363,
+30,0,on_time,69.55,44.58,1094363,
+31,0,on_time,63.28,47.52,1094363,
+32,0,on_time,69.64,52.56,1094363,
+33,0,on_time,73.33,54.65,1094363,
+34,0,on_time,62.28,42.31,1094363,
+35,0,on_time,70.56,41.75,1094363,
+36,0,on_time,72.73,53.12,1094363,
+37,0,on_time,66.75,45.7,1094363,
+38,0,on_time,71.25,49.46,1094363,
+39,0,on_time,79.33,56.38,1094363,
+40,0,on_time,84.65,52.05,1094363,
+41,0,on_time,73.73,49.55,1094363,
+42,0,on_time,66.12,51.35,1094363,
+43,0,on_time,71.6,53.07,1094363,
+44,0,on_time,71.47,52.38,1094363,
+45,0,on_time,84.97,55.65,1094363,
+46,0,on_time,69.75,48.86,1094363,
+47,0,on_time,72.32,50.61,1094363,
+48,0,on_time,70.6,48.85,1094363,
+49,0,on_time,69.89,46.25,1094363,
+50,0,on_time,72.26,49.3,1094363,
+51,0,on_time,74.86,50.32,1094363,
+52,0,on_time,71.14,54.34,1094363,
+53,0,on_time,64.58,48.5,1094363,
+54,0,on_time,66.57,49.84,1094363,
+55,0,on_time,79.8,52.85,1094363,
+56,0,on_time,61.56,42.33,1094363,
+57,0,on_time,61.08,41.45,1094363,
+58,0,on_time,70.56,49.76,1094363,
+59,0,on_time,56.12,33.81,1094363,
+60,0,on_time,86.76,51.7,1094363,
+61,0,on_time,62.09,43.99,1094363,
+62,0,on_time,72.45,54.81,1094363,
+63,0,on_time,64.21,44.01,1094363,
+64,0,on_time,78.02,56.93,1094363,
+65,0,on_time,81.1,50.56,1094363,
+66,0,on_time,62.79,41.37,1094363,
+67,0,on_time,72.06,48.41,1094363,
+68,0,on_time,59.9,45.21,1094363,
+69,0,on_time,51.12,35.63,1094363,
+70,0,on_time,77.46,53.68,1094363,
+71,0,on_time,64.24,47.88,1094363,
+72,0,on_time,64.53,46.48,1094363,
+73,0,on_time,59.53,39.7,1094363,
+74,0,on_time,81.43,57.71,1094363,
+75,0,on_time,99.06,63.48,1094363,
+76,0,on_time,92.54,66.58,1094363,
+77,0,on_time,87.73,69.61,1094363,
+78,0,on_time,86.9,66.28,1094363,
+79,0,on_time,84.71,67.11,1094363,
+80,0,on_time,84.87,55.2,1094363,
+81,0,on_time,80.37,59.32,1094363,
+82,0,on_time,77.8,54.12,1094363,
+83,0,on_time,78.52,55.01,1094363,
+84,0,on_time,60.12,45.72,1094363,
+85,0,on_time,69.82,46.88,1094363,
+86,0,on_time,63.89,48.63,1094363,
+87,0,on_time,64.84,47.07,1094363,
+88,0,on_time,73.54,56.44,1094363,
+89,0,on_time,62.98,43.93,1094363,
+90,0,on_time,85.94,57.87,1094363,
+91,0,on_time,68.91,47.25,1094363,
+92,0,on_time,55.1,34.02,1094363,
+93,0,on_time,77.88,54.5,1094363,
+94,0,on_time,69.25,53.3,1094363,
+95,0,on_time,66.2,42.24,1094363,
+96,0,on_time,63.7,47.27,1094363,
+97,0,on_time,55.48,37.36,1094363,
+98,0,on_time,63.37,42.41,1094363,
+99,0,on_time,71.47,45.55,1094363,
+100,0,on_time,83.18,51.4,1094363,
+101,0,on_time,74.75,49.98,1094363,
+102,0,on_time,58.46,42.34,1094363,
+103,0,on_time,59.9,43.37,1094363,
+104,0,on_time,54.49,36.88,1094363,
+105,0,on_time,83.71,54.13,1094363,
+106,0,on_time,71.82,50.24,1094363,
+107,0,on_time,69.49,47.85,1094363,
+108,0,on_time,74.0,52.17,1094363,
+109,0,on_time,69.07,53.52,1094363,
+111,1,on_time,83.5,53.91,1094363,
+110,0,on_time,178.91,56.24,1094363,
+112,2,on_time,274.51,63.0,1094363,
+114,1,on_time,257.01,57.38,1094363,
+115,2,on_time,359.01,64.6,1094363,
+117,1,on_time,372.48,69.11,1094363,
+113,0,on_time,544.65,42.85,1094363,
+118,2,on_time,540.68,54.27,1094363,
+120,1,on_time,556.82,60.35,1094363,
+116,0,on_time,742.81,46.08,1094363,
+119,0,on_time,773.83,66.08,1094363,
+121,2,on_time,871.08,59.44,1094363,
+124,2,on_time,885.69,58.0,1094363,
+123,1,on_time,984.2,50.55,1094363,
+122,0,late,1123.25,80.13,1094363,
+125,0,late,1219.83,84.4,1094363,
+126,1,late,1619.2,69.1,1094363,
+178,2,dropped_full,,,,
+177,1,failed,8.53,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+180,1,dropped_full,,,,
+181,2,dropped_full,,,,
+179,0,failed,11.76,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+183,1,dropped_full,,,,
+184,2,dropped_full,,,,
+182,0,failed,10.64,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+186,1,dropped_full,,,,
+187,2,dropped_full,,,,
+185,0,failed,22.68,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+189,1,dropped_full,,,,
+190,2,dropped_full,,,,
+127,2,late,2130.51,87.05,1094363,
+192,1,dropped_full,,,,
+193,2,dropped_full,,,,
+191,0,failed,7.65,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+195,1,dropped_full,,,,
+196,2,dropped_full,,,,
+194,0,failed,9.37,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+198,1,dropped_full,,,,
+199,2,dropped_full,,,,
+197,0,failed,12.28,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+201,1,dropped_full,,,,
+202,2,dropped_full,,,,
+203,0,dropped_full,,,,
+204,1,dropped_full,,,,
+205,2,dropped_full,,,,
+130,2,late,2523.22,82.34,1094363,
+207,1,dropped_full,,,,
+208,2,dropped_full,,,,
+206,0,failed,11.85,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+210,1,dropped_full,,,,
+211,2,dropped_full,,,,
+209,0,failed,14.07,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+213,1,dropped_full,,,,
+214,2,dropped_full,,,,
+212,0,failed,5.97,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+216,1,dropped_full,,,,
+217,2,dropped_full,,,,
+215,0,failed,24.03,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+219,1,dropped_full,,,,
+220,2,dropped_full,,,,
+128,0,late,3013.62,73.38,1094363,
+222,1,dropped_full,,,,
+223,2,dropped_full,,,,
+221,0,failed,6.98,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+225,1,dropped_full,,,,
+226,2,dropped_full,,,,
+224,0,failed,9.26,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+228,1,dropped_full,,,,
+229,2,dropped_full,,,,
+227,0,failed,11.38,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+231,1,dropped_full,,,,
+232,2,dropped_full,,,,
+230,0,failed,18.13,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+234,1,dropped_full,,,,
+235,2,dropped_full,,,,
+129,1,late,3508.44,68.32,1094363,
+237,1,dropped_full,,,,
+238,2,dropped_full,,,,
+236,0,failed,12.16,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+240,1,dropped_full,,,,
+241,2,dropped_full,,,,
+239,0,failed,4.29,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+243,1,dropped_full,,,,
+244,2,dropped_full,,,,
+242,0,failed,6.92,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+246,1,dropped_full,,,,
+247,2,dropped_full,,,,
+245,0,failed,20.59,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+249,1,dropped_full,,,,
+250,2,dropped_full,,,,
+131,0,late,3952.97,109.88,1094363,
+252,1,dropped_full,,,,
+253,2,dropped_full,,,,
+132,1,failed,4011.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+133,2,failed,4012.27,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+251,0,failed,6.45,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+134,0,failed,4015.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+135,1,failed,4016.69,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+136,2,failed,4016.1,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+256,2,failed,24.56,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+137,0,failed,4013.08,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+138,1,failed,4012.94,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+139,2,failed,4012.83,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+140,0,failed,4063.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+141,1,failed,4060.16,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+142,2,failed,4063.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+143,0,failed,4008.87,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+144,1,failed,4008.73,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+145,2,failed,4008.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+146,0,failed,4013.98,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+147,1,failed,4013.7,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+148,2,failed,4013.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+149,0,failed,4015.82,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+150,1,failed,4017.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+151,2,failed,4016.19,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+152,0,failed,4011.82,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+153,1,failed,4012.12,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+154,2,failed,4011.96,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+155,0,failed,4023.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+156,1,failed,4023.88,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+157,2,failed,4024.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+158,0,failed,4009.94,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+159,1,failed,4012.18,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+160,2,failed,4012.06,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+161,0,failed,4015.33,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+162,1,failed,4015.87,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+163,2,failed,4016.19,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+164,0,failed,4010.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+165,1,failed,4010.39,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+166,2,failed,4011.33,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+167,0,failed,4023.67,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+168,1,failed,4027.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+169,2,failed,4027.94,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+170,0,failed,4029.43,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+171,1,failed,4029.82,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+172,2,failed,4025.26,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+173,0,failed,4011.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+174,1,failed,4015.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+175,2,failed,4015.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+176,0,failed,4008.48,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+301,2,dropped_full,,,,
+300,1,failed,7.57,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+303,1,dropped_full,,,,
+304,2,dropped_full,,,,
+302,0,failed,10.04,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+306,1,dropped_full,,,,
+307,2,dropped_full,,,,
+188,0,late,4001.39,91.46,1094363,
+309,1,dropped_full,,,,
+310,2,dropped_full,,,,
+308,0,failed,8.19,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+312,1,dropped_full,,,,
+313,2,dropped_full,,,,
+311,0,failed,10.17,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+315,1,dropped_full,,,,
+316,2,dropped_full,,,,
+314,0,failed,13.15,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+318,1,dropped_full,,,,
+319,2,dropped_full,,,,
+317,0,failed,4.86,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+321,1,dropped_full,,,,
+322,2,dropped_full,,,,
+200,0,failed,4027.77,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+324,1,dropped_full,,,,
+325,2,dropped_full,,,,
+323,0,failed,11.97,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+327,1,dropped_full,,,,
+328,2,dropped_full,,,,
+326,0,failed,4.06,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+330,1,dropped_full,,,,
+331,2,dropped_full,,,,
+329,0,failed,5.65,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+333,1,dropped_full,,,,
+334,2,dropped_full,,,,
+332,0,failed,10.3,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+336,1,dropped_full,,,,
+337,2,dropped_full,,,,
+218,0,late,3995.15,90.29,1094363,
+339,1,dropped_full,,,,
+340,2,dropped_full,,,,
+338,0,failed,11.04,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+342,1,dropped_full,,,,
+343,2,dropped_full,,,,
+341,0,failed,9.33,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+345,1,dropped_full,,,,
+346,2,dropped_full,,,,
+344,0,failed,10.8,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+348,1,dropped_full,,,,
+349,2,dropped_full,,,,
+347,0,failed,13.05,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+351,1,dropped_full,,,,
+352,2,dropped_full,,,,
+233,0,late,3967.28,60.87,1094363,
+354,1,dropped_full,,,,
+355,2,dropped_full,,,,
+353,0,failed,12.62,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+357,1,dropped_full,,,,
+358,2,dropped_full,,,,
+356,0,failed,4.91,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+360,1,dropped_full,,,,
+361,2,dropped_full,,,,
+359,0,failed,5.78,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+363,1,dropped_full,,,,
+364,2,dropped_full,,,,
+362,0,failed,7.61,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+366,1,dropped_full,,,,
+367,2,dropped_full,,,,
+248,0,late,3976.7,70.64,1094363,
+369,1,dropped_full,,,,
+370,2,dropped_full,,,,
+368,0,failed,8.05,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+372,1,dropped_full,,,,
+373,2,dropped_full,,,,
+371,0,failed,9.31,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+375,1,dropped_full,,,,
+376,2,dropped_full,,,,
+254,0,failed,4012.44,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+255,1,failed,4011.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+374,0,failed,12.14,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+379,2,failed,9.98,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+257,0,failed,4015.79,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+258,1,failed,4015.98,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+259,2,failed,4017.03,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+260,0,failed,4031.74,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+261,1,failed,4032.62,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+262,2,failed,4031.87,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+263,0,failed,4021.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+264,1,failed,4027.11,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+265,2,failed,4029.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+266,0,failed,4043.68,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+267,1,failed,4047.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+268,2,failed,4050.16,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+270,1,failed,4008.22,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+269,0,failed,4012.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+271,2,failed,4027.88,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+272,0,failed,4012.44,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+273,1,failed,4011.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+274,2,failed,4014.33,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+275,0,failed,4035.69,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+276,1,failed,4035.78,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+277,2,failed,4039.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+278,0,failed,4014.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+279,1,failed,4015.62,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+280,2,failed,4019.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+281,0,failed,4019.63,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+282,1,failed,4023.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+283,2,failed,4019.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+284,0,failed,4013.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+285,1,failed,4013.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+286,2,failed,4014.0,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+287,0,failed,4018.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+288,1,failed,4015.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+289,2,failed,4015.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+290,0,failed,4031.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+291,1,failed,4035.88,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+292,2,failed,4032.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+293,0,failed,4013.87,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+295,2,failed,4015.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+294,1,failed,4019.48,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+297,1,failed,4016.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+298,2,failed,4012.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+296,0,failed,4022.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+299,0,failed,4010.3,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+424,2,dropped_full,,,,
+305,0,failed,4017.08,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+426,1,dropped_full,,,,
+427,2,dropped_full,,,,
+428,0,dropped_full,,,,
+429,1,dropped_full,,,,
+430,2,dropped_full,,,,
+431,0,dropped_full,,,,
+432,1,dropped_full,,,,
+433,2,dropped_full,,,,
+434,0,dropped_full,,,,
+435,1,dropped_full,,,,
+436,2,dropped_full,,,,
+437,0,dropped_full,,,,
+438,1,dropped_full,,,,
+439,2,dropped_full,,,,
+320,0,failed,4024.08,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+441,1,dropped_full,,,,
+442,2,dropped_full,,,,
+443,0,dropped_full,,,,
+444,1,dropped_full,,,,
+445,2,dropped_full,,,,
+446,0,dropped_full,,,,
+447,1,dropped_full,,,,
+448,2,dropped_full,,,,
+449,0,dropped_full,,,,
+450,1,dropped_full,,,,
+451,2,dropped_full,,,,
+452,0,dropped_full,,,,
+453,1,dropped_full,,,,
+454,2,dropped_full,,,,
+335,0,failed,4027.62,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+456,1,dropped_full,,,,
+457,2,dropped_full,,,,
+455,0,failed,56.89,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+459,1,dropped_full,,,,
+460,2,dropped_full,,,,
+458,0,failed,11.97,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+462,1,dropped_full,,,,
+463,2,dropped_full,,,,
+464,0,dropped_full,,,,
+465,1,dropped_full,,,,
+466,2,dropped_full,,,,
+467,0,dropped_full,,,,
+468,1,dropped_full,,,,
+469,2,dropped_full,,,,
+350,0,failed,4020.89,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+471,1,dropped_full,,,,
+472,2,dropped_full,,,,
+473,0,dropped_full,,,,
+474,1,dropped_full,,,,
+475,2,dropped_full,,,,
+476,0,dropped_full,,,,
+477,1,dropped_full,,,,
+478,2,dropped_full,,,,
+479,0,dropped_full,,,,
+480,1,dropped_full,,,,
+481,2,dropped_full,,,,
+482,0,dropped_full,,,,
+483,1,dropped_full,,,,
+484,2,dropped_full,,,,
+365,0,failed,4027.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+486,1,dropped_full,,,,
+487,2,dropped_full,,,,
+488,0,dropped_full,,,,
+489,1,dropped_full,,,,
+490,2,dropped_full,,,,
+491,0,dropped_full,,,,
+492,1,dropped_full,,,,
+493,2,dropped_full,,,,
+494,0,dropped_full,,,,
+495,1,dropped_full,,,,
+496,2,dropped_full,,,,
+378,1,failed,4007.64,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+498,1,dropped_full,,,,
+499,2,dropped_full,,,,
+377,0,failed,4011.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+380,0,failed,4023.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+381,1,failed,4029.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+382,2,failed,4027.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+504,4,dropped_full,,,,
+505,0,dropped_full,,,,
+506,1,dropped_full,,,,
+507,2,dropped_full,,,,
+508,3,dropped_full,,,,
+509,4,dropped_full,,,,
+383,0,failed,4012.17,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+385,2,failed,4017.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+384,1,failed,4031.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+513,3,dropped_full,,,,
+514,4,dropped_full,,,,
+386,0,failed,4012.11,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+387,1,failed,4011.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+388,2,failed,4011.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+518,3,dropped_full,,,,
+519,4,dropped_full,,,,
+389,0,failed,4030.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+391,2,failed,4036.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+390,1,failed,4039.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+523,3,dropped_full,,,,
+524,4,dropped_full,,,,
+392,0,failed,4011.64,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+393,1,failed,4019.43,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+394,2,failed,4016.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+395,0,failed,4031.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+396,1,failed,4039.69,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+397,2,failed,4039.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+531,1,dropped_full,,,,
+532,2,dropped_full,,,,
+533,3,dropped_full,,,,
+534,4,dropped_full,,,,
+398,0,failed,4015.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+399,1,failed,4015.73,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+400,2,failed,4017.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+538,3,dropped_full,,,,
+539,4,dropped_full,,,,
+401,0,failed,4015.73,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+402,1,failed,4015.66,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+403,2,failed,4019.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+543,3,dropped_full,,,,
+544,4,dropped_full,,,,
+404,0,failed,4024.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+405,1,failed,4019.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+406,2,failed,4024.8,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+548,3,dropped_full,,,,
+549,4,dropped_full,,,,
+407,0,failed,4008.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+408,1,failed,4011.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+409,2,failed,4008.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+553,3,dropped_full,,,,
+554,4,dropped_full,,,,
+410,0,failed,4028.2,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+411,1,failed,4027.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+412,2,failed,4027.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+558,3,dropped_full,,,,
+559,4,dropped_full,,,,
+413,0,failed,4015.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+414,1,failed,4015.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+415,2,failed,4019.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+563,3,dropped_full,,,,
+564,4,dropped_full,,,,
+416,0,failed,4026.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+417,1,failed,4023.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+418,2,failed,4027.77,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+568,3,dropped_full,,,,
+569,4,dropped_full,,,,
+419,0,failed,4022.11,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+421,2,failed,4022.23,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+420,1,failed,4027.3,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+422,0,failed,4007.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+574,4,dropped_full,,,,
+423,1,failed,4020.29,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+576,1,dropped_full,,,,
+577,2,dropped_full,,,,
+578,3,dropped_full,,,,
+579,4,dropped_full,,,,
+425,0,failed,4027.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+581,1,dropped_full,,,,
+582,2,dropped_full,,,,
+583,3,dropped_full,,,,
+584,4,dropped_full,,,,
+585,0,dropped_full,,,,
+586,1,dropped_full,,,,
+587,2,dropped_full,,,,
+588,3,dropped_full,,,,
+589,4,dropped_full,,,,
+590,0,dropped_full,,,,
+591,1,dropped_full,,,,
+592,2,dropped_full,,,,
+593,3,dropped_full,,,,
+594,4,dropped_full,,,,
+595,0,dropped_full,,,,
+596,1,dropped_full,,,,
+597,2,dropped_full,,,,
+598,3,dropped_full,,,,
+599,4,dropped_full,,,,
+601,1,dropped_full,,,,
+602,2,dropped_full,,,,
+603,3,dropped_full,,,,
+604,4,dropped_full,,,,
+440,0,failed,4035.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+606,1,dropped_full,,,,
+607,2,dropped_full,,,,
+608,3,dropped_full,,,,
+609,4,dropped_full,,,,
+610,0,dropped_full,,,,
+611,1,dropped_full,,,,
+612,2,dropped_full,,,,
+613,3,dropped_full,,,,
+614,4,dropped_full,,,,
+615,0,dropped_full,,,,
+616,1,dropped_full,,,,
+617,2,dropped_full,,,,
+618,3,dropped_full,,,,
+619,4,dropped_full,,,,
+620,0,dropped_full,,,,
+621,1,dropped_full,,,,
+622,2,dropped_full,,,,
+623,3,dropped_full,,,,
+624,4,dropped_full,,,,
+626,1,dropped_full,,,,
+627,2,dropped_full,,,,
+628,3,dropped_full,,,,
+629,4,dropped_full,,,,
+630,0,dropped_full,,,,
+631,1,dropped_full,,,,
+632,2,dropped_full,,,,
+633,3,dropped_full,,,,
+634,4,dropped_full,,,,
+635,0,dropped_full,,,,
+636,1,dropped_full,,,,
+637,2,dropped_full,,,,
+638,3,dropped_full,,,,
+639,4,dropped_full,,,,
+461,0,failed,4018.64,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+641,1,dropped_full,,,,
+642,2,dropped_full,,,,
+643,3,dropped_full,,,,
+644,4,dropped_full,,,,
+645,0,dropped_full,,,,
+646,1,dropped_full,,,,
+647,2,dropped_full,,,,
+648,3,dropped_full,,,,
+649,4,dropped_full,,,,
+651,3,dropped_full,,,,
+652,4,dropped_full,,,,
+470,0,failed,4031.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+654,3,dropped_full,,,,
+655,4,dropped_full,,,,
+653,1,failed,8.96,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+657,3,dropped_full,,,,
+658,4,dropped_full,,,,
+656,1,failed,7.71,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+660,3,dropped_full,,,,
+661,4,dropped_full,,,,
+659,1,failed,10.05,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+663,3,dropped_full,,,,
+664,4,dropped_full,,,,
+485,0,failed,4035.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+669,3,dropped_full,,,,
+670,4,dropped_full,,,,
+671,1,dropped_full,,,,
+672,3,dropped_full,,,,
+673,4,dropped_full,,,,
+674,1,dropped_full,,,,
+675,3,dropped_full,,,,
+676,4,dropped_full,,,,
+677,1,dropped_full,,,,
+678,3,dropped_full,,,,
+679,4,dropped_full,,,,
+497,0,failed,4011.97,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+500,0,failed,4043.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+501,1,failed,4048.23,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+502,2,failed,4048.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+503,3,failed,4051.95,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+683,1,failed,10.24,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+684,3,failed,12.2,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+685,4,failed,14.27,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+510,0,failed,4009.66,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+511,1,failed,4009.47,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+512,2,failed,4015.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+515,0,failed,4020.75,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+516,1,failed,4020.84,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+517,2,failed,4020.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+521,1,failed,4016.1,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+522,2,failed,4016.03,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+520,0,failed,4023.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+526,1,failed,4047.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+525,0,failed,4052.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+527,2,failed,4052.67,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+528,3,failed,4053.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+529,4,failed,4053.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+530,0,failed,4007.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+535,0,failed,4014.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+536,1,failed,4015.06,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+537,2,failed,4014.93,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+540,0,failed,4012.8,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+542,2,failed,4020.03,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+541,1,failed,4031.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+545,0,failed,4007.77,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+546,1,failed,4011.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+547,2,failed,4007.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+550,0,failed,4027.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+551,1,failed,4031.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+552,2,failed,4028.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+555,0,failed,4005.36,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+556,1,failed,4011.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+557,2,failed,4011.13,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+560,0,failed,4011.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+561,1,failed,4015.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+562,2,failed,4015.74,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+565,0,failed,4024.11,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+566,1,failed,4027.47,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+567,2,failed,4023.66,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+570,0,failed,4023.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+571,1,failed,4023.95,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+572,2,failed,4024.17,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+573,3,failed,4023.91,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+575,0,failed,4027.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+580,0,failed,4016.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+600,0,failed,4028.02,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+605,0,failed,4015.25,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+625,0,failed,4063.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+640,0,failed,4011.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+650,1,failed,4023.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+662,1,failed,4012.34,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+665,1,failed,4027.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+666,3,failed,4023.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+667,4,failed,4027.69,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+668,1,failed,4007.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+680,1,failed,4035.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+681,3,failed,4040.0,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+682,4,failed,4043.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+686,1,failed,4019.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+687,3,failed,4019.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+688,4,failed,4023.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+689,1,failed,4023.68,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+690,3,failed,4019.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+691,4,failed,4023.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+693,3,failed,4007.64,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+692,1,failed,4013.18,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+694,4,failed,4015.41,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+695,1,failed,4036.16,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+696,3,failed,4035.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+697,4,failed,4039.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+698,1,failed,4010.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+699,3,failed,4007.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+700,4,failed,4011.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+702,3,failed,4012.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+703,4,failed,4011.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+701,1,failed,4019.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+704,1,failed,4015.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+705,3,failed,4019.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+706,4,failed,4019.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+707,1,failed,4010.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+708,3,failed,4008.74,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+709,4,failed,4010.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+710,4,failed,4047.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+711,4,failed,4015.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+712,4,failed,4011.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+713,4,failed,4011.63,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+714,4,failed,4008.04,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+715,4,failed,4039.82,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+716,4,failed,4015.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+717,4,failed,4019.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+718,4,failed,4008.23,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+719,4,failed,4019.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+720,4,failed,4051.69,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+721,4,failed,4007.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+722,4,failed,4009.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+723,4,failed,4009.32,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+724,4,failed,4003.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+725,4,failed,4019.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+726,4,failed,4011.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+727,4,failed,4011.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+728,4,failed,4011.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+729,4,failed,4011.64,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+730,4,failed,4031.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+731,4,failed,4011.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+732,4,failed,4003.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+733,4,failed,4017.98,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+734,4,failed,4015.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+735,4,failed,4027.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+736,4,failed,4011.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+737,4,failed,4007.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+738,4,failed,4015.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+739,4,failed,4011.62,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+740,4,failed,4063.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+741,4,failed,4014.88,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+742,4,failed,4010.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+743,4,failed,4011.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+744,4,failed,4015.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+745,4,failed,4023.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+746,4,failed,4007.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+747,4,failed,4015.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+748,4,failed,4023.39,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+749,4,failed,4015.09,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+750,4,failed,4030.08,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+751,4,failed,4011.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+752,4,failed,4003.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+753,4,failed,4013.82,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+754,4,failed,4012.87,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+755,4,failed,4037.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+756,4,failed,4007.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+817,7,dropped_full,,,,
+815,5,failed,31.91,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+819,5,dropped_full,,,,
+820,6,dropped_full,,,,
+821,7,dropped_full,,,,
+757,4,failed,4007.5,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+823,5,dropped_full,,,,
+824,6,dropped_full,,,,
+825,7,dropped_full,,,,
+758,4,failed,4011.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+822,4,failed,16.56,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+828,6,dropped_full,,,,
+829,7,dropped_full,,,,
+759,4,failed,4013.16,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+826,4,failed,22.12,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+827,5,failed,21.97,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+760,4,failed,4023.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+832,6,failed,46.7,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+761,4,failed,4003.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+836,6,dropped_full,,,,
+837,7,dropped_full,,,,
+834,4,failed,15.51,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+839,5,dropped_full,,,,
+840,6,dropped_full,,,,
+841,7,dropped_full,,,,
+762,4,failed,4003.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+838,4,failed,6.69,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+844,6,dropped_full,,,,
+845,7,dropped_full,,,,
+763,4,failed,4011.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+847,5,dropped_full,,,,
+848,6,dropped_full,,,,
+849,7,dropped_full,,,,
+764,4,failed,4011.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+765,4,failed,4019.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+852,6,dropped_full,,,,
+853,7,dropped_full,,,,
+854,4,dropped_full,,,,
+855,5,dropped_full,,,,
+856,6,dropped_full,,,,
+857,7,dropped_full,,,,
+766,4,failed,4007.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+859,5,dropped_full,,,,
+860,6,dropped_full,,,,
+861,7,dropped_full,,,,
+767,4,failed,4012.43,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+858,4,failed,8.36,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+864,6,dropped_full,,,,
+865,7,dropped_full,,,,
+768,4,failed,4012.8,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+867,5,dropped_full,,,,
+868,6,dropped_full,,,,
+869,7,dropped_full,,,,
+769,4,failed,4007.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+871,5,dropped_full,,,,
+872,6,dropped_full,,,,
+873,7,dropped_full,,,,
+770,4,failed,4027.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+875,5,dropped_full,,,,
+876,6,dropped_full,,,,
+877,7,dropped_full,,,,
+771,4,failed,4015.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+772,4,failed,4003.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+880,6,dropped_full,,,,
+881,7,dropped_full,,,,
+878,4,failed,14.43,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+879,5,failed,22.19,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+884,6,dropped_full,,,,
+885,7,dropped_full,,,,
+773,4,failed,4020.1,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+887,5,dropped_full,,,,
+888,6,dropped_full,,,,
+889,7,dropped_full,,,,
+774,4,failed,4011.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+891,5,dropped_full,,,,
+892,6,dropped_full,,,,
+893,7,dropped_full,,,,
+775,4,failed,4028.39,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+890,4,failed,28.18,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+896,6,dropped_full,,,,
+897,7,dropped_full,,,,
+776,4,failed,4007.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+894,4,failed,17.7,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+895,5,failed,16.85,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+901,7,dropped_full,,,,
+777,4,failed,4012.67,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+903,5,dropped_full,,,,
+904,6,dropped_full,,,,
+905,7,dropped_full,,,,
+778,4,failed,4019.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+779,4,failed,4004.04,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+908,6,dropped_full,,,,
+909,7,dropped_full,,,,
+906,4,failed,28.68,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+907,5,failed,21.88,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+912,6,dropped_full,,,,
+913,7,dropped_full,,,,
+780,4,failed,4015.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+910,4,failed,16.78,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+911,5,failed,19.89,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+917,7,dropped_full,,,,
+781,4,failed,4015.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+919,5,dropped_full,,,,
+920,6,dropped_full,,,,
+921,7,dropped_full,,,,
+782,4,failed,4007.92,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+923,5,dropped_full,,,,
+924,6,dropped_full,,,,
+925,7,dropped_full,,,,
+783,4,failed,4011.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+927,5,dropped_full,,,,
+928,6,dropped_full,,,,
+929,7,dropped_full,,,,
+784,4,failed,4011.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+931,5,dropped_full,,,,
+932,6,dropped_full,,,,
+933,7,dropped_full,,,,
+785,4,failed,4047.68,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+786,4,failed,4007.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+936,6,dropped_full,,,,
+937,7,dropped_full,,,,
+934,4,failed,28.92,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+935,5,failed,28.45,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+940,6,dropped_full,,,,
+941,7,dropped_full,,,,
+787,4,failed,4011.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+943,5,dropped_full,,,,
+944,6,dropped_full,,,,
+945,7,dropped_full,,,,
+788,4,failed,4011.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+789,4,failed,4007.73,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+948,6,dropped_full,,,,
+949,7,dropped_full,,,,
+947,5,failed,20.96,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+790,4,failed,4019.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+952,6,dropped_full,,,,
+953,7,dropped_full,,,,
+791,5,failed,4033.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+792,6,failed,4038.8,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+793,7,failed,4034.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+950,4,failed,35.88,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+951,5,failed,32.31,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+794,4,failed,4014.99,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+795,5,failed,4019.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+796,6,failed,4019.82,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+797,7,failed,4019.76,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+957,7,failed,25.28,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+798,4,failed,4007.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+799,5,failed,4012.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+801,7,failed,4019.69,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+800,6,failed,4024.11,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+803,5,failed,4017.85,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+802,4,failed,4019.64,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+804,6,failed,4018.27,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+805,7,failed,4019.49,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+806,4,failed,4017.42,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+807,5,failed,4015.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+808,6,failed,4017.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+809,7,failed,4019.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+810,4,failed,4033.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+811,5,failed,4031.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+812,6,failed,4035.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+813,7,failed,4037.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+814,4,failed,4016.22,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+816,6,failed,4017.1,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+818,4,failed,4007.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+983,5,dropped_full,,,,
+984,6,dropped_full,,,,
+985,7,dropped_full,,,,
+986,4,dropped_full,,,,
+987,5,dropped_full,,,,
+988,6,dropped_full,,,,
+989,7,dropped_full,,,,
+830,4,failed,4031.66,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+831,5,failed,4031.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+833,7,failed,4035.56,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+993,7,dropped_full,,,,
+991,5,failed,67.65,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+992,6,failed,73.44,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+996,6,dropped_full,,,,
+997,7,dropped_full,,,,
+994,4,failed,6.8,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+995,5,failed,7.59,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+835,5,failed,4015.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1001,7,dropped_full,,,,
+1002,4,dropped_full,,,,
+1003,5,dropped_full,,,,
+1004,6,dropped_full,,,,
+1005,7,dropped_full,,,,
+842,4,failed,4011.9,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+843,5,failed,4011.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+846,4,failed,4007.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1009,7,dropped_full,,,,
+1006,4,failed,20.94,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1008,6,failed,19.87,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1012,6,dropped_full,,,,
+1013,7,dropped_full,,,,
+850,4,failed,4035.79,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+851,5,failed,4035.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1016,6,dropped_full,,,,
+1017,7,dropped_full,,,,
+1018,4,dropped_full,,,,
+1019,5,dropped_full,,,,
+1020,6,dropped_full,,,,
+1021,7,dropped_full,,,,
+1022,4,dropped_full,,,,
+1023,5,dropped_full,,,,
+1024,6,dropped_full,,,,
+1025,7,dropped_full,,,,
+862,4,failed,4011.79,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+863,5,failed,4019.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+883,5,late,3537.06,434.03,1094363,
+866,4,failed,4007.05,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1026,4,failed,24.78,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+870,4,failed,4027.7,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1032,6,dropped_full,,,,
+1033,7,dropped_full,,,,
+1030,4,failed,45.35,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1035,5,dropped_full,,,,
+1036,6,dropped_full,,,,
+1037,7,dropped_full,,,,
+874,4,failed,4015.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1039,5,dropped_full,,,,
+1040,6,dropped_full,,,,
+1041,7,dropped_full,,,,
+1038,4,failed,9.33,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+882,4,failed,4005.65,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1044,6,dropped_full,,,,
+1045,7,dropped_full,,,,
+1043,5,failed,24.84,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+900,6,late,3632.04,443.52,1094363,
+1048,6,dropped_full,,,,
+1049,7,dropped_full,,,,
+886,4,failed,4008.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1051,5,dropped_full,,,,
+1052,6,dropped_full,,,,
+1053,7,dropped_full,,,,
+1054,4,dropped_full,,,,
+1055,5,dropped_full,,,,
+1056,6,dropped_full,,,,
+1057,7,dropped_full,,,,
+1058,4,dropped_full,,,,
+1059,5,dropped_full,,,,
+1060,6,dropped_full,,,,
+1061,7,dropped_full,,,,
+898,4,failed,4011.66,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+899,5,failed,4011.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1064,6,dropped_full,,,,
+1065,7,dropped_full,,,,
+902,4,failed,4011.57,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1067,5,dropped_full,,,,
+1068,6,dropped_full,,,,
+1069,7,dropped_full,,,,
+926,4,late,3519.19,517.98,1094363,
+1071,5,dropped_full,,,,
+1072,6,dropped_full,,,,
+1073,7,dropped_full,,,,
+1070,4,failed,29.94,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1075,5,dropped_full,,,,
+1076,6,dropped_full,,,,
+1077,7,dropped_full,,,,
+914,4,failed,4011.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+915,5,failed,4013.25,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+916,6,failed,4013.15,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1074,4,failed,15.37,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+918,4,failed,4011.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1083,5,dropped_full,,,,
+1084,6,dropped_full,,,,
+1085,7,dropped_full,,,,
+922,4,failed,4011.51,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1087,5,dropped_full,,,,
+1088,6,dropped_full,,,,
+1089,7,dropped_full,,,,
+1086,4,failed,4.8,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1091,5,dropped_full,,,,
+1092,6,dropped_full,,,,
+1093,7,dropped_full,,,,
+930,4,failed,4039.59,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+954,4,late,3492.44,380.08,1094363,
+1096,6,dropped_full,,,,
+1097,7,dropped_full,,,,
+1094,4,failed,24.8,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1095,5,failed,25.48,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1100,6,dropped_full,,,,
+1101,7,dropped_full,,,,
+938,4,failed,4015.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+939,5,failed,4012.18,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1099,5,failed,12.3,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1105,7,dropped_full,,,,
+942,4,failed,4017.39,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1103,5,failed,28.73,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+1108,6,dropped_full,,,,
+1109,7,dropped_full,,,,
+946,4,failed,4011.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+1106,4,failed,9.6,,,503 Server Error: Service Unavailable for url: http://127.0.0.1:8000/
+955,5,failed,4011.77,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+956,6,failed,4011.86,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+960,6,late,3927.5,467.91,1094363,
+958,4,failed,4016.8,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+959,5,failed,4019.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+961,7,failed,4027.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+962,4,failed,4007.62,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+963,5,failed,4019.55,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+964,6,failed,4020.63,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+965,7,failed,4022.37,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+966,4,failed,4016.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+967,5,failed,4019.46,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+968,6,failed,4022.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+969,7,failed,4022.72,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+970,4,failed,4024.0,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+971,5,failed,4023.8,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+972,6,failed,4023.67,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+973,7,failed,4023.88,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+974,4,failed,4011.58,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+975,5,failed,4022.81,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+976,6,failed,4022.71,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+977,7,failed,4019.54,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+978,4,failed,4003.6,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+979,5,failed,4011.61,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+980,6,failed,4011.52,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+981,7,failed,4007.53,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"
+982,4,failed,4016.78,,,"HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=4.0)"

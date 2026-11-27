@@ -148,13 +148,11 @@ class InferenceScalingEnv(gym.Env):
             - before["worker_seconds"]
         )
 
-        scaled = (
-            action != self.KEEP_CAPACITY
-            and bool(result["action_applied"])
-        )
+        applied_scaling_changes = result["applied_scaling_changes"]
+        scaled = applied_scaling_changes > 0
 
         reward = calculate_reward(
-            on_time_frames, late_frames + dropped_frames, interval_worker_seconds, float(scaled),
+            on_time_frames, late_frames + dropped_frames, interval_worker_seconds, float(applied_scaling_changes),
             on_time_reward=self.on_time_reward, failed_frame_penalty=self.failed_frame_penalty,
             worker_cost=self.worker_cost, scaling_penalty=self.scaling_penalty,
         )

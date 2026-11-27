@@ -1,0 +1,9 @@
+Controller: predictive Duration: 300 Frames: 9700
+
+Validation Summary
+On-time: 30.42 %
+On-time frames: 2951 / 9700
+Average workers: 4.47
+Dropped (full/deadline): 0 / 2210
+Scaling changes: 14
+Results saved in: results/rayserve_live/all20_1WAAJb/predictive_mass_dropoff_03

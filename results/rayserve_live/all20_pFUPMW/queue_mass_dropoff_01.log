@@ -1,0 +1,13 @@
+Controller: queue Duration: 300 Frames: 8520
+
+Validation Summary
+On-time: 93.02 %
+On-time frames: 7925 / 8520
+Completed late: 281
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 9.86
+Average ready workers: 9.73
+Dropped (full/deadline): 0 / 314
+Scaling changes: 9
+Results saved in: results/rayserve_live/all20_pFUPMW/queue_mass_dropoff_01

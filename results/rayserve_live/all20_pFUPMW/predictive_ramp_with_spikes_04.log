@@ -1,0 +1,13 @@
+Controller: predictive Duration: 300 Frames: 12460
+
+Validation Summary
+On-time: 28.62 %
+On-time frames: 3566 / 12460
+Completed late: 5928
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 7.33
+Average ready workers: 7.19
+Dropped (full/deadline): 1773 / 1193
+Scaling changes: 11
+Results saved in: results/rayserve_live/all20_pFUPMW/predictive_ramp_with_spikes_04

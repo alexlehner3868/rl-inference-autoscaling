@@ -1,0 +1,9 @@
+Controller: fixed Duration: 300 Frames: 10770
+
+Validation Summary
+On-time: 1.5 %
+On-time frames: 162 / 10770
+Average workers: 9.0
+Dropped (full/deadline): 0 / 10043
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_1WAAJb/fixed_mixed_churn_03

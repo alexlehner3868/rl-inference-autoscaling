@@ -1,0 +1,13 @@
+Controller: fixed Duration: 300 Frames: 18100
+
+Validation Summary
+On-time: 21.49 %
+On-time frames: 3890 / 18100
+Completed late: 7602
+Failed requests: 0
+Unfinished at cutoff: 3
+Average workers: 9.0
+Average ready workers: 9.0
+Dropped (full/deadline): 6362 / 243
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_pFUPMW/fixed_mass_dropoff_04

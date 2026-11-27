@@ -1,0 +1,13 @@
+Controller: queue Duration: 300 Frames: 7920
+
+Validation Summary
+On-time: 99.7 %
+On-time frames: 7896 / 7920
+Completed late: 19
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 9.51
+Average ready workers: 9.38
+Dropped (full/deadline): 0 / 5
+Scaling changes: 9
+Results saved in: results/rayserve_live/all20_pFUPMW/queue_ramp_with_spikes_02

@@ -1,0 +1,3819 @@
+{
+  "source_comparison_csv": "results/fixed_baseline/20261125_222639/comparison.csv",
+  "split": "validation",
+  "worker_costs": [
+    1,
+    2,
+    5
+  ],
+  "reward_formula": "on_time - 2*(late + dropped_deadline + dropped_full) - worker_cost*worker_seconds - 0.25*scaling_changes",
+  "unfinished_frames_note": "Unfinished frames are not directly penalized in the saved simulator reward.",
+  "cost_1_verification": "Every recomputed cost-1 reward matches comparison.csv total_reward within 0.00001.",
+  "by_worker_count": [
+    {
+      "workers": 1,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 31522,
+      "on_time_percentage": 17.945915,
+      "late": 31505,
+      "dropped_deadline": 91640,
+      "dropped_full": 20610,
+      "unfinished_frames": 373,
+      "worker_seconds": 6000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": -261988.0,
+        "2": -267988.0,
+        "5": -285988.0
+      }
+    },
+    {
+      "workers": 2,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 63930,
+      "on_time_percentage": 36.396243,
+      "late": 46898,
+      "dropped_deadline": 44209,
+      "dropped_full": 20298,
+      "unfinished_frames": 315,
+      "worker_seconds": 12000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": -170880.0,
+        "2": -182880.0,
+        "5": -218880.0
+      }
+    },
+    {
+      "workers": 3,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 111209,
+      "on_time_percentage": 63.312838,
+      "late": 33963,
+      "dropped_deadline": 10353,
+      "dropped_full": 19873,
+      "unfinished_frames": 252,
+      "worker_seconds": 18000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": -35169.0,
+        "2": -53169.0,
+        "5": -107169.0
+      }
+    },
+    {
+      "workers": 4,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 159069,
+      "on_time_percentage": 90.560205,
+      "late": 281,
+      "dropped_deadline": 0,
+      "dropped_full": 16196,
+      "unfinished_frames": 104,
+      "worker_seconds": 24000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": 102115.0,
+        "2": 78115.0,
+        "5": 6115.0
+      }
+    },
+    {
+      "workers": 5,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 166473,
+      "on_time_percentage": 94.775406,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 9079,
+      "unfinished_frames": 98,
+      "worker_seconds": 30000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": 118315.0,
+        "2": 88315.0,
+        "5": -1685.000001
+      }
+    },
+    {
+      "workers": 6,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 171684,
+      "on_time_percentage": 97.742101,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 3871,
+      "unfinished_frames": 95,
+      "worker_seconds": 36000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": 127942.0,
+        "2": 91942.0,
+        "5": -16058.000001
+      }
+    },
+    {
+      "workers": 7,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 174651,
+      "on_time_percentage": 99.431255,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 942,
+      "unfinished_frames": 57,
+      "worker_seconds": 42000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": 130767.0,
+        "2": 88767.0,
+        "5": -37233.000001
+      }
+    },
+    {
+      "workers": 8,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 175450,
+      "on_time_percentage": 99.886137,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 162,
+      "unfinished_frames": 38,
+      "worker_seconds": 48000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": 127126.0,
+        "2": 79126.0,
+        "5": -64874.0
+      }
+    },
+    {
+      "workers": 9,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 175646,
+      "on_time_percentage": 99.997723,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 4,
+      "worker_seconds": 54000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": 121646.0,
+        "2": 67646.0,
+        "5": -94354.0
+      }
+    },
+    {
+      "workers": 10,
+      "workloads": 20,
+      "arrived": 175650,
+      "on_time": 175650,
+      "on_time_percentage": 100.0,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 60000.0,
+      "scaling_changes": 0,
+      "total_reward_by_worker_cost": {
+        "1": 115650.0,
+        "2": 55649.999999,
+        "5": -124350.000002
+      }
+    }
+  ],
+  "ppo_comparison_at_matching_worker_cost": {
+    "1": {
+      "ppo_source": "results/ppo_validation/ppo_cost_1/comparison.csv",
+      "ppo_total_reward": 113388.0,
+      "best_fixed_workers": 7,
+      "best_fixed_total_reward": 130767.0,
+      "fixed_minus_ppo_reward": 17379.0
+    },
+    "2": {
+      "ppo_source": "results/ppo_validation/ppo_cost_2/comparison.csv",
+      "ppo_total_reward": 73547.5,
+      "best_fixed_workers": 6,
+      "best_fixed_total_reward": 91942.0,
+      "fixed_minus_ppo_reward": 18394.5
+    },
+    "5": {
+      "ppo_source": "results/ppo_validation/ppo_cost_5/comparison.csv",
+      "ppo_total_reward": 22384.29,
+      "best_fixed_workers": 4,
+      "best_fixed_total_reward": 6115.0,
+      "fixed_minus_ppo_reward": -16269.29
+    }
+  },
+  "per_workload": [
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 7590,
+      "on_time": 2100,
+      "late": 1739,
+      "dropped_deadline": 3751,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -9180.0,
+        "2": -9480.0,
+        "5": -10380.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 7590,
+      "on_time": 4297,
+      "late": 2269,
+      "dropped_deadline": 1024,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -2889.0,
+        "2": -3489.0,
+        "5": -5289.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 7590,
+      "on_time": 7548,
+      "late": 34,
+      "dropped_deadline": 8,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6564.0,
+        "2": 5664.0,
+        "5": 2964.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 7590,
+      "on_time": 7590,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6390.0,
+        "2": 5190.0,
+        "5": 1590.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 7590,
+      "on_time": 7590,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6090.0,
+        "2": 4590.0,
+        "5": 90.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 7590,
+      "on_time": 7590,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5790.0,
+        "2": 3990.0,
+        "5": -1410.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 7590,
+      "on_time": 7590,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5490.0,
+        "2": 3390.0,
+        "5": -2910.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 7590,
+      "on_time": 7590,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5190.0,
+        "2": 2790.0,
+        "5": -4410.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 7590,
+      "on_time": 7590,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4890.0,
+        "2": 2190.0,
+        "5": -5910.0
+      }
+    },
+    {
+      "workload": "flash_crowds_01",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 7590,
+      "on_time": 7590,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4590.0,
+        "2": 1590.0,
+        "5": -7410.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 7860,
+      "on_time": 2157,
+      "late": 1610,
+      "dropped_deadline": 4093,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -9549.0,
+        "2": -9849.0,
+        "5": -10749.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 7860,
+      "on_time": 3605,
+      "late": 2667,
+      "dropped_deadline": 1588,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -5505.0,
+        "2": -6105.0,
+        "5": -7905.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 7860,
+      "on_time": 7860,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6960.0,
+        "2": 6060.0,
+        "5": 3360.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 7860,
+      "on_time": 7860,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6660.0,
+        "2": 5460.0,
+        "5": 1860.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 7860,
+      "on_time": 7860,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6360.0,
+        "2": 4860.0,
+        "5": 360.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 7860,
+      "on_time": 7860,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6060.0,
+        "2": 4260.0,
+        "5": -1140.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 7860,
+      "on_time": 7860,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5760.0,
+        "2": 3660.0,
+        "5": -2640.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 7860,
+      "on_time": 7860,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5460.0,
+        "2": 3060.0,
+        "5": -4140.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 7860,
+      "on_time": 7860,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5160.0,
+        "2": 2460.0,
+        "5": -5640.0
+      }
+    },
+    {
+      "workload": "flash_crowds_02",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 7860,
+      "on_time": 7860,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4860.0,
+        "2": 1860.0,
+        "5": -7140.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 7460,
+      "on_time": 2253,
+      "late": 1445,
+      "dropped_deadline": 3762,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -8461.0,
+        "2": -8761.0,
+        "5": -9661.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 7460,
+      "on_time": 3475,
+      "late": 2481,
+      "dropped_deadline": 1504,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -5095.0,
+        "2": -5695.0,
+        "5": -7495.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 7460,
+      "on_time": 7402,
+      "late": 50,
+      "dropped_deadline": 8,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6386.0,
+        "2": 5486.0,
+        "5": 2786.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 7460,
+      "on_time": 7460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6260.0,
+        "2": 5060.0,
+        "5": 1460.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 7460,
+      "on_time": 7460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5960.0,
+        "2": 4460.0,
+        "5": -40.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 7460,
+      "on_time": 7460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5660.0,
+        "2": 3860.0,
+        "5": -1540.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 7460,
+      "on_time": 7460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5360.0,
+        "2": 3260.0,
+        "5": -3040.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 7460,
+      "on_time": 7460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5060.0,
+        "2": 2660.0,
+        "5": -4540.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 7460,
+      "on_time": 7460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4760.0,
+        "2": 2060.0,
+        "5": -6040.0
+      }
+    },
+    {
+      "workload": "flash_crowds_03",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 7460,
+      "on_time": 7460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4460.0,
+        "2": 1460.0,
+        "5": -7540.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 1,
+      "arrived": 17210,
+      "on_time": 1040,
+      "late": 1800,
+      "dropped_deadline": 7127,
+      "dropped_full": 7243,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -31600.0,
+        "2": -31900.0,
+        "5": -32800.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 2,
+      "arrived": 17210,
+      "on_time": 2199,
+      "late": 3481,
+      "dropped_deadline": 4388,
+      "dropped_full": 7142,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -28423.0,
+        "2": -29023.0,
+        "5": -30823.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 3,
+      "arrived": 17210,
+      "on_time": 3767,
+      "late": 4753,
+      "dropped_deadline": 1672,
+      "dropped_full": 7018,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -24019.0,
+        "2": -24919.0,
+        "5": -27619.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 4,
+      "arrived": 17210,
+      "on_time": 11106,
+      "late": 210,
+      "dropped_deadline": 0,
+      "dropped_full": 5894,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -2302.0,
+        "2": -3502.0,
+        "5": -7102.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 5,
+      "arrived": 17210,
+      "on_time": 14040,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 3170,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6200.0,
+        "2": 4700.0,
+        "5": 200.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 6,
+      "arrived": 17210,
+      "on_time": 16491,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 719,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 13253.0,
+        "2": 11453.0,
+        "5": 6053.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 7,
+      "arrived": 17210,
+      "on_time": 17210,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 15110.0,
+        "2": 13010.0,
+        "5": 6710.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 8,
+      "arrived": 17210,
+      "on_time": 17210,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 14810.0,
+        "2": 12410.0,
+        "5": 5210.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 9,
+      "arrived": 17210,
+      "on_time": 17210,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 14510.0,
+        "2": 11810.0,
+        "5": 3710.0
+      }
+    },
+    {
+      "workload": "flash_crowds_04",
+      "load_level": "stress",
+      "workers": 10,
+      "arrived": 17210,
+      "on_time": 17210,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 14210.0,
+        "2": 11210.0,
+        "5": 2210.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 8520,
+      "on_time": 1543,
+      "late": 1763,
+      "dropped_deadline": 5184,
+      "dropped_full": 0,
+      "unfinished_frames": 30,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -12651.0,
+        "2": -12951.0,
+        "5": -13851.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 8520,
+      "on_time": 3463,
+      "late": 2415,
+      "dropped_deadline": 2632,
+      "dropped_full": 0,
+      "unfinished_frames": 10,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -7231.0,
+        "2": -7831.0,
+        "5": -9631.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 8520,
+      "on_time": 5498,
+      "late": 2344,
+      "dropped_deadline": 678,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -1446.0,
+        "2": -2346.0,
+        "5": -5046.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 8520,
+      "on_time": 8520,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7320.0,
+        "2": 6120.0,
+        "5": 2520.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 8520,
+      "on_time": 8520,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7020.0,
+        "2": 5520.0,
+        "5": 1020.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 8520,
+      "on_time": 8520,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6720.0,
+        "2": 4920.0,
+        "5": -480.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 8520,
+      "on_time": 8520,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6420.0,
+        "2": 4320.0,
+        "5": -1980.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 8520,
+      "on_time": 8520,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6120.0,
+        "2": 3720.0,
+        "5": -3480.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 8520,
+      "on_time": 8520,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5820.0,
+        "2": 3120.0,
+        "5": -4980.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_01",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 8520,
+      "on_time": 8520,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5520.0,
+        "2": 2520.0,
+        "5": -6480.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 9490,
+      "on_time": 1484,
+      "late": 1895,
+      "dropped_deadline": 6061,
+      "dropped_full": 0,
+      "unfinished_frames": 50,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -14728.0,
+        "2": -15028.0,
+        "5": -15928.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 9490,
+      "on_time": 3213,
+      "late": 2955,
+      "dropped_deadline": 3273,
+      "dropped_full": 0,
+      "unfinished_frames": 49,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -9843.0,
+        "2": -10443.0,
+        "5": -12243.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 9490,
+      "on_time": 5351,
+      "late": 3169,
+      "dropped_deadline": 921,
+      "dropped_full": 0,
+      "unfinished_frames": 49,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -3729.0,
+        "2": -4629.0,
+        "5": -7329.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 9490,
+      "on_time": 9488,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 2,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 8288.0,
+        "2": 7088.0,
+        "5": 3488.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 9490,
+      "on_time": 9490,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7990.0,
+        "2": 6490.0,
+        "5": 1990.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 9490,
+      "on_time": 9490,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7690.0,
+        "2": 5890.0,
+        "5": 490.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 9490,
+      "on_time": 9490,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7390.0,
+        "2": 5290.0,
+        "5": -1010.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 9490,
+      "on_time": 9490,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7090.0,
+        "2": 4690.0,
+        "5": -2510.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 9490,
+      "on_time": 9490,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6790.0,
+        "2": 4090.0,
+        "5": -4010.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_02",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 9490,
+      "on_time": 9490,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6490.0,
+        "2": 3490.0,
+        "5": -5510.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 9700,
+      "on_time": 1686,
+      "late": 1878,
+      "dropped_deadline": 6129,
+      "dropped_full": 0,
+      "unfinished_frames": 7,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -14628.0,
+        "2": -14928.0,
+        "5": -15828.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 9700,
+      "on_time": 3403,
+      "late": 2968,
+      "dropped_deadline": 3329,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -9791.0,
+        "2": -10391.0,
+        "5": -12191.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 9700,
+      "on_time": 5427,
+      "late": 3311,
+      "dropped_deadline": 962,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -4019.0,
+        "2": -4919.0,
+        "5": -7619.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 9700,
+      "on_time": 9700,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 8500.0,
+        "2": 7300.0,
+        "5": 3700.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 9700,
+      "on_time": 9700,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 8200.0,
+        "2": 6700.0,
+        "5": 2200.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 9700,
+      "on_time": 9700,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7900.0,
+        "2": 6100.0,
+        "5": 700.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 9700,
+      "on_time": 9700,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7600.0,
+        "2": 5500.0,
+        "5": -800.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 9700,
+      "on_time": 9700,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7300.0,
+        "2": 4900.0,
+        "5": -2300.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 9700,
+      "on_time": 9700,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7000.0,
+        "2": 4300.0,
+        "5": -3800.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_03",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 9700,
+      "on_time": 9700,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6700.0,
+        "2": 3700.0,
+        "5": -5300.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 1,
+      "arrived": 18100,
+      "on_time": 1454,
+      "late": 2202,
+      "dropped_deadline": 7559,
+      "dropped_full": 6835,
+      "unfinished_frames": 50,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -32038.0,
+        "2": -32338.0,
+        "5": -33238.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 2,
+      "arrived": 18100,
+      "on_time": 3185,
+      "late": 3748,
+      "dropped_deadline": 4298,
+      "dropped_full": 6820,
+      "unfinished_frames": 49,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -27147.0,
+        "2": -27747.0,
+        "5": -29547.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 3,
+      "arrived": 18100,
+      "on_time": 5220,
+      "late": 4629,
+      "dropped_deadline": 1428,
+      "dropped_full": 6774,
+      "unfinished_frames": 49,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -21342.0,
+        "2": -22242.0,
+        "5": -24942.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 4,
+      "arrived": 18100,
+      "on_time": 12355,
+      "late": 26,
+      "dropped_deadline": 0,
+      "dropped_full": 5671,
+      "unfinished_frames": 48,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -239.0,
+        "2": -1439.0,
+        "5": -5039.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 5,
+      "arrived": 18100,
+      "on_time": 14607,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 3445,
+      "unfinished_frames": 48,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6217.0,
+        "2": 4717.0,
+        "5": 217.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 6,
+      "arrived": 18100,
+      "on_time": 16439,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 1614,
+      "unfinished_frames": 47,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 11411.0,
+        "2": 9611.0,
+        "5": 4211.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 7,
+      "arrived": 18100,
+      "on_time": 17974,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 114,
+      "unfinished_frames": 12,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 15646.0,
+        "2": 13546.0,
+        "5": 7246.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 8,
+      "arrived": 18100,
+      "on_time": 18096,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 4,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 15696.0,
+        "2": 13296.0,
+        "5": 6096.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 9,
+      "arrived": 18100,
+      "on_time": 18098,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 2,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 15398.0,
+        "2": 12698.0,
+        "5": 4598.0
+      }
+    },
+    {
+      "workload": "mass_dropoff_04",
+      "load_level": "stress",
+      "workers": 10,
+      "arrived": 18100,
+      "on_time": 18100,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 15100.0,
+        "2": 12100.0,
+        "5": 3100.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 6850,
+      "on_time": 1055,
+      "late": 1412,
+      "dropped_deadline": 4363,
+      "dropped_full": 0,
+      "unfinished_frames": 20,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -10795.0,
+        "2": -11095.0,
+        "5": -11995.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 6850,
+      "on_time": 2518,
+      "late": 2147,
+      "dropped_deadline": 2165,
+      "dropped_full": 0,
+      "unfinished_frames": 20,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -6706.0,
+        "2": -7306.0,
+        "5": -9106.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 6850,
+      "on_time": 4616,
+      "late": 1729,
+      "dropped_deadline": 492,
+      "dropped_full": 0,
+      "unfinished_frames": 13,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -726.0,
+        "2": -1626.0,
+        "5": -4326.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 6850,
+      "on_time": 6850,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5650.0,
+        "2": 4450.0,
+        "5": 850.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 6850,
+      "on_time": 6850,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5350.0,
+        "2": 3850.0,
+        "5": -650.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 6850,
+      "on_time": 6850,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5050.0,
+        "2": 3250.0,
+        "5": -2150.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 6850,
+      "on_time": 6850,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4750.0,
+        "2": 2650.0,
+        "5": -3650.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 6850,
+      "on_time": 6850,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4450.0,
+        "2": 2050.0,
+        "5": -5150.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 6850,
+      "on_time": 6850,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4150.0,
+        "2": 1450.0,
+        "5": -6650.0
+      }
+    },
+    {
+      "workload": "mixed_churn_01",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 6850,
+      "on_time": 6850,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3850.0,
+        "2": 850.0,
+        "5": -8150.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 5010,
+      "on_time": 782,
+      "late": 1200,
+      "dropped_deadline": 3028,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -7974.0,
+        "2": -8274.0,
+        "5": -9174.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 5010,
+      "on_time": 2355,
+      "late": 1367,
+      "dropped_deadline": 1288,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -3555.0,
+        "2": -4155.0,
+        "5": -5955.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 5010,
+      "on_time": 3921,
+      "late": 847,
+      "dropped_deadline": 242,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 843.0,
+        "2": -57.0,
+        "5": -2757.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 5010,
+      "on_time": 5010,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3810.0,
+        "2": 2610.0,
+        "5": -990.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 5010,
+      "on_time": 5010,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3510.0,
+        "2": 2010.0,
+        "5": -2490.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 5010,
+      "on_time": 5010,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3210.0,
+        "2": 1410.0,
+        "5": -3990.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 5010,
+      "on_time": 5010,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2910.0,
+        "2": 810.0,
+        "5": -5490.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 5010,
+      "on_time": 5010,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2610.0,
+        "2": 210.0,
+        "5": -6990.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 5010,
+      "on_time": 5010,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2310.0,
+        "2": -390.0,
+        "5": -8490.0
+      }
+    },
+    {
+      "workload": "mixed_churn_02",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 5010,
+      "on_time": 5010,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2010.0,
+        "2": -990.0,
+        "5": -9990.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 10770,
+      "on_time": 1307,
+      "late": 2119,
+      "dropped_deadline": 7295,
+      "dropped_full": 0,
+      "unfinished_frames": 49,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -17821.0,
+        "2": -18121.0,
+        "5": -19021.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 10770,
+      "on_time": 2713,
+      "late": 3856,
+      "dropped_deadline": 4153,
+      "dropped_full": 0,
+      "unfinished_frames": 48,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -13905.0,
+        "2": -14505.0,
+        "5": -16305.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 10770,
+      "on_time": 5127,
+      "late": 4340,
+      "dropped_deadline": 1255,
+      "dropped_full": 0,
+      "unfinished_frames": 48,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -6963.0,
+        "2": -7863.0,
+        "5": -10563.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 10770,
+      "on_time": 10768,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 2,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 9568.0,
+        "2": 8368.0,
+        "5": 4768.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 10770,
+      "on_time": 10770,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 9270.0,
+        "2": 7770.0,
+        "5": 3270.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 10770,
+      "on_time": 10770,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 8970.0,
+        "2": 7170.0,
+        "5": 1770.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 10770,
+      "on_time": 10770,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 8670.0,
+        "2": 6570.0,
+        "5": 270.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 10770,
+      "on_time": 10770,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 8370.0,
+        "2": 5970.0,
+        "5": -1230.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 10770,
+      "on_time": 10770,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 8070.0,
+        "2": 5370.0,
+        "5": -2730.0
+      }
+    },
+    {
+      "workload": "mixed_churn_03",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 10770,
+      "on_time": 10770,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7770.0,
+        "2": 4770.0,
+        "5": -4230.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 1,
+      "arrived": 8290,
+      "on_time": 833,
+      "late": 957,
+      "dropped_deadline": 2937,
+      "dropped_full": 3513,
+      "unfinished_frames": 50,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -14281.0,
+        "2": -14581.0,
+        "5": -15481.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 2,
+      "arrived": 8290,
+      "on_time": 2082,
+      "late": 1258,
+      "dropped_deadline": 1454,
+      "dropped_full": 3446,
+      "unfinished_frames": 50,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -10834.0,
+        "2": -11434.0,
+        "5": -13234.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 3,
+      "arrived": 8290,
+      "on_time": 2985,
+      "late": 1378,
+      "dropped_deadline": 511,
+      "dropped_full": 3366,
+      "unfinished_frames": 50,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -8425.0,
+        "2": -9325.0,
+        "5": -12025.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 4,
+      "arrived": 8290,
+      "on_time": 5202,
+      "late": 30,
+      "dropped_deadline": 0,
+      "dropped_full": 3008,
+      "unfinished_frames": 50,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -2074.0,
+        "2": -3274.0,
+        "5": -6874.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 5,
+      "arrived": 8290,
+      "on_time": 5983,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 2257,
+      "unfinished_frames": 50,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -31.0,
+        "2": -1531.0,
+        "5": -6031.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 6,
+      "arrived": 8290,
+      "on_time": 6704,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 1538,
+      "unfinished_frames": 48,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 1828.0,
+        "2": 28.0,
+        "5": -5372.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 7,
+      "arrived": 8290,
+      "on_time": 7417,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 828,
+      "unfinished_frames": 45,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3661.0,
+        "2": 1561.0,
+        "5": -4739.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 8,
+      "arrived": 8290,
+      "on_time": 8094,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 162,
+      "unfinished_frames": 34,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5370.0,
+        "2": 2970.0,
+        "5": -4230.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 9,
+      "arrived": 8290,
+      "on_time": 8288,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 2,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5588.0,
+        "2": 2888.0,
+        "5": -5212.0
+      }
+    },
+    {
+      "workload": "mixed_churn_04",
+      "load_level": "stress",
+      "workers": 10,
+      "arrived": 8290,
+      "on_time": 8290,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5290.0,
+        "2": 2290.0,
+        "5": -6710.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 4690,
+      "on_time": 813,
+      "late": 904,
+      "dropped_deadline": 2973,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -7241.0,
+        "2": -7541.0,
+        "5": -8441.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 4690,
+      "on_time": 2102,
+      "late": 1300,
+      "dropped_deadline": 1288,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -3674.0,
+        "2": -4274.0,
+        "5": -6074.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 4690,
+      "on_time": 4106,
+      "late": 460,
+      "dropped_deadline": 124,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2038.0,
+        "2": 1138.0,
+        "5": -1562.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 4690,
+      "on_time": 4690,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3490.0,
+        "2": 2290.0,
+        "5": -1310.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 4690,
+      "on_time": 4690,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3190.0,
+        "2": 1690.0,
+        "5": -2810.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 4690,
+      "on_time": 4690,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2890.0,
+        "2": 1090.0,
+        "5": -4310.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 4690,
+      "on_time": 4690,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2590.0,
+        "2": 490.0,
+        "5": -5810.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 4690,
+      "on_time": 4690,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2290.0,
+        "2": -110.0,
+        "5": -7310.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 4690,
+      "on_time": 4690,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 1990.0,
+        "2": -710.0,
+        "5": -8810.0
+      }
+    },
+    {
+      "workload": "multi_burst_01",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 4690,
+      "on_time": 4690,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 1690.0,
+        "2": -1310.0,
+        "5": -10310.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 5800,
+      "on_time": 2883,
+      "late": 816,
+      "dropped_deadline": 2101,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -3251.0,
+        "2": -3551.0,
+        "5": -4451.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 5800,
+      "on_time": 4460,
+      "late": 740,
+      "dropped_deadline": 600,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 1180.0,
+        "2": 580.0,
+        "5": -1220.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 5800,
+      "on_time": 5669,
+      "late": 103,
+      "dropped_deadline": 28,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4507.0,
+        "2": 3607.0,
+        "5": 907.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 5800,
+      "on_time": 5800,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4600.0,
+        "2": 3400.0,
+        "5": -200.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 5800,
+      "on_time": 5800,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4300.0,
+        "2": 2800.0,
+        "5": -1700.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 5800,
+      "on_time": 5800,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4000.0,
+        "2": 2200.0,
+        "5": -3200.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 5800,
+      "on_time": 5800,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3700.0,
+        "2": 1600.0,
+        "5": -4700.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 5800,
+      "on_time": 5800,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3400.0,
+        "2": 1000.0,
+        "5": -6200.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 5800,
+      "on_time": 5800,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3100.0,
+        "2": 400.0,
+        "5": -7700.0
+      }
+    },
+    {
+      "workload": "multi_burst_02",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 5800,
+      "on_time": 5800,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2800.0,
+        "2": -200.0,
+        "5": -9200.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 4460,
+      "on_time": 877,
+      "late": 906,
+      "dropped_deadline": 2677,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -6589.0,
+        "2": -6889.0,
+        "5": -7789.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 4460,
+      "on_time": 2308,
+      "late": 1116,
+      "dropped_deadline": 1036,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -2596.0,
+        "2": -3196.0,
+        "5": -4996.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 4460,
+      "on_time": 4027,
+      "late": 341,
+      "dropped_deadline": 92,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2261.0,
+        "2": 1361.0,
+        "5": -1339.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 4460,
+      "on_time": 4460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 3260.0,
+        "2": 2060.0,
+        "5": -1540.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 4460,
+      "on_time": 4460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2960.0,
+        "2": 1460.0,
+        "5": -3040.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 4460,
+      "on_time": 4460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2660.0,
+        "2": 860.0,
+        "5": -4540.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 4460,
+      "on_time": 4460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2360.0,
+        "2": 260.0,
+        "5": -6040.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 4460,
+      "on_time": 4460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 2060.0,
+        "2": -340.0,
+        "5": -7540.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 4460,
+      "on_time": 4460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 1760.0,
+        "2": -940.0,
+        "5": -9040.0
+      }
+    },
+    {
+      "workload": "multi_burst_03",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 4460,
+      "on_time": 4460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 1460.0,
+        "2": -1540.0,
+        "5": -10540.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 1,
+      "arrived": 7680,
+      "on_time": 2850,
+      "late": 798,
+      "dropped_deadline": 3033,
+      "dropped_full": 999,
+      "unfinished_frames": 0,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -7110.0,
+        "2": -7410.0,
+        "5": -8310.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 2,
+      "arrived": 7680,
+      "on_time": 3915,
+      "late": 1289,
+      "dropped_deadline": 1554,
+      "dropped_full": 922,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -4215.0,
+        "2": -4815.0,
+        "5": -6615.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 3,
+      "arrived": 7680,
+      "on_time": 5400,
+      "late": 1066,
+      "dropped_deadline": 427,
+      "dropped_full": 787,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -60.0,
+        "2": -960.0,
+        "5": -3660.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 4,
+      "arrived": 7680,
+      "on_time": 7258,
+      "late": 15,
+      "dropped_deadline": 0,
+      "dropped_full": 407,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5214.0,
+        "2": 4014.0,
+        "5": 414.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 5,
+      "arrived": 7680,
+      "on_time": 7630,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 50,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6030.0,
+        "2": 4530.0,
+        "5": 30.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 6,
+      "arrived": 7680,
+      "on_time": 7680,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5880.0,
+        "2": 4080.0,
+        "5": -1320.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 7,
+      "arrived": 7680,
+      "on_time": 7680,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5580.0,
+        "2": 3480.0,
+        "5": -2820.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 8,
+      "arrived": 7680,
+      "on_time": 7680,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5280.0,
+        "2": 2880.0,
+        "5": -4320.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 9,
+      "arrived": 7680,
+      "on_time": 7680,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4980.0,
+        "2": 2280.0,
+        "5": -5820.0
+      }
+    },
+    {
+      "workload": "multi_burst_04",
+      "load_level": "stress",
+      "workers": 10,
+      "arrived": 7680,
+      "on_time": 7680,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4680.0,
+        "2": 1680.0,
+        "5": -7320.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 7880,
+      "on_time": 1586,
+      "late": 1893,
+      "dropped_deadline": 4381,
+      "dropped_full": 0,
+      "unfinished_frames": 20,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -11262.0,
+        "2": -11562.0,
+        "5": -12462.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 7880,
+      "on_time": 3446,
+      "late": 2547,
+      "dropped_deadline": 1887,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -6022.0,
+        "2": -6622.0,
+        "5": -8422.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 7880,
+      "on_time": 7144,
+      "late": 589,
+      "dropped_deadline": 147,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4772.0,
+        "2": 3872.0,
+        "5": 1172.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 7880,
+      "on_time": 7880,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6680.0,
+        "2": 5480.0,
+        "5": 1880.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 7880,
+      "on_time": 7880,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6380.0,
+        "2": 4880.0,
+        "5": 380.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 7880,
+      "on_time": 7880,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6080.0,
+        "2": 4280.0,
+        "5": -1120.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 7880,
+      "on_time": 7880,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5780.0,
+        "2": 3680.0,
+        "5": -2620.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 7880,
+      "on_time": 7880,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5480.0,
+        "2": 3080.0,
+        "5": -4120.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 7880,
+      "on_time": 7880,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5180.0,
+        "2": 2480.0,
+        "5": -5620.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_01",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 7880,
+      "on_time": 7880,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4880.0,
+        "2": 1880.0,
+        "5": -7120.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 7920,
+      "on_time": 1601,
+      "late": 2030,
+      "dropped_deadline": 4249,
+      "dropped_full": 0,
+      "unfinished_frames": 40,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -11257.0,
+        "2": -11557.0,
+        "5": -12457.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 7920,
+      "on_time": 4034,
+      "late": 2304,
+      "dropped_deadline": 1542,
+      "dropped_full": 0,
+      "unfinished_frames": 40,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -4258.0,
+        "2": -4858.0,
+        "5": -6658.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 7920,
+      "on_time": 7219,
+      "late": 541,
+      "dropped_deadline": 128,
+      "dropped_full": 0,
+      "unfinished_frames": 32,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4981.0,
+        "2": 4081.0,
+        "5": 1381.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 7920,
+      "on_time": 7920,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6720.0,
+        "2": 5520.0,
+        "5": 1920.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 7920,
+      "on_time": 7920,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6420.0,
+        "2": 4920.0,
+        "5": 420.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 7920,
+      "on_time": 7920,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6120.0,
+        "2": 4320.0,
+        "5": -1080.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 7920,
+      "on_time": 7920,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5820.0,
+        "2": 3720.0,
+        "5": -2580.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 7920,
+      "on_time": 7920,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5520.0,
+        "2": 3120.0,
+        "5": -4080.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 7920,
+      "on_time": 7920,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5220.0,
+        "2": 2520.0,
+        "5": -5580.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_02",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 7920,
+      "on_time": 7920,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4920.0,
+        "2": 1920.0,
+        "5": -7080.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 1,
+      "arrived": 7910,
+      "on_time": 1697,
+      "late": 1906,
+      "dropped_deadline": 4257,
+      "dropped_full": 0,
+      "unfinished_frames": 50,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -10929.0,
+        "2": -11229.0,
+        "5": -12129.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 2,
+      "arrived": 7910,
+      "on_time": 3855,
+      "late": 2373,
+      "dropped_deadline": 1633,
+      "dropped_full": 0,
+      "unfinished_frames": 49,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -4757.0,
+        "2": -5357.0,
+        "5": -7157.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 3,
+      "arrived": 7910,
+      "on_time": 7143,
+      "late": 607,
+      "dropped_deadline": 149,
+      "dropped_full": 0,
+      "unfinished_frames": 11,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4731.0,
+        "2": 3831.0,
+        "5": 1131.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 4,
+      "arrived": 7910,
+      "on_time": 7908,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 2,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6708.0,
+        "2": 5508.0,
+        "5": 1908.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 5,
+      "arrived": 7910,
+      "on_time": 7910,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6410.0,
+        "2": 4910.0,
+        "5": 410.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 6,
+      "arrived": 7910,
+      "on_time": 7910,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 6110.0,
+        "2": 4310.0,
+        "5": -1090.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 7,
+      "arrived": 7910,
+      "on_time": 7910,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5810.0,
+        "2": 3710.0,
+        "5": -2590.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 8,
+      "arrived": 7910,
+      "on_time": 7910,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5510.0,
+        "2": 3110.0,
+        "5": -4090.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 9,
+      "arrived": 7910,
+      "on_time": 7910,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 5210.0,
+        "2": 2510.0,
+        "5": -5590.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_03",
+      "load_level": "standard",
+      "workers": 10,
+      "arrived": 7910,
+      "on_time": 7910,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 4910.0,
+        "2": 1910.0,
+        "5": -7090.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 1,
+      "arrived": 12460,
+      "on_time": 1521,
+      "late": 2232,
+      "dropped_deadline": 6680,
+      "dropped_full": 2020,
+      "unfinished_frames": 7,
+      "worker_seconds": 300.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -20643.0,
+        "2": -20943.0,
+        "5": -21843.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 2,
+      "arrived": 12460,
+      "on_time": 3302,
+      "late": 3617,
+      "dropped_deadline": 3573,
+      "dropped_full": 1968,
+      "unfinished_frames": 0,
+      "worker_seconds": 600.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -15614.0,
+        "2": -16214.0,
+        "5": -18014.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 3,
+      "arrived": 12460,
+      "on_time": 5779,
+      "late": 3672,
+      "dropped_deadline": 1081,
+      "dropped_full": 1928,
+      "unfinished_frames": 0,
+      "worker_seconds": 900.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": -8483.0,
+        "2": -9383.0,
+        "5": -12083.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 4,
+      "arrived": 12460,
+      "on_time": 11244,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 1216,
+      "unfinished_frames": 0,
+      "worker_seconds": 1200.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 7612.0,
+        "2": 6412.0,
+        "5": 2812.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 5,
+      "arrived": 12460,
+      "on_time": 12303,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 157,
+      "unfinished_frames": 0,
+      "worker_seconds": 1500.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 10489.0,
+        "2": 8989.0,
+        "5": 4489.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 6,
+      "arrived": 12460,
+      "on_time": 12460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 1800.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 10660.0,
+        "2": 8860.0,
+        "5": 3460.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 7,
+      "arrived": 12460,
+      "on_time": 12460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2100.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 10360.0,
+        "2": 8260.0,
+        "5": 1960.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 8,
+      "arrived": 12460,
+      "on_time": 12460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2400.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 10060.0,
+        "2": 7660.0,
+        "5": 460.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 9,
+      "arrived": 12460,
+      "on_time": 12460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 2700.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 9760.0,
+        "2": 7060.0,
+        "5": -1040.0
+      }
+    },
+    {
+      "workload": "ramp_with_spikes_04",
+      "load_level": "stress",
+      "workers": 10,
+      "arrived": 12460,
+      "on_time": 12460,
+      "late": 0,
+      "dropped_deadline": 0,
+      "dropped_full": 0,
+      "unfinished_frames": 0,
+      "worker_seconds": 3000.0,
+      "scaling_changes": 0,
+      "reward_by_worker_cost": {
+        "1": 9460.0,
+        "2": 6460.0,
+        "5": -2540.0
+      }
+    }
+  ]
+}

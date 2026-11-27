@@ -1,0 +1,12 @@
+seconds,action,applied,target_before,target_after,ready_replicas,queue_length
+2.01,ray_auto,1,1,4,1,0
+3.01,ray_auto,1,4,7,1,0
+3.5,ray_auto,1,7,8,1,0
+4.01,ray_auto,1,8,10,1,0
+52.01,ray_auto,1,10,5,10,0
+63.0,ray_auto,1,5,10,5,0
+247.0,ray_auto,1,10,1,1,0
+248.5,ray_auto,1,1,3,1,0
+250.01,ray_auto,1,3,6,1,0
+250.5,ray_auto,1,6,7,1,0
+251.01,ray_auto,1,7,10,1,0

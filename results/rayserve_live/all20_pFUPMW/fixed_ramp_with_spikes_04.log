@@ -1,0 +1,13 @@
+Controller: fixed Duration: 300 Frames: 12460
+
+Validation Summary
+On-time: 41.73 %
+On-time frames: 5200 / 12460
+Completed late: 5440
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 9.0
+Average ready workers: 9.0
+Dropped (full/deadline): 1670 / 150
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_pFUPMW/fixed_ramp_with_spikes_04

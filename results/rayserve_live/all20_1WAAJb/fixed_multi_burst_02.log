@@ -1,0 +1,9 @@
+Controller: fixed Duration: 300 Frames: 5800
+
+Validation Summary
+On-time: 1.4 %
+On-time frames: 81 / 5800
+Average workers: 9.0
+Dropped (full/deadline): 0 / 5057
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_1WAAJb/fixed_multi_burst_02

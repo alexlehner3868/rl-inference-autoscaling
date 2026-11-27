@@ -1,0 +1,13 @@
+Controller: fixed Duration: 300 Frames: 8290
+
+Validation Summary
+On-time: 28.32 %
+On-time frames: 2348 / 8290
+Completed late: 2590
+Failed requests: 0
+Unfinished at cutoff: 3
+Average workers: 9.0
+Average ready workers: 9.0
+Dropped (full/deadline): 3251 / 98
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_pFUPMW/fixed_mixed_churn_04

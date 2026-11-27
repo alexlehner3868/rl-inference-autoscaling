@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/jasba/ECERL/rl-inference-autoscaling/Rayserve/live_autoscale.py", line 500, in <module>
+    main()
+  File "/home/jasba/ECERL/rl-inference-autoscaling/Rayserve/live_autoscale.py", line 482, in main
+    summary, records, history, scaling = run_experiment(args, workload, images, model)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jasba/ECERL/rl-inference-autoscaling/Rayserve/live_autoscale.py", line 180, in run_experiment
+    status = wait_for_workers(initial_workers, args.dashboard)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jasba/ECERL/rl-inference-autoscaling/Rayserve/live_autoscale.py", line 117, in wait_for_workers
+    time.sleep(0.5)
+KeyboardInterrupt

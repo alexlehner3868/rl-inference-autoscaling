@@ -1,0 +1,13 @@
+Controller: predictive Duration: 300 Frames: 9490
+
+Validation Summary
+On-time: 14.4 %
+On-time frames: 1367 / 9490
+Completed late: 4982
+Failed requests: 0
+Unfinished at cutoff: 3
+Average workers: 4.28
+Average ready workers: 4.06
+Dropped (full/deadline): 0 / 3138
+Scaling changes: 20
+Results saved in: results/rayserve_live/all20_pFUPMW/predictive_mass_dropoff_02

@@ -131,6 +131,35 @@ class Simulator:
 
         raise ValueError("Action must be 'add', 'hold', or 'remove'")
 
+    def _scale_to_target(self, target):
+        if self.max_workers is None or not 1 <= target <= self.max_workers:
+            raise ValueError("Invalid target worker count")
+
+        # Retiring workers are already scheduled to leave.
+        current_target = sum(not w["retiring"] for w in self.workers)
+        added = removed = blocked = 0
+
+        if target > current_target:
+            for _ in range(target - current_target):
+                if self._scale("add"):
+                    added += 1
+                else:
+                    blocked += 1
+        elif target < current_target:
+            for _ in range(current_target - target):
+                if self._scale("remove"):
+                    removed += 1
+                else:
+                    blocked += 1
+
+        self.action_counts["add"] += added
+        self.action_counts["remove"] += removed
+        self.action_counts["blocked"] += blocked
+        if added == removed == blocked == 0:
+            self.action_counts["hold"] += 1
+
+        return added, removed, blocked
+
     def _serving_workers(self):
         return sum(worker["ready_at"] <= self.tick and not worker["retiring"]
                    for worker in self.workers)
@@ -202,9 +231,14 @@ class Simulator:
         start_seconds = self.tick * self.config.tick_seconds
         completed_before = self.on_time + self.late
 
-        action_applied = self._scale(action)
-
-        self.action_counts[action if action_applied else "blocked"] += 1
+        if isinstance(action, tuple) and len(action) == 2 and action[0] == "target":
+            added, removed, blocked = self._scale_to_target(int(action[1]))
+            action_applied = blocked == 0
+            applied_scaling_changes = added + removed
+        else:
+            action_applied = self._scale(action)
+            self.action_counts[action if action_applied else "blocked"] += 1
+            applied_scaling_changes = int(action_applied and action in ("add", "remove"))
 
         for _ in range(self.decision_ticks):
             self._advance_tick(camera_ids)
@@ -238,7 +272,8 @@ class Simulator:
             "starting_workers": sum(w["ready_at"] > self.tick for w in self.workers),
             "retiring_workers": sum(w["retiring"] for w in self.workers),
             "on_time_percentage": 100 * self.on_time / self.arrived if self.arrived else None,
-            "worker_seconds": round(self.worker_seconds, 9)}
+            "worker_seconds": round(self.worker_seconds, 9),
+            "applied_scaling_changes": applied_scaling_changes}
         self.history.append(result.copy())
         return result
 

@@ -1,0 +1,9 @@
+Controller: fixed Duration: 300 Frames: 12460
+
+Validation Summary
+On-time: 4.48 %
+On-time frames: 558 / 12460
+Average workers: 9.0
+Dropped (full/deadline): 2020 / 9301
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_1WAAJb/fixed_ramp_with_spikes_04

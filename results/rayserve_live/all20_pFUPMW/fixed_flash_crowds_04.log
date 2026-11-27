@@ -1,0 +1,13 @@
+Controller: fixed Duration: 300 Frames: 17210
+
+Validation Summary
+On-time: 6.17 %
+On-time frames: 1061 / 17210
+Completed late: 9202
+Failed requests: 0
+Unfinished at cutoff: 0
+Average workers: 9.0
+Average ready workers: 9.0
+Dropped (full/deadline): 6664 / 283
+Scaling changes: 0
+Results saved in: results/rayserve_live/all20_pFUPMW/fixed_flash_crowds_04
