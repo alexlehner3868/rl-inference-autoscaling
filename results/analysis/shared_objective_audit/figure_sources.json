@@ -1,0 +1,15 @@
+{
+  "representatives": [
+    "flash_crowds_04",
+    "mass_dropoff_04"
+  ],
+  "timeline_methods": [
+    "dueling_nstep",
+    "ppo",
+    "fixed",
+    "predictive",
+    "queue"
+  ],
+  "timing": "Demand at interval start; worker counts are end-of-interval samples. Tick-integrated worker-seconds come from source metrics.",
+  "plots": "Validation only. Workload bar mean lines are arithmetic; overall rate is frame-weighted. P95 excludes drops and unfinished frames."
+}
